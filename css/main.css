@@ -148,6 +148,166 @@ background-color: rgb(18, 35, 71);
   width: 30px;
   height: 30px;
 } */
+
+.allcontainer{
+	background-color: #ecf0f1;
+}
+.project-charter{
+	background-color: #21778d;
+	margin: 20px;
+	font-family: Arial, Tahoma; 
+	font-size: 20px; 
+	color: #7c0e0e; 
+  text-align: center;	  
+  border-radius: 30px;
+}
+.stakeholder-managementplan{
+	background-color: #0a2c75;
+	margin: 20px;
+	font-family: Arial, Tahoma; 
+	font-size: 20px; 
+	color: #7c0e0e; 
+  text-align: center;	  
+  border-radius: 30px;}
+.statemnt-of-work{
+	background-color: #8098cc;
+	margin: 20px;
+	font-family: Arial, Tahoma; 
+	font-size: 20px; 
+	color: #7c0e0e; 
+  text-align: center;	  
+  border-radius: 30px;
+}
+
+
+
+
+#Project-managemnet-plan {
+  box-shadow: inset 0 0 0 2px black;
+  box-sizing: border-box;
+  margin: 1em;
+  padding: 1em 2em;
+ }
+
+#Scope-managemnet-plan {
+  box-shadow: inset 0 0 0 2px black;
+  box-sizing: border-box;
+  margin: 1em;
+  padding: 1em 2em;
+}
+
+#Cost-managemnet-plan {
+  box-shadow: inset 0 0 0 2px black;
+  box-sizing: border-box;
+  margin: 1em;
+  padding: 1em 2em;
+ }
+
+#Schdule-managemnet-plan {
+  box-shadow: inset 0 0 0 2px black;
+  box-sizing: border-box;
+  margin: 1em;
+  padding: 1em 2em;
+ }  
+#Risk-managemnet-plan{
+  box-shadow: inset 0 0 0 2px black;
+  box-sizing: border-box;
+  margin: 1em;
+  padding: 1em 2em;
+ }  
+ 
+
+#Communitcuion-managemnet-plan{
+  
+  box-shadow: inset 0 0 0 2px black;
+  box-sizing: border-box;
+  margin: 1em;
+  padding: 1em 2em;
+}
+#resource-managemnet-plan{
+  box-shadow: inset 0 0 0 2px black;
+  box-sizing: border-box;
+  margin: 1em;
+  padding: 1em 2em;
+
+}#procurement-managemnet-plan {
+box-shadow: inset 0 0 0 2px black;
+box-sizing: border-box;
+  margin: 1em;
+  padding: 1em 2em;
+}
+ #Quality-managemnet-plan{
+  box-shadow: inset 0 0 0 2px black;
+  box-sizing: border-box;
+  margin: 1em;
+  padding: 1em 2em;
+ }
+
+#Test-managemnet-plan{
+  box-shadow: inset 0 0 0 2px black;
+  box-sizing: border-box;
+  margin: 1em;
+  padding: 1em 2em;
+
+}
+#change-managemnet-plan{
+  box-shadow: inset 0 0 0 2px black;
+  box-sizing: border-box;
+  margin: 1em;
+  padding: 1em 2em;
+
+}
+ #Implementation-managemnet-plan{
+  box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+  border: 0;
+  border-radius: 40px;
+  box-sizing: border-box;
+  margin: 1em;
+  padding: 1em 2em;
+        }      
+#Traning-managemnet-plan{
+  box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+  border: 0;
+  border-radius: 40px;
+  box-sizing: border-box;
+  margin: 1em;
+  padding: 1em 2em;
+  
+}
+
+#planingGrid{
+ 
+  text-align: center;
+  box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+  border: 0;
+  box-sizing: border-box;
+  margin: 1em;
+  padding: 1em 2em;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto;
+  grid-template-areas:
+  "Project-managemnet-plan Project-managemnet-plan Project-managemnet-plan Project-managemnet-plan"
+  "Scope-managemnet-plan Cost-managemnet-plan Schdule-managemnet-plan Risk-managemnet-plan"
+"Communitcuion-managemnet-plan resource-managemnet-plan procurement-managemnet-plan procurement-managemnet-plan"
+"Quality-managemnet-plan Test-managemnet-plan change-managemnet-plan change-managemnet-plan"
+"Implementation-managemnet-plan Implementation-managemnet-plan Traning-managemnet-plan Traning-managemnet-plan"
+}
+#Project-managemnet-plan{grid-area: Project-managemnet-plan;}
+#Scope-managemnet-plan{grid-area: Scope-managemnet-plan;}
+#Schdule-managemnet-plan{grid-area: Schdule-managemnet-plan;}
+#Risk-managemnet-plan{grid-area: Risk-managemnet-plan;}
+#Cost-managemnet-plan{grid-area: Cost-managemnet-plan;}
+#Communitcuion-managemnet-plan{grid-area: Communitcuion-managemnet-plan;}
+#resource-managemnet-plan{grid-area: resource-managemnet-plan;}
+#procurement-managemnet-plan{grid-area: procurement-managemnet-plan;}
+#Quality-managemnet-plan{grid-area: Quality-managemnet-plan;}
+#Test-managemnet-plan{grid-area: Test-managemnet-plan;}
+#change-managemnet-plan{grid-area: change-managemnet-plan;}
+#Implementation-managemnet-plan{grid-area: Implementation-managemnet-plan;}
+#Traning-managemnet-plan{grid-area: Traning-managemnet-plan;}
+
+
    .cssGrid{
 
 
