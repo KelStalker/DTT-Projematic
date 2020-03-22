@@ -1,19 +1,6 @@
 
-// var addTaskBtn = document.querySelector('#addTask');
 
-// function currentDayString ()
-// {
-//     var addTaskBtn=1;
-// if (addTaskBtn == 0) {
-   
-  
-
-
-  
-
-// addTaskBtn.addEventListener("click", addTaskBtn = 0);
-
-document.getElementById('addTask').onclick = function(){
+document.getElementById('Preproject').onclick = function(){
     document.body.innerHTML+=
     `<section class="card-Preproject">
     <h2> Preproject </h2>
@@ -25,34 +12,45 @@ document.getElementById('addTask').onclick = function(){
     <a> Download </a>
     </section>`;
 } 
-var myHeading=document.getElementById('addTask');
+var myHeading=document.getElementById('Preproject');
 myHeading.addEventListener('mouseover',function(evnt){
   document.body.title="Lorem Ipsum is simply dumook a galley of type and scrambled it to make a type specimen book."
     });
 
-    document.getElementById('addTask1').onclick = function(){
+    document.getElementById('Initiation').onclick = function(){
       document.body.innerHTML+=
-      `          
-      <div id="allcontainer">
-      <h2> Inittionng</h2> 
-  <div class="project-charter">
-    <h3> project-charter</h3>
-  </div>
-  
-    <div class="stakeholder-managementplan">
-      <h3>stake holder management plan</h3>
-  <div class="stakeholder-register">
-  <h3>stakeholder-register</h3>
-  </div>
-  </div>
-  
-  <div class="statemnt-of-work">
-    <h3>statemnt-of-work</h3>
-  </div>
-  <button> Download </button><button id="hide-1"> Hide </button>
-  </div>`;
+      `      <div id="inintionGrid">
+      <div id="project-charter"><a href=""> project-charter</a></div>
+      <div id="stakeholder-managementplan"><a href=""> stake holder management plan</a></div>
+      <!-- <div id="stakeholder-register"><a href=""> stakeholder-register</a></div> -->
+      <a href="#" id="hide-inintionGrid">Hide</a>
+  </div>      
+   `;
   document.getElementById('hide-1').onclick = function(){
     alert("zohair")
   } 
+}
+document.getElementById('Planning').onclick = function(){
+  document.body.innerHTML+=
+  `      <div id="planingGrid">
+
+  <div id="Project-managemnet-plan"><a href="">Project managemnet plan</a></div>
+  <div id="Scope-managemnet-plan"><a href="#"> Scope managemnet plan </a></div>
+  <div id="Cost-managemnet-plan"><a href="#"> Cost managemnet plan </a></div>
+  <div id="Schdule-managemnet-plan"><a href="#">Schdule managemnet plan</a></div>
+  <div id="Risk-managemnet-plan"><a href="#">Risk managemnet plan</a></div>
+  <div id="Communitcuion-managemnet-plan"><a href="#">Communitcuion managemnet plan </a></div>
+  <div id="resource-managemnet-plan"><a href="#">Resource managemnet plan </a></div>
+  <div id="procurement-managemnet-plan"><a href="#">procurement managemnet plan </a></div>
+  <div id="Quality-managemnet-plan"><a href="#">Quality managemnet plan </a></div>
+  <div id="Test-managemnet-plan"><a href="#">Test managemnet plan </a></div>
+  <div id="change-managemnet-plan"><a href="#">change managemnet plan </a></div>
+  <div id="Implementation-managemnet-plan"><a href="#">Implementation managemnet plan </a></div>
+  <div id="Traning-managemnet-plan"><a href="#">Traning managemnet plan </a></div>
+</div>   
+`;
+document.getElementById('hide-1').onclick = function(){
+alert("zohair")
+} 
 }
  
