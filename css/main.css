@@ -145,6 +145,40 @@ background-color: rgb(18, 35, 71);
   width: 30px;
   height: 30px;
 } */
+
+.allcontainer{
+	background-color: #ecf0f1;
+}
+.project-charter{
+	background-color: #21778d;
+	margin: 20px;
+	font-family: Arial, Tahoma; 
+	font-size: 20px; 
+	color: #7c0e0e; 
+  text-align: center;	  
+  border-radius: 30px;
+}
+.stakeholder-managementplan{
+	background-color: #0a2c75;
+	margin: 20px;
+	font-family: Arial, Tahoma; 
+	font-size: 20px; 
+	color: #7c0e0e; 
+  text-align: center;	  
+  border-radius: 30px;}
+.statemnt-of-work{
+	background-color: #8098cc;
+	margin: 20px;
+	font-family: Arial, Tahoma; 
+	font-size: 20px; 
+	color: #7c0e0e; 
+  text-align: center;	  
+  border-radius: 30px;
+}
+
+
+
+
    .cssGrid{
 
 
