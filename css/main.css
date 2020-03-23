@@ -96,7 +96,20 @@ text-align: center;
        transform: scale(1.1);
        
    } 
-
+   #business-Case{
+    box-shadow: inset 0 0 0 2px black;
+    box-sizing: border-box;
+    margin: 1em;
+    padding: 1em 2em;
+  }
+  .pre-project-grid{
+    text-align: center;
+    box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+    border: 0;
+    box-sizing: border-box;
+    margin: 1em;
+    padding: 1em 2em;
+  }
    .section-boxs{
 background-color: rgb(79, 106, 163);
 
@@ -188,17 +201,70 @@ box-sizing: border-box;
   padding: 1em 2em;
 
 }
+#work-breakgown-structure{ box-shadow: inset 0 0 0 2px black;
+  box-sizing: border-box;
+  margin: 1em;
+  padding: 1em 2em;background-color: cornflowerblue;
+  /* display: none; */
+}
+#pruject-budget{ box-shadow: inset 0 0 0 2px black;
+  box-sizing: border-box;
+  margin: 1em;
+  padding: 1em 2em;background-color: cornflowerblue;
+  /* display: none; */
+}
+#pruject-schedule{ box-shadow: inset 0 0 0 2px black;
+  box-sizing: border-box;
+  margin: 1em;
+  padding: 1em 2em;background-color: cornflowerblue;
+  /* display: none; */
+}
+#Risk-register{ box-shadow: inset 0 0 0 2px black;
+  box-sizing: border-box;
+  margin: 1em;
+  padding: 1em 2em;background-color: cornflowerblue;
+  /* display: none; */
+}
+#Communitcuion-matrix{
+  box-shadow: inset 0 0 0 2px black;
+  box-sizing: border-box;
+  margin: 1em;
+  padding: 1em 2em;background-color: cornflowerblue;
+  /* display: none; */
+}
+#ram{
+  box-shadow: inset 0 0 0 2px black;
+  box-sizing: border-box;
+  margin: 1em;
+  padding: 1em 2em;background-color: cornflowerblue;
+  /* display: none; */
+}
+#change-request{ box-shadow: inset 0 0 0 2px black;
+  box-sizing: border-box;
+  margin: 1em;
+  padding: 1em 2em;background-color: cornflowerblue;
+  /* display: none; */}
+#Requirments-matrix{ box-shadow: inset 0 0 0 2px black;
+  box-sizing: border-box;
+  margin: 1em;
+  padding: 1em 2em;background-color: cornflowerblue;
+  /* display: none; */}
+#test-script{ box-shadow: inset 0 0 0 2px black;
+  box-sizing: border-box;
+  margin: 1em;
+  padding: 1em 2em;background-color: cornflowerblue;
+  /* display: none; */}
+
+
  #Implementation-managemnet-plan{
   box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
   border: 0;
-  border-radius: 40px;
   margin: 1em;
   padding: 1em 2em;
         }      
 #Traning-managemnet-plan{
   box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
   border: 0;
-  border-radius: 40px;
   margin: 1em;
   padding: 1em 2em;
   
@@ -206,18 +272,33 @@ box-sizing: border-box;
 #stakeholder-managementplan{
   box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
   border: 0;
-  border-radius: 40px;
   margin: 1em;
   padding: 1em 2em;
 }
 #project-charter{
   box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
   border: 0;
-  border-radius: 40px;
   margin: 1em;
   padding: 1em 2em;
 }
-#inintionGrid{
+#stakeholder-register{
+  /* display: none; */
+  background-color: cornflowerblue;
+  box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+  border: 0;
+  margin: 1em;
+  padding: 1em 2em;
+}
+#statmnet-of-work{
+  /* display: none; */
+  background-color: cornflowerblue;
+  box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+  border: 0;
+  margin: 1em;
+  padding: 1em 2em;
+}
+
+.inintion-Grid{
   text-align: center;
   box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
   border: 0;
@@ -226,15 +307,17 @@ box-sizing: border-box;
   padding: 1em 2em;
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: auto auto auto auto ;
-  grid-template-areas:"project-charter""stakeholder-managementplan"
+  grid-template-rows: auto auto auto auto auto;
+  grid-template-areas:"h2-inintion-id""h3-inintion-id""project-charter""stakeholder-managementplan"
+  "stakeholder-register""statmnet-of-work"
 }
 #project-charter{grid-area: project-charter;}
 #stakeholder-managementplan{grid-area: stakeholder-managementplan;}
-
-
-#planingGrid{
-display: none;
+#h2-inintion-id{grid-area: h2-inintion-id;}
+#h3-inintion-id{grid-area: h3-inintion-id;}
+#stakeholder-register{grid-area: stakeholder-register;}
+#statmnet-of-work{grid-area: statmnet-of-work;}
+.planingGrid{
   text-align: center;
   box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
   border: 0;
@@ -244,11 +327,15 @@ display: none;
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-template-rows: auto auto auto auto auto;
-  grid-template-areas:
-  "Project-managemnet-plan Project-managemnet-plan Project-managemnet-plan Project-managemnet-plan"
+  grid-template-areas:"h2-planing-id h2-planing-id h2-planing-id h2-planing-id"
+  "h3-planing-id Project-managemnet-plan Project-managemnet-plan Project-managemnet-plan"
   "Scope-managemnet-plan Cost-managemnet-plan Schdule-managemnet-plan Risk-managemnet-plan"
+  "work-breakgown-structure pruject-budget pruject-schedule Risk-register"
 "Communitcuion-managemnet-plan resource-managemnet-plan procurement-managemnet-plan procurement-managemnet-plan"
+"Communitcuion-matrix ram empty empty1"
 "Quality-managemnet-plan Test-managemnet-plan change-managemnet-plan change-managemnet-plan"
+"empty2 Requirments-matrix change-request change-request"
+"empty3 test-script empty4 empty4"
 "Implementation-managemnet-plan Implementation-managemnet-plan Traning-managemnet-plan Traning-managemnet-plan"
 }
 #Project-managemnet-plan{grid-area: Project-managemnet-plan;}
@@ -264,11 +351,26 @@ display: none;
 #change-managemnet-plan{grid-area: change-managemnet-plan;}
 #Implementation-managemnet-plan{grid-area: Implementation-managemnet-plan;}
 #Traning-managemnet-plan{grid-area: Traning-managemnet-plan;}
+#h2-planing-id{grid-area: h2-planing-id;}
+#h3-planing-id{grid-area: h3-planing-id;}
+#work-breakgown-structure{grid-area: work-breakgown-structure;}
+#pruject-budget{grid-area: pruject-budget ;}
+#pruject-schedule{grid-area: pruject-schedule;}
+#Risk-register{grid-area: Risk-register;}
+#Communitcuion-matrix{grid-area:Communitcuion-matrix ;}
+#ram{grid-area: ram;}
+#empty{grid-area: empty;}
+#empty1{grid-area: empty1;}
+#change-request{grid-area: change-request;}
+#Requirments-matrix{grid-area: Requirments-matrix;}
+#empty2{grid-area: empty2;}
+#test-script{grid-area: test-script;}
+#empty3{grid-area: empty3;}
+#empty4{grid-area: empty4;}
 
 
-   .cssGrid{
 
-
+.cssGrid{
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto auto;
@@ -277,7 +379,7 @@ display: none;
     "section-boxs section-boxs section-boxs"
     "card-Preproject card-Initiation card-Planning"
     "card-Execution card-Closing card-Basic"
-    "inintionGrid inintionGrid planingGrid";
+    " pre-project-grid inintion-Grid planingGrid";
 
 }
 
@@ -291,5 +393,6 @@ display: none;
 .card-Basic{grid-area:   card-Basic;}
 .section-boxs{grid-area:   section-boxs;}
 .logo{grid-area:   logo;}
-#planingGrid{grid-area:   planingGrid;}
-#inintionGrid{grid-area: inintionGrid;}
+.planingGrid{grid-area:   planingGrid; }
+.inintion-Grid{grid-area: inintion-Grid;}
+.pre-project-grid{grid-area: pre-project-grid;}
