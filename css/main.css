@@ -430,6 +430,60 @@ box-sizing: border-box;
 #h3-inintion-id{grid-area: h3-inintion-id;}
 #stakeholder-register{grid-area: stakeholder-register;}
 #statmnet-of-work{grid-area: statmnet-of-work;}
+
+
+.closing-grid{
+  text-align: center;
+  box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+  border: 0;
+  box-sizing: border-box;
+  margin: 1em;
+  padding: 1em 2em;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto auto auto auto;
+  grid-template-areas:"h2-closing-id""h3-closing-id""final-project-report""satisfaction-Assessment"
+  "Lessons-Learned""Implement-project""Reallocate-resources""close-procurement-contract"
+}
+#h2-closing-id{grid-area: h2-closing-id;}
+#h3-closing-id{grid-area: h3-closing-id;}
+#final-project-report{grid-area: final-project-report;  
+  box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+  border: 0;
+  margin: 1em;
+  padding: 1em 2em;}
+#satisfaction-Assessment{grid-area: satisfaction-Assessment;  /* display: none; */
+  background-color: cornflowerblue;
+  box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+  border: 0;
+  margin: 1em;
+  padding: 1em 2em;}
+#Lessons-Learned{grid-area: Lessons-Learned;  /* display: none; */
+  background-color: cornflowerblue;
+  box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+  border: 0;
+  margin: 1em;
+  padding: 1em 2em;}
+#Implement-project{grid-area: Implement-project;
+  
+  box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+  border: 0;
+  margin: 1em;
+  padding: 1em 2em;}
+#Reallocate-resources{grid-area: Reallocate-resources;
+  box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+  border: 0;
+  margin: 1em;
+  padding: 1em 2em;}
+#close-procurement-contract{grid-area: close-procurement-contract;
+  box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+  border: 0;
+  margin: 1em;
+  padding: 1em 2em;}
+
+
+
+
 .planingGrid{
   text-align: center;
   box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
@@ -485,18 +539,15 @@ box-sizing: border-box;
 
 .cssGrid{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto auto;
     grid-template-rows: auto auto auto auto;
     grid-template-areas:
-    "nav-2 logo nav-3"
-    "section-boxs section-boxs section-boxs"
-    "card-Preproject card-Initiation card-Planning"
-    "card-Execution card-Closing card-Basic"
-    " pre-project-grid inintion-Grid planingGrid"
-    "project-status-report-grid project-status-report-grid project-status-report-grid";
+    "nav-2 nav-2 logo nav-3 nav-3"
+    "section-boxs section-boxs section-boxs section-boxs section-boxs"
+    " pre-project-grid inintion-Grid planingGrid project-status-report-grid closing-grid"
+  ;
 
 }
-
 .nav-2{grid-area: nav-2;}
 .nav-3{grid-area: nav-3;}
 .card-Preproject{grid-area:card-Preproject;}
@@ -511,3 +562,33 @@ box-sizing: border-box;
 .inintion-Grid{grid-area: inintion-Grid;}
 .pre-project-grid{grid-area: pre-project-grid;}
 .project-status-report-grid{grid-area: project-status-report-grid;}
+.closing-grid{grid-area: closing-grid;}
+
+/* @media only screen and (min-width : 321px) { */
+  /* .cssGrid{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:
+    "nav-2 logo nav-3"
+    "section-boxs section-boxs section-boxs"
+    " pre-project-grid inintion-Grid planingGrid"
+    "project-status-report-grid project-status-report-grid closing-grid"
+  ;
+
+}
+.nav-2{grid-area: nav-2;}
+.nav-3{grid-area: nav-3;}
+.card-Preproject{grid-area:card-Preproject;}
+.card-Initiation{grid-area:card-Initiation;}
+.card-Planning{grid-area:   card-Planning;}
+.card-Execution{grid-area:  card-Execution;}
+.card-Closing{grid-area:   card-Closing;}
+.card-Basic{grid-area:   card-Basic;}
+.section-boxs{grid-area:   section-boxs;}
+.logo{grid-area:   logo;}
+.planingGrid{grid-area:   planingGrid; }
+.inintion-Grid{grid-area: inintion-Grid;}
+.pre-project-grid{grid-area: pre-project-grid;}
+.project-status-report-grid{grid-area: project-status-report-grid;}
+.closing-grid{grid-area: closing-grid;} */
