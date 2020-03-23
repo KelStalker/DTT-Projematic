@@ -298,6 +298,119 @@ box-sizing: border-box;
   padding: 1em 2em;
 }
 
+
+.project-status-report-grid{
+  text-align: center;
+  box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+  border: 0;
+  box-sizing: border-box;
+  margin: 1em;
+  padding: 1em 2em;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
+  grid-template-areas:"h2-planing-id h2-planing-id h2-planing-id"
+  "h3-planing-id h3-planing-id h3-planing-id"
+  "project-status-report project-status-report project-status-report"
+  "Execution-1 empty5 Execution-2""empty6 Execution-3 empty7"
+  "Execution-4 Execution-5 Execution-6"
+  "Execution-7 Execution-8 empty8"
+  "empty9 Execution-9 empty10"
+  "empty11 empty11 Execution-10"
+}
+#h2-planing-id{
+  grid-area: h2-planing-id;
+}
+#h3-planing-id{
+  grid-area: h3-planing-id;
+}
+#project-status-report{
+  grid-area: project-status-report;
+  box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+  border: 0;
+  margin: 1em;
+  padding: 1em 2em;
+}
+#Execution-1{
+  grid-area: Execution-1;
+  box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+  border: 0;
+  margin: 1em;
+  padding: 1em 2em;
+}
+#empty5{
+  grid-area: empty5;
+}
+#Execution-2{
+  grid-area: Execution-2;
+  box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+  border: 0;
+  margin: 1em;
+  padding: 1em 2em;
+}
+#empty6{grid-area: empty6;}
+#empty7{grid-area: empty7;}
+#empty8{grid-area: empty8;}
+#empty9{grid-area: empty9;}
+#empty10{grid-area: empty10;}
+#empty11{grid-area: empty11;}
+
+#Execution-3{
+  grid-area: Execution-3;
+  box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+  border: 0;
+  margin: 1em;
+  padding: 1em 2em;
+}
+#Execution-4{
+  grid-area: Execution-4;
+  box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+  border: 0;
+  margin: 1em;
+  padding: 1em 2em;
+}
+#Execution-5{
+  grid-area: Execution-5;
+  box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+  border: 0;
+  margin: 1em;
+  padding: 1em 2em;
+}
+#Execution-6{
+  grid-area: Execution-6;
+  box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+  border: 0;
+  margin: 1em;
+  padding: 1em 2em;
+}
+#Execution-7{
+  grid-area: Execution-7;
+  box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+  border: 0;
+  margin: 1em;
+  padding: 1em 2em;
+}
+#Execution-8{
+  grid-area: Execution-8;
+  box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+  border: 0;
+  margin: 1em;
+  padding: 1em 2em;
+}
+#Execution-9{
+  grid-area: Execution-9;
+  box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+  border: 0;
+  margin: 1em;
+  padding: 1em 2em;
+}
+#Execution-10{
+  grid-area: Execution-10;
+  box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+  border: 0;
+  margin: 1em;
+  padding: 1em 2em;
+}
 .inintion-Grid{
   text-align: center;
   box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
@@ -379,7 +492,8 @@ box-sizing: border-box;
     "section-boxs section-boxs section-boxs"
     "card-Preproject card-Initiation card-Planning"
     "card-Execution card-Closing card-Basic"
-    " pre-project-grid inintion-Grid planingGrid";
+    " pre-project-grid inintion-Grid planingGrid"
+    "project-status-report-grid project-status-report-grid project-status-report-grid";
 
 }
 
@@ -396,3 +510,4 @@ box-sizing: border-box;
 .planingGrid{grid-area:   planingGrid; }
 .inintion-Grid{grid-area: inintion-Grid;}
 .pre-project-grid{grid-area: pre-project-grid;}
+.project-status-report-grid{grid-area: project-status-report-grid;}
