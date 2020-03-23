@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Project Management</title>
+    <title>Project mangmment</title>
     <link rel="stylesheet" href="./css/main.css">
-    <script type="text/javascript" src="./js/" defer></script>
+    <script type="text/javascript" src="./js/scripts.js" defer></script>
   </head>
           <!-- Vendor Styles -->
           <link rel = "stylesheet" href = "./vendors/bootstrap-4.4.1-dist/css/bootstrap.min.css">
@@ -14,13 +14,13 @@
           <script type = "text/javascript" src = "./vendors/jQuery/jQuery.min.js"></script>
           <script type = "text/javascript" src = "./vendors/bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
 
+          
   <body class="cssGrid">
     <nav class="nav-2">
       <ul>
-        
         <li><a href="./login.html" class="link-2">Home</a></li>
         <li><a href="" class="link-2">About</a></li>
-        <li><a href="./index.html" class="link-2">Contact US</a></li>
+        <li><a href="./index.html" class="link-2">Contact us</a></li>
       </ul> 
     </nav>
     <nav class="logo">
@@ -33,56 +33,104 @@
         </ul> 
   </nav>
   <nav class="section-boxs"> 
-    <a class="style_prevu_kit" href = "./1preproduction.html"><h4> Preproject </h4>
-      <p>Lorem Ipsum is simply dumook a galley of type and scrambled it to make a type specimen book.
-      </p></a>
-    <a class="style_prevu_kit" href = "./2initiation.html"><h4>Initiation</h4><p>Lorem Ipsum is simply dumook a galley of type and scrambled it to make a type specimen book.
-    </p> </a>
-    <a class="style_prevu_kit" href = "./3planning.html"><h4>Planning</h4><p>Lorem Ipsum is simply dumook a galley of type and scrambled it to make a type specimen book.
-    </p> </a>
-    <a class="style_prevu_kit" href = "./4execution.html"><h4>Execution</h4><p>Lorem Ipsum is simply dumook a galley of type and scrambled it to make a type specimen book.
-    </p> </a>
-    <a class="style_prevu_kit" href = "./5closing.html"><h4>Closing</h4> <p>Lorem Ipsum is simply dumook a galley of type and scrambled it to make a type specimen book.
-    </p></a>
-  </nav>
-    <section class="card-Preproject col-sm">
-      <h2> Preproject </h2>
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-       
-            <a href="" class="button">Learn more</a>
-            
-    </section>
-    <section class="card-Initiation col-sm">
-      <h2> Initiation </h2>
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-      </p>
-
-      <a href="" class="button">Learn more</a>
-    </section>
-
-    <section class="card-Planning col-sm">
-      <h2> Planning </h2>
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-      </p>
-     
-      <a href="" class="button">Learn more</a>
-            
-    </section>
-      <section class="card-Execution col-sm">     
-           <h2> Execution </h2>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-        </p>
-        
-          <a href="" class="button">Learn more</a>
-        </section>
-    <section class="card-Closing col-sm">
-      <h2> Closing </h2>
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-      </p>
-      
-      <a href="" class="button">Learn more</a>
+    <div class="style_prevu_kit"><h2> Preproject </h2>
+      <a href="#" id="Preproject">See more</a>
     </div>
-  </section>
+    <div class="style_prevu_kit"><h2>Initiation</h2>
+      <a href="#" id="Initiation">See more</a>
+   </div>
+    <div class="style_prevu_kit"><h2>Planning</h2>
+      <a href="#" id="Planning" onclick="ShowFunction()">See more</a>  </div>
+    <div class="style_prevu_kit"><h2>Execution</h2> 
+      <a href="#" id="Execution" > See more</a></div>
+    <div class="style_prevu_kit"><h2>Closing</h2> 
+     </div>
+  </nav>
+
+
+
+  <div class="pre-project-grid">
+    <h2>Pre Project</h2>
+    <h3>Organization validates the need</h3>
+    <div id="business-Case"><a href=""> Business Case</a></div>
+ 
+   
+</div> 
+
+  <div class="inintion-Grid">
+    <h2 id="h2-inintion-id">Initiation</h2>
+    <h3 id="h3-inintion-id">Project Sponser and Project Manager define the project</h3>
+    <div id="project-charter"><a href=""> Project Vharter</a></div>
+    <div id="stakeholder-managementplan"><a href=""> Stake Holder Management Plan</a></div> 
+     <div id="stakeholder-register"><a href=""> Stakeholder-Register</a></div> 
+     <div id="statmnet-of-work"><a href=""> Statment of Work</a></div> 
+
+   
+</div> 
+
+<div class="planingGrid">
+  <h2 id="h2-planing-id">Planning</h2>
+  <h3 id="h3-planing-id">Plan The Project</h3>
+  <div id="Project-managemnet-plan"><a href="">Project Management Plan</a></div>
+  <div id="Scope-managemnet-plan"><a href="#"> Scope Management Plan </a></div>
+  <div id="Cost-managemnet-plan"><a href="#"> Cost Management Plan </a></div>
+  <div id="Schdule-managemnet-plan"><a href="#">Schedule Management Plan</a></div>
+  <div id="Risk-managemnet-plan"><a href="#">Risk Management Plan</a></div>
+  <div id="work-breakgown-structure"><a href="#">Work Breakdown Structure (WBS)</a></div>
+  <div id="pruject-budget"><a href="#">Project Budget</a></div>
+  <div id="pruject-schedule"><a href="#">Project Schedule</a></div>
+  <div id="Risk-register"><a href="#">Risk Register</a></div>
+  <div id="Communitcuion-managemnet-plan"><a href="#">Communication Management Plan </a></div>
+  <div id="resource-managemnet-plan"><a href="#">Resource Management Plan </a></div>
+  <div id="Communitcuion-matrix"><a href="#">Communication Matrix </a></div>
+  <div id="ram"><a href="#">RAM (resource-allocation-matrix,aka RAC!) </a></div>
+  <div id="empty"></div>
+  <div id="empty1"></div>
+  <div id="procurement-managemnet-plan"><a href="#">Procurement Management Plan </a></div>
+  <div id="Quality-managemnet-plan"><a href="#">Quality Management Plan </a></div>
+  <div id="Test-managemnet-plan"><a href="#">Test Management Plan </a></div>
+  <div id="change-managemnet-plan"><a href="#">Change Management Plan </a></div>
+  <div id="Requirments-matrix"><a href="#">Requirements Matrix </a></div>
+  <div id="change-request"><a href="#">Change Request</a></div>
+  <div id="empty3"></div>
+  <div id="empty2"></div>
+  <div id="empty4"></div>
+  <div id="test-script"><a href="#">Test Script</a></div>
+  <div id="Implementation-managemnet-plan"><a href="#">Implementation Management Plan </a></div>
+  <div id="Traning-managemnet-plan"><a href="#">Traning Management Plan </a></div>
+</div>   
+<div class="project-status-report-grid">
+  <h2 id="h2-planing-id">Execution</h2>
+  <h3 id="h3-planing-id">Monitor and Control</h3>
+  <div id="project-status-report"><a href="">Project-Status-Report"</a></div>
+  <div id="Execution-1"><a href="">keep the project baseline up to date</a></div>
+  <div id="empty5"><a href=""></a></div>
+  <div id="empty6"><a href=""></a></div>
+  <div id="empty7"><a href=""></a></div>
+  <div id="empty8"><a href=""></a></div>
+  <div id="empty9"><a href=""></a></div>
+  <div id="empty10"><a href=""></a></div>
+  <div id="empty11"><a href=""></a></div>
+  <div id="Execution-2"><a href="">Monitor Risks and Implement Risk Responses</a></div>
+  <div id="Execution-3"><a href="">Capture lessons learned</a></div>
+  <div id="Execution-4"><a href="">Communicate with stakeholders</a></div>
+  <div id="Execution-5"><a href="">Assign resources to Work Packages </a></div>
+  <div id="Execution-6"><a href="">Rocure goods and services </a></div>
+  <div id="Execution-7"><a href="">Implement quality measures and validation </a></div>
+  <div id="Execution-8"><a href="">Process change requests and update baseline</a></div>
+  <div id="Execution-9"><a href="">Perform testing</a></div>
+  <div id="Execution-10"><a href="">deliver trainig</a></div>
+</div>
+<div class="closing-grid">
+  <h2 id="h2-closing-id">Closing</h2>
+  <h3 id="h3-closing-id">Finish and close the project</h3>
+  <div id="final-project-report"><a href="">final-project-report</a></div>
+  <div id="satisfaction-Assessment"><a href="">satisfaction Assessment</a></div>
+  <div id="Lessons-Learned"><a href="">Lessons Learned</a></div>
+  <div id="Implement-project"><a href="">Implement project deliverables to organization</a></div>
+  <div id="Reallocate-resources"><a href="">Reallocate-resources</a></div>
+  <div id="close-procurement-contract"><a href="">close procurement contract</a></div>
+  </div>
   </body>
 </html>
 
