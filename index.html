@@ -2,17 +2,16 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Project mangmment</title>
+    <title>Project mangamment</title>
     <link rel="stylesheet" href="./css/main.css">
     <script type="text/javascript" src="./js/scripts.js" defer></script>
   </head>
           <!-- Vendor Styles -->
-          <link rel = "stylesheet" href = "./vendors/bootstrap-4.4.1-dist/css/bootstrap.min.css">
-          <link rel = "stylesheet" href = "./css/main.css">
+          <!-- <link rel = "stylesheet" href = "./vendors/bootstrap-4.4.1-dist/css/bootstrap.min.css"> -->
   
           <!-- Vendor Scripts -->
-          <script type = "text/javascript" src = "./vendors/jQuery/jQuery.min.js"></script>
-          <script type = "text/javascript" src = "./vendors/bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+          <!-- <script type = "text/javascript" src = "./vendors/jQuery/jQuery.min.js"></script> -->
+          <!-- <script type = "text/javascript" src = "./vendors/bootstrap-4.4.1-dist/js/bootstrap.min.js"></script> -->
 
   <body class="cssGrid">
     <nav class="nav-2">
@@ -46,32 +45,33 @@
     </p></a>
 =======
     <div class="style_prevu_kit"><h2> Preproject </h2>
-      <a href="#" id="Preproject">See more</a>
+      <a href="#" id="Preproject" onclick="ShowFunctionPreproject()">See more</a>
     </div>
     <div class="style_prevu_kit"><h2>Initiation</h2>
-      <a href="#" id="Initiation">See more</a>
+      <a href="#" id="Initiation"onclick="ShowFunctionInitiation()" >See more</a>
    </div>
     <div class="style_prevu_kit"><h2>Planning</h2>
-      <a href="#" id="Planning" onclick="ShowFunction()">See more</a>  </div>
+      <a href="#" id="Planning" onclick="ShowFunctionPlanning()">See more</a>  </div>
     <div class="style_prevu_kit"><h2>Execution</h2> 
-      <a href="#" id="Execution" > See more</a></div>
-    <div class="style_prevu_kit"><h2>Closing</h2> 
+      <a href="#" id="Execution" onclick="ShowFunctionExecution()"> See more</a></div>
+    <div class="style_prevu_kit"><h2>Closing</h2>
+      <a href="#" id="Closing"onclick="ShowFunctionClosing()"> See more</a> 
      </div>
+<<<<<<< HEAD
   
 >>>>>>> 991f491a830c00a34747d749d86b7a4aeedb8134
+=======
+>>>>>>> zohair
   </nav>
 
 
 
-  <div class="pre-project-grid">
+  <div class="pre-project-grid" id="pre-project-function">
     <h2>pre project</h2>
     <h3>Organization validates the need</h3>
     <div id="business-Case"><a href=""> Business Case</a></div>
- 
-   
 </div> 
-
-  <div class="inintion-Grid">
+  <div class="inintion-Grid" id="inintion-function">
     <h2 id="h2-inintion-id">Initiation</h2>
     <h3 id="h3-inintion-id">project sponser and project manager define the project</h3>
     <div id="project-charter"><a href=""> project charter</a></div>
@@ -81,10 +81,7 @@
 
    
 </div> 
-
-
-
-<div class="planingGrid">
+<div class="planingGrid" id="planingGrid-function">
   <h2 id="h2-planing-id">planning</h2>
   <h3 id="h3-planing-id">Plan the project</h3>
   <div id="Project-managemnet-plan"><a href="">Project managemnet plan</a></div>
@@ -115,7 +112,7 @@
   <div id="Implementation-managemnet-plan"><a href="#">Implementation managemnet plan </a></div>
   <div id="Traning-managemnet-plan"><a href="#">Traning managemnet plan </a></div>
 </div>   
-<div class="project-status-report-grid">
+<div class="project-status-report-grid" id="project-status-function">
   <h2 id="h2-planing-id">Execution</h2>
   <h3 id="h3-planing-id">Monitor and contrlo</h3>
   <div id="project-status-report"><a href="">project-status-report"</a></div>
@@ -137,9 +134,9 @@
   <div id="Execution-9"><a href="">Perform testing</a></div>
   <div id="Execution-10"><a href="">deliver trainig</a></div>
 </div>
-<div class="closing-grid">
+<div class="closing-grid" id="closing-function">
   <h2 id="h2-closing-id">Closing</h2>
-  <h3 id="h3-closing-id">Finish and xlose the project</h3>
+  <h3 id="h3-closing-id">Finish and close the project</h3>
   <div id="final-project-report"><a href="">final-project-report</a></div>
   <div id="satisfaction-Assessment"><a href="">satisfaction Assessment</a></div>
   <div id="Lessons-Learned"><a href="">Lessons Learned</a></div>
