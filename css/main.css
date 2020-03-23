@@ -59,34 +59,7 @@
     padding-bottom: 24px;
   }
   
-/*  
-.card-Preproject{background-color: blueviolet;}
-.card-Initiation{background-color: blueviolet;}
-.card-Planning{background-color: blueviolet;}
-.card-Execution{background-color: blueviolet;}
-.card-Closing{background-color: blueviolet;}
-.card-Basic{background-color: blueviolet;} */
 
-  /* .cards {
-    display: flex;
-  }
-  .card {
-    background: white;
-    border-radius: 1rem;
-    padding: 1.5rem;
-    box-shadow: 3px 3px 12px 2px rgba(black, 0.6);
-    transition: 0.2s;
-  }
-  .card:not(:first-child) {
-    margin-left: -2rem;
-  }
-  .card:not(:last-child):hover,
-  .card:not(:last-child):focus-within {
-    transform: translateY(-1rem);
-    .card {
-      transform: translateX(2rem);
-    }
-  } */
    
     .style_prevu_kit
    {
@@ -125,12 +98,7 @@ text-align: center;
    } 
 
    .section-boxs{
-background-color: rgb(18, 35, 71);
-    padding-bottom: 30px;
-    margin-top: 30px;
-
-    margin-bottom: 40px;
-    border-radius: 30px;
+background-color: rgb(79, 106, 163);
 
     text-align: center;
    }
@@ -266,7 +234,7 @@ box-sizing: border-box;
 
 
 #planingGrid{
- 
+display: none;
   text-align: center;
   box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
   border: 0;
@@ -308,7 +276,8 @@ box-sizing: border-box;
     "nav-2 logo nav-3"
     "section-boxs section-boxs section-boxs"
     "card-Preproject card-Initiation card-Planning"
-    "card-Execution card-Closing card-Basic";
+    "card-Execution card-Closing card-Basic"
+    "inintionGrid inintionGrid planingGrid";
 
 }
 
@@ -322,4 +291,5 @@ box-sizing: border-box;
 .card-Basic{grid-area:   card-Basic;}
 .section-boxs{grid-area:   section-boxs;}
 .logo{grid-area:   logo;}
-
+#planingGrid{grid-area:   planingGrid;}
+#inintionGrid{grid-area: inintionGrid;}
