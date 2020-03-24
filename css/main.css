@@ -9,11 +9,12 @@
   body {
     margin: 0px;
     font-family: 'Jura';
+    background: #fcf7f8;
   }
 
 
   .nav-2 {
-    background: #5175C0;
+    background: #003399;
     font-family: 'Jura';
     padding: 20px;
     text-align: left;
@@ -21,14 +22,14 @@
   }
  
    .nav-3{
-    background: #5175C0;
+    background: #003399;
     text-align: right;
     font-family: 'Jura';
     padding: 20px;
 
   }
   .nav-4{
-    background: #5175C0;
+    background: #003399;
     text-align: left;
     font-family: 'Jura';
     padding: 20px;
@@ -45,7 +46,7 @@
     display: inline;
   }
   .logo {
-    background: #5175C0;
+    background: #003399;
     text-align: center;
     font-family: 'Jura';
     padding: 20px;
@@ -122,6 +123,7 @@ text-align: center;
   }
   #business-Case{
     box-shadow: inset 0 0 0 2px black;
+    background: #c0c6d0;
     box-sizing: border-box;
     margin: 1em;
     padding: 1em 2em;
@@ -142,6 +144,7 @@ background-color: rgb(79, 106, 163);
 } */
 
 #Project-managemnet-plan {
+  background: #c0c6d0;
   box-shadow: inset 0 0 0 2px black;
   box-sizing: border-box;
   margin: 1em;
@@ -149,6 +152,7 @@ background-color: rgb(79, 106, 163);
  }
 
 #Scope-managemnet-plan {
+  background: #c0c6d0;
   box-shadow: inset 0 0 0 2px black;
   box-sizing: border-box;
   margin: 1em;
@@ -156,6 +160,7 @@ background-color: rgb(79, 106, 163);
 }
 
 #Cost-managemnet-plan {
+  background: #c0c6d0;
   box-shadow: inset 0 0 0 2px black;
   box-sizing: border-box;
   margin: 1em;
@@ -163,12 +168,14 @@ background-color: rgb(79, 106, 163);
  }
 
 #Schdule-managemnet-plan {
+  background: #c0c6d0;
   box-shadow: inset 0 0 0 2px black;
   box-sizing: border-box;
   margin: 1em;
   padding: 1em 2em;
  }  
 #Risk-managemnet-plan{
+  background: #c0c6d0;
   box-shadow: inset 0 0 0 2px black;
   box-sizing: border-box;
   margin: 1em;
@@ -177,25 +184,28 @@ background-color: rgb(79, 106, 163);
  
 
 #Communitcuion-managemnet-plan{
-  
+  background: #c0c6d0;
   box-shadow: inset 0 0 0 2px black;
   box-sizing: border-box;
   margin: 1em;
   padding: 1em 2em;
 }
 #resource-managemnet-plan{
+  background: #c0c6d0;
   box-shadow: inset 0 0 0 2px black;
   box-sizing: border-box;
   margin: 1em;
   padding: 1em 2em;
 
 }#procurement-managemnet-plan {
+  background: #c0c6d0;
 box-shadow: inset 0 0 0 2px black;
 box-sizing: border-box;
   margin: 1em;
   padding: 1em 2em;
 }
  #Quality-managemnet-plan{
+  background: #c0c6d0;
   box-shadow: inset 0 0 0 2px black;
   box-sizing: border-box;
   margin: 1em;
@@ -203,6 +213,7 @@ box-sizing: border-box;
  }
 
 #Test-managemnet-plan{
+  background: #c0c6d0;
   box-shadow: inset 0 0 0 2px black;
   box-sizing: border-box;
   margin: 1em;
@@ -210,74 +221,80 @@ box-sizing: border-box;
 
 }
 #change-managemnet-plan{
+  background: #c0c6d0;
   box-shadow: inset 0 0 0 2px black;
   box-sizing: border-box;
   margin: 1em;
   padding: 1em 2em;
 
 }
-#work-breakgown-structure{ box-shadow: inset 0 0 0 2px black;
+#work-breakgown-structure{ 
+  background: #c0c6d0;
+  box-shadow: inset 0 0 0 2px black;
   box-sizing: border-box;
   margin: 1em;
-  padding: 1em 2em;background-color: cornflowerblue;
+  padding: 1em 2em;
+  background-color: #00e6e6;
   /* display: none; */
 }
 #pruject-budget{ box-shadow: inset 0 0 0 2px black;
   box-sizing: border-box;
   margin: 1em;
-  padding: 1em 2em;background-color: cornflowerblue;
+  padding: 1em 2em;background-color: #00e6e6;
   /* display: none; */
 }
 #pruject-schedule{ box-shadow: inset 0 0 0 2px black;
   box-sizing: border-box;
   margin: 1em;
-  padding: 1em 2em;background-color: cornflowerblue;
+  padding: 1em 2em;background-color: #00e6e6;
   /* display: none; */
 }
 #Risk-register{ box-shadow: inset 0 0 0 2px black;
   box-sizing: border-box;
   margin: 1em;
-  padding: 1em 2em;background-color: cornflowerblue;
+  padding: 1em 2em;background-color: #00e6e6;
   /* display: none; */
 }
 #Communitcuion-matrix{
   box-shadow: inset 0 0 0 2px black;
   box-sizing: border-box;
   margin: 1em;
-  padding: 1em 2em;background-color: cornflowerblue;
+  padding: 1em 2em;background-color: #00e6e6;
   /* display: none; */
 }
 #ram{
   box-shadow: inset 0 0 0 2px black;
   box-sizing: border-box;
   margin: 1em;
-  padding: 1em 2em;background-color: cornflowerblue;
+  padding: 1em 2em;background-color: #00e6e6;
   /* display: none; */
 }
 #change-request{ box-shadow: inset 0 0 0 2px black;
   box-sizing: border-box;
   margin: 1em;
-  padding: 1em 2em;background-color: cornflowerblue;
+  padding: 1em 2em;background-color: #00e6e6;
   /* display: none; */}
 #Requirments-matrix{ box-shadow: inset 0 0 0 2px black;
   box-sizing: border-box;
   margin: 1em;
-  padding: 1em 2em;background-color: cornflowerblue;
+  padding: 1em 2em;background-color: #00e6e6;
   /* display: none; */}
 #test-script{ box-shadow: inset 0 0 0 2px black;
   box-sizing: border-box;
   margin: 1em;
-  padding: 1em 2em;background-color: cornflowerblue;
+  padding: 1em 2em;background-color: #00e6e6;
   /* display: none; */}
 
 
  #Implementation-managemnet-plan{
+  background: #c0c6d0; 
   box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
   border: 0;
   margin: 1em;
   padding: 1em 2em;
         }      
 #Traning-managemnet-plan{
+  background: #c0c6d0;
   box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
   border: 0;
   margin: 1em;
@@ -285,12 +302,14 @@ box-sizing: border-box;
   
 }
 #stakeholder-managementplan{
+  background: #c0c6d0;
   box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
   border: 0;
   margin: 1em;
   padding: 1em 2em;
 }
 #project-charter{
+  background: #c0c6d0;
   box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
   border: 0;
   margin: 1em;
@@ -298,7 +317,10 @@ box-sizing: border-box;
 }
 #stakeholder-register{
   /* display: none; */
-  background-color: cornflowerblue;
+  position: relative;
+  background: #c0c6d0;
+  display: block;
+  overflow: hidden;
   box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
   border: 0;
   margin: 1em;
@@ -306,7 +328,7 @@ box-sizing: border-box;
 }
 #statmnet-of-work{
   /* display: none; */
-  background-color: cornflowerblue;
+  background-color: #00e6e6;
   box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
   border: 0;
   margin: 1em;
@@ -341,6 +363,7 @@ box-sizing: border-box;
 }
 #project-status-report{
   grid-area: project-status-report;
+  background: #c0c6d0;
   box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
   border: 0;
   margin: 1em;
@@ -348,6 +371,7 @@ box-sizing: border-box;
 }
 #Execution-1{
   grid-area: Execution-1;
+  background: #c0c6d0;
   box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
   border: 0;
   margin: 1em;
@@ -358,6 +382,7 @@ box-sizing: border-box;
 }
 #Execution-2{
   grid-area: Execution-2;
+  background: #c0c6d0;
   box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
   border: 0;
   margin: 1em;
@@ -372,6 +397,7 @@ box-sizing: border-box;
 
 #Execution-3{
   grid-area: Execution-3;
+  background: #c0c6d0;
   box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
   border: 0;
   margin: 1em;
@@ -379,6 +405,7 @@ box-sizing: border-box;
 }
 #Execution-4{
   grid-area: Execution-4;
+  background: #c0c6d0;
   box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
   border: 0;
   margin: 1em;
@@ -386,6 +413,7 @@ box-sizing: border-box;
 }
 #Execution-5{
   grid-area: Execution-5;
+  background: #c0c6d0;
   box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
   border: 0;
   margin: 1em;
@@ -393,6 +421,7 @@ box-sizing: border-box;
 }
 #Execution-6{
   grid-area: Execution-6;
+  background: #c0c6d0;
   box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
   border: 0;
   margin: 1em;
@@ -400,6 +429,7 @@ box-sizing: border-box;
 }
 #Execution-7{
   grid-area: Execution-7;
+  background: #c0c6d0;
   box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
   border: 0;
   margin: 1em;
@@ -407,6 +437,7 @@ box-sizing: border-box;
 }
 #Execution-8{
   grid-area: Execution-8;
+  background: #c0c6d0;
   box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
   border: 0;
   margin: 1em;
@@ -414,6 +445,7 @@ box-sizing: border-box;
 }
 #Execution-9{
   grid-area: Execution-9;
+  background: #c0c6d0;
   box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
   border: 0;
   margin: 1em;
@@ -421,6 +453,7 @@ box-sizing: border-box;
 }
 #Execution-10{
   grid-area: Execution-10;
+  background: #c0c6d0;
   box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
   border: 0;
   margin: 1em;
@@ -464,40 +497,41 @@ box-sizing: border-box;
 #h3-closing-id{grid-area: h3-closing-id;}
 #final-project-report{grid-area: final-project-report;  
   box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+  background: #c0c6d0;
   border: 0;
   margin: 1em;
   padding: 1em 2em;}
 #satisfaction-Assessment{grid-area: satisfaction-Assessment;  /* display: none; */
-  background-color: cornflowerblue;
+  background-color: #00e6e6;
   box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
   border: 0;
   margin: 1em;
   padding: 1em 2em;}
 #Lessons-Learned{grid-area: Lessons-Learned;  /* display: none; */
-  background-color: cornflowerblue;
+  background-color: #00e6e6;
   box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
   border: 0;
   margin: 1em;
   padding: 1em 2em;}
 #Implement-project{grid-area: Implement-project;
-  
+  background: #c0c6d0;
   box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
   border: 0;
   margin: 1em;
   padding: 1em 2em;}
 #Reallocate-resources{grid-area: Reallocate-resources;
+  background: #c0c6d0;
   box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
   border: 0;
   margin: 1em;
   padding: 1em 2em;}
-#close-procurement-contract{grid-area: close-procurement-contract;
+#close-procurement-contract{
+  grid-area: close-procurement-contract;
+  background: #c0c6d0;
   box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
   border: 0;
   margin: 1em;
   padding: 1em 2em;}
-
-
-
 
 .planingGrid{
   text-align: center;
@@ -613,7 +647,7 @@ button:hover {
 .cancelbtn {
   width: auto;
   padding: 10px 18px;
-  background-color: #f44336;
+  background-color: #ff3300;
 }
 
 /* Center the avatar image inside this container */
