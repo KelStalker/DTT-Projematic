@@ -8,12 +8,13 @@
   @import url(https://fonts.googleapis.com/css?family=Raleway);
   body {
     margin: 0px;
+    font-family: 'Jura';
   }
 
 
   .nav-2 {
     background: #5175C0;
-    font-family: Raleway;
+    font-family: 'Jura';
     padding: 20px;
     text-align: left;
 
@@ -22,14 +23,14 @@
    .nav-3{
     background: #5175C0;
     text-align: right;
-    font-family: Raleway;
+    font-family: 'Jura';
     padding: 20px;
 
   }
   .nav-4{
     background: #5175C0;
     text-align: left;
-    font-family: Raleway;
+    font-family: 'Jura';
     padding: 20px;
   }
   .nav-4 ul li {
@@ -46,12 +47,12 @@
   .logo {
     background: #5175C0;
     text-align: center;
-    font-family: Raleway;
+    font-family: 'Jura';
     padding: 20px;
   }
   .logo p{
     text-align: center;
-    font-family: Raleway;
+    font-family: 'Jura';
     font-size: large;
     font: outline;
     color: cornsilk;
