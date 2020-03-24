@@ -84,6 +84,17 @@
 //   this.className= 'planingGrid';
 //   });
 
+function ShowFunctionLogin(){
+  var x = document.getElementById("nav-3-function");
+  
+  if (x.style.display === "none") {
+    x.style.display = "grid";
+   
+    
+  } else {
+    x.style.display = "none";
+  }
+
 function ShowFunctionPreproject(){
  
   var x = document.getElementById("pre-project-function");
@@ -165,6 +176,4 @@ function ShowFunctioncomare()
 function load(url)
 {
 window.location.href=url
-}
-
-
+} 
