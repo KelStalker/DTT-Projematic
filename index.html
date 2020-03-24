@@ -6,12 +6,6 @@
     <link rel="stylesheet" href="./css/main.css">
     <script type="text/javascript" src="./js/scripts.js" defer></script>
   </head>
-          <!-- Vendor Styles -->
-          <!-- <link rel = "stylesheet" href = "./vendors/bootstrap-4.4.1-dist/css/bootstrap.min.css"> -->
-  
-          <!-- Vendor Scripts -->
-          <!-- <script type = "text/javascript" src = "./vendors/jQuery/jQuery.min.js"></script> -->
-          <!-- <script type = "text/javascript" src = "./vendors/bootstrap-4.4.1-dist/js/bootstrap.min.js"></script> -->
 
   <body class="cssGrid">
     <nav class="nav-2">
@@ -30,21 +24,32 @@
           <li><a href="SignUp.html" class="link-2">Sign Up</a></li>
         </ul> 
   </nav>
-  <nav class="section-boxs"> 
-    <div class="style_prevu_kit"><h2> Preproject </h2>
-      <a href="#" id="Preproject" onclick="ShowFunctionPreproject()">See more</a>
-    </div>
-    <div class="style_prevu_kit"><h2>Initiation</h2>
-      <a href="#" id="Initiation"onclick="ShowFunctionInitiation()" >See more</a>
-   </div>
-    <div class="style_prevu_kit"><h2>Planning</h2>
-      <a href="#" id="Planning" onclick="ShowFunctionPlanning()">See more</a>  </div>
-    <div class="style_prevu_kit"><h2>Execution</h2> 
-      <a href="#" id="Execution" onclick="ShowFunctionExecution()"> See more</a></div>
-    <div class="style_prevu_kit"><h2>Closing</h2>
-      <a href="#" id="Closing"onclick="ShowFunctionClosing()"> See more</a> 
-     </div>
+  <nav class="nav-4">
+    <ul>
+       <!-- <h2>Preproject</h2> -->
+       <li> <a href="#" id="Preproject" onclick="ShowFunctionPreproject()"class="link-2">Preproject</a></li>
+      <li>
+        <!-- <h2>Initiation</h2> -->
+        <a href="#" id="Initiation"onclick="ShowFunctionInitiation()" class="link-2">Initiation</a> </li>
+      <li>
+        <!-- <h2>Planning</h2> -->
+        <a href="#" id="Planning" onclick="ShowFunctionPlanning()" class="link-2">Planning</a></li>
+      <li>
+        <!-- <h2>Execution</h2>  -->
+        <a href="#" id="Execution" onclick="ShowFunctionExecution()" class="link-2"> Execution</a></li>
+
+      <li>
+        <!-- <h2>Closing</h2> -->
+        <a href="#" id="Closing"onclick="ShowFunctionClosing()" class="link-2"> Closing </a></li>
+    </ul> 
   </nav>
+
+
+    <div class="style_prevu_kit"><  </div>
+    <div class="style_prevu_kit"></div>
+    <div class="style_prevu_kit">
+     </div>
+  </div>
 
 
 
@@ -52,20 +57,25 @@
     <h2>pre project</h2>
     <h3>Organization validates the need</h3>
     <div id="business-Case"><a href=""> Business Case</a></div>
+
 </div> 
+
+<!-- Initiation -->
   <div class="inintion-Grid" id="inintion-function">
     <h2 id="h2-inintion-id">Initiation</h2>
     <h3 id="h3-inintion-id">project sponser and project manager define the project</h3>
     <div id="project-charter"><a href=""> project charter</a></div>
-    <div id="stakeholder-managementplan"><a href=""> stake holder management plan</a></div> 
-     <div id="stakeholder-register"><button>Log in</button><a href=""> stakeholder-register</a></div> 
+    <div id="stakeholder-managementplan">  <a href="#" id="Planning" onclick="plsRegisterFunctionPlanning()"> stake holder management plan</a></div> 
+     <div id="stakeholder-register" id="pls-register"><a href="#"> stakeholder-register</a></div> 
      <div id="statmnet-of-work"><a href=""> statmnet of work</a></div> 
-
+     <a href="https://drive.google.com/drive/folders/14OjWIBJxFZLhnpXqlaDpxOjxq457SQ5h" id=""> Download</a>  
+          </div>
    
 </div> 
 <div class="planingGrid" id="planingGrid-function">
   <h2 id="h2-planing-id">planning</h2>
-  <h3 id="h3-planing-id">Plan the project</h3>
+  <h3 id="h3-planing-id" > Plan the project</h3>
+  <h3 id="h3-planing-id" > <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,64L80,64C160,64,320,64,480,64C640,64,800,64,960,80C1120,96,1280,128,1360,144L1440,160L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>Plan the project</h3>
   <div id="Project-managemnet-plan"><a href="">Project managemnet plan</a></div>
   <div id="Scope-managemnet-plan"><a href="#"> Scope managemnet plan </a></div>
   <div id="Cost-managemnet-plan"><a href="#"> Cost managemnet plan </a></div>
@@ -126,6 +136,27 @@
   <div id="Reallocate-resources"><a href="">Reallocate-resources</a></div>
   <div id="close-procurement-contract"><a href="">close procurement contract</a></div>
   </div>
+
+  <form >
+    <div class="container">
+      <label id="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" id="uname" required>
+  
+      <label id="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" id="psw" required>
+  
+      <button type="submit" onclick="ShowFunctioncomare()">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+  
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+
   </body>
 </html>
 

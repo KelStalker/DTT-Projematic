@@ -26,6 +26,17 @@
     padding: 20px;
 
   }
+  .nav-4{
+    background: #5175C0;
+    text-align: left;
+    font-family: Raleway;
+    padding: 20px;
+  }
+  .nav-4 ul li {
+    /* color: whitesmoke; */
+    display: inline;
+  } 
+  
   .nav-3 ul li{
     display: inline;
   }
@@ -61,7 +72,7 @@
   
 
    
-    .style_prevu_kit
+    /* .style_prevu_kit
    {
        display:inline-block;
        border:0;
@@ -95,16 +106,10 @@ text-align: center;
        transition: all 200ms ease-in;
        transform: scale(1.1);
        
-   } 
-   #business-Case{
-    box-shadow: inset 0 0 0 2px black;
-    box-sizing: border-box;
-    margin: 1em;
-    padding: 1em 2em;
-  }
-  #pre-project-function{
-display: block;
-  }
+   }  */
+ 
+
+
   .pre-project-grid{
     text-align: center;
     box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
@@ -112,23 +117,28 @@ display: block;
     box-sizing: border-box;
     margin: 1em;
     padding: 1em 2em;
-    
+    display: grid;
   }
-   .section-boxs{
+  #business-Case{
+    box-shadow: inset 0 0 0 2px black;
+    box-sizing: border-box;
+    margin: 1em;
+    padding: 1em 2em;
+  }
+   /* .section-boxs{
 background-color: rgb(79, 106, 163);
-
     text-align: center;
    }
-  .section-boxs a {
+  .section-boxs  li a {
     text-align: center;
     color: cornsilk;
-    border-radius: 30px;
+   display: inline-block;
   }
-.section-boxs :hover{
+.section-boxs ul li a :hover{
   background-color: rgb(50, 81, 150);
 
 
-}
+} */
 
 #Project-managemnet-plan {
   box-shadow: inset 0 0 0 2px black;
@@ -546,36 +556,107 @@ box-sizing: border-box;
     grid-template-columns: auto auto auto auto auto;
     grid-template-rows: auto auto auto auto;
     grid-template-areas:
-    "nav-2 nav-2 logo nav-3 nav-3"
-    "section-boxs section-boxs section-boxs section-boxs section-boxs"
-    " pre-project-grid inintion-Grid planingGrid project-status-report-grid closing-grid"
+    "nav-2 nav-2 logo nav-3 nav-3""form form form form form"
+    "nav-4 nav-4 nav-4 nav-4 nav-4"
+    "pre-project-grid pre-project-grid pre-project-grid pre-project-grid pre-project-grid"
+    "inintion-Grid inintion-Grid inintion-Grid inintion-Grid inintion-Grid"
+     "planingGrid planingGrid planingGrid planingGrid planingGrid" 
+     "project-status-report-grid project-status-report-grid project-status-report-grid project-status-report-grid project-status-report-grid"
+      "closing-grid closing-grid closing-grid closing-grid closing-grid"
   ;
 
 }
 .nav-2{grid-area: nav-2;}
 .nav-3{grid-area: nav-3;}
-.card-Preproject{grid-area:card-Preproject;}
-.card-Initiation{grid-area:card-Initiation;}
-.card-Planning{grid-area:   card-Planning;}
-.card-Execution{grid-area:  card-Execution;}
-.card-Closing{grid-area:   card-Closing;}
-.card-Basic{grid-area:   card-Basic;}
-.section-boxs{grid-area:   section-boxs;}
+.nav-4{grid-area:   nav-4;}
 .logo{grid-area:   logo;}
 .planingGrid{grid-area:   planingGrid;display: none; }
 .inintion-Grid{grid-area: inintion-Grid;display: none;}
 .pre-project-grid{grid-area: pre-project-grid;display: none;}
 .project-status-report-grid{grid-area: project-status-report-grid;display: none;}
-.closing-grid{grid-area: closing-grid;display: none;}
+.closing-grid{grid-area: closing-grid; display: none;}
+form{grid-area: form; }
 
-/* @media only screen and (min-width : 321px) { */
-  /* .cssGrid{
+
+form {
+  border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .cssGrid{
     display: grid;
     grid-template-columns: auto auto auto ;
     grid-template-rows: auto auto auto auto;
     grid-template-areas:
     "nav-2 logo nav-3"
-    "section-boxs section-boxs section-boxs"
+    "nav-3 nav-3 nav-3"
     " pre-project-grid inintion-Grid planingGrid"
     "project-status-report-grid project-status-report-grid closing-grid"
   ;
@@ -583,16 +664,12 @@ box-sizing: border-box;
 }
 .nav-2{grid-area: nav-2;}
 .nav-3{grid-area: nav-3;}
-.card-Preproject{grid-area:card-Preproject;}
-.card-Initiation{grid-area:card-Initiation;}
-.card-Planning{grid-area:   card-Planning;}
-.card-Execution{grid-area:  card-Execution;}
-.card-Closing{grid-area:   card-Closing;}
-.card-Basic{grid-area:   card-Basic;}
-.section-boxs{grid-area:   section-boxs;}
+.nav-4{grid-area: nav-4;}
 .logo{grid-area:   logo;}
 .planingGrid{grid-area:   planingGrid; }
 .inintion-Grid{grid-area: inintion-Grid;}
 .pre-project-grid{grid-area: pre-project-grid;}
 .project-status-report-grid{grid-area: project-status-report-grid;}
-.closing-grid{grid-area: closing-grid;} */
+.closing-grid{grid-area: closing-grid;}
+form{grid-area: form; display: none;}
+}

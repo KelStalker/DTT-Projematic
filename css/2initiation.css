@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+    height: auto;
+    width: auto;
+  }
+
+
+  @import url(https://fonts.googleapis.com/css?family=Raleway);
+  body {
+    margin: 0px;
+  }
+  .section-boxs{
+    background-color: rgb(79, 106, 163);
+    
+        text-align: center;
+       }
+      .section-boxs a {
+        text-align: center;
+        color: cornsilk;
+        border-radius: 30px;
+      }
+    .section-boxs :hover{
+      background-color: rgb(50, 81, 150);
+    
+    
+    }
+
+  .nav-2 {
+    background: #5175C0;
+    font-family: Raleway;
+    padding: 20px;
+    text-align: left;
+
+  }
+ 
+   .nav-3{
+    background: #5175C0;
+    text-align: right;
+    font-family: Raleway;
+    padding: 20px;
+
+  }
+  .nav-3 ul li{
+    display: inline;
+  }
+  .nav-2 ul li{
+    display: inline;
+  }
+  .logo {
+    background: #5175C0;
+    text-align: center;
+    font-family: Raleway;
+    padding: 20px;
+  }
+  .logo p{
+    text-align: center;
+    font-family: Raleway;
+    font-size: large;
+    font: outline;
+    color: cornsilk;
+  }
+  .link-2 {
+    transition: 0.6s;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    border-right: 2px dotted transparent;
+    padding: 30px 8px 0 10px;
+    margin: 0 10px;
+  }
+  .link-2:hover {
+    border-right: 2px dotted #ffffff;
+    padding-bottom: 24px;
+  }
+  
+
+   
+    .style_prevu_kit
+   {
+       display:inline-block;
+       border:0;
+       width:196px;
+       margin: auto;
+       padding-left: 20px;
+       padding-right: 20px;
+       height:210px;
+       position: relative;
+       -webkit-transition: all 200ms ease-in;
+       -webkit-transform: scale(1); 
+       -ms-transition: all 200ms ease-in;
+       -ms-transform: scale(1); 
+       -moz-transition: all 200ms ease-in;
+       -moz-transform: scale(1);
+       transition: all 200ms ease-in;
+       transform: scale(1);   
+       margin-top: 40px;
+text-align: center;
+   } 
+    .style_prevu_kit:hover
+   {
+       box-shadow: 0px 0px 150px #000000;
+       z-index: 2;
+       -webkit-transition: all 200ms ease-in;
+       -webkit-transform: scale(1.5);
+       -ms-transition: all 200ms ease-in;
+       -ms-transform: scale(1.5);   
+       -moz-transition: all 200ms ease-in;
+       -moz-transform: scale(1.5);
+       transition: all 200ms ease-in;
+       transform: scale(1.1);
+       
+   } 
+
+
+.inintion-Grid{
+    text-align: center;
+    box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+    border: 0;
+    box-sizing: border-box;
+    margin: 1em;
+    padding: 1em 2em;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-areas:"sidebar h2-inintion-id"
+    "sidebar h3-inintion-id"
+    "project-charter project-charter"
+    " stakeholder-managementplan stakeholder-managementplan"
+   "statmnet-of-work statmnet-of-work"
+  }
+  #project-charter{grid-area: project-charter;}
+  #stakeholder-managementplan{grid-area: stakeholder-managementplan;}
+  #h2-inintion-id{grid-area: h2-inintion-id;}
+  #h3-inintion-id{grid-area: h3-inintion-id;}
+  #stakeholder-register{grid-area: stakeholder-register;}
+  #statmnet-of-work{grid-area: statmnet-of-work;}
+
+  
+#project-charter{
+    box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+    border: 0;
+    margin: 1em;
+    padding: 1em 2em;
+  }
+
+  #statmnet-of-work{
+    /* display: none; */
+    background-color: cornflowerblue;
+    box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+    border: 0;
+    margin: 1em;
+    padding: 1em 2em;
+  }
+  
+#sidebar{
+    box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+    border: 0;
+    margin: 1em;
+    padding: 1em 2em;
+}
+#stakeholder-register{
+position: relative;
+bottom: 40%;
+box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+
+}
+  #stakeholder-managementplan{
+    box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+    border: 0;
+    margin: 1em;
+    padding: 1em 2em;
+    background-color: white;
+  }
+ 
+ul li  a{
+    display: inline;
+}
+  .cssGrid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:
+    "nav-2 logo nav-3"
+    "section-boxs section-boxs section-boxs"
+    " sidebar inintion-Grid inintion-Grid";
+}
+.nav-2{grid-area: nav-2;}
+.nav-3{grid-area: nav-3;}
+.section-boxs{grid-area:section-boxs;}
+.logo{grid-area:   logo;}
+.inintion-Grid{grid-area: inintion-Grid;}
+#sidebar{grid-area: sidebar;}

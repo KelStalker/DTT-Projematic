@@ -108,7 +108,6 @@ function ShowFunctionInitiation(){
   } else {
     x.style.display = "none";
   }
-  document.body.appendChild( myDataList );
 
 }
 
@@ -122,7 +121,6 @@ function ShowFunctionPlanning(){
   } else {
     x.style.display = "none";
   }
-  document.body.appendChild( myDataList );
 
 }
 
@@ -136,7 +134,6 @@ function ShowFunctionExecution(){
   } else {
     x.style.display = "none";
   }
-  document.body.appendChild( myDataList );
 
 }
 function ShowFunctionClosing(){
@@ -149,6 +146,25 @@ function ShowFunctionClosing(){
   } else {
     x.style.display = "none";
   }
-  document.body.appendChild( myDataList );
 
 }
+
+
+function ShowFunctioncomare()
+{
+  var psw1 = document.getElementById("psw");
+  var uname1 = document.getElementById("uname");
+    if(uname1=="workshop" && psw1=="workshop"){
+      load("3planning.html");    }
+    else
+
+    {
+      load("login.html");
+    }
+}
+function load(url)
+{
+window.location.href=url
+}
+
+
