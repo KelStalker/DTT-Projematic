@@ -27,8 +27,7 @@
     </nav>
     <nav class="nav-3">
       <ul>
-          <li><a href="./login.html" class="link-2">Login</a></li>
-          <li><a href="SignUp.html" class="link-2">Sign Up</a></li>
+          <li><a class="link-2" ondblclick="ShowFunctionlogin()">Login</a></li>
         </ul> 
   </nav>
 
@@ -54,19 +53,16 @@
   </nav>
 
 
-    <div class="style_prevu_kit"></div>
-    <div class="style_prevu_kit"></div>
-    <div class="style_prevu_kit">
-     </div>
-  </div>
 
 
+  <!-- Pre Projec -->
 
-  <div class="pre-project-grid" id = "pre-project-function">
+  <div class="pre-project-grid" id="pre-project-function">
     <h2>Pre Project</h2>
     <h3>Organization validates the need</h3>
     <div id="business-Case"><a href=""> Business Case</a></div>
-
+    <button add ondblclick="AddFunctiion()">Add</button>
+    <input type="text" id="add-text"></input>
 </div> 
 
 <!-- Initiation -->
@@ -79,8 +75,7 @@
        <a href="#"></a>Stakeholder Register</div> 
      <div id="statmnet-of-work"><a href=""> Statment of Work</a></div> 
      <a href="https://drive.google.com/drive/folders/14OjWIBJxFZLhnpXqlaDpxOjxq457SQ5h" id=""> Download</a>  
-          </div>
-   
+     </div>
 </div> 
 <div class="planingGrid" id="planingGrid-function">
   <h2 id="h2-planing-id">Planning</h2>
@@ -135,7 +130,7 @@
   <div id="Execution-9"><a href="">Perform testing</a></div>
   <div id="Execution-10"><a href="">deliver training</a></div>
 </div>
-<div class="closing-grid" id = "closing-function">
+<div class="closing-grid" >
   <h2 id="h2-closing-id">Closing</h2>
   <h3 id="h3-closing-id">Finish and close the project</h3>
   <div id="final-project-report"><a href="">Final Project Report</a></div>
@@ -146,7 +141,7 @@
   <div id="close-procurement-contract"><a href="">Close Procurement Contract</a></div>
   </div>
 
-  <form >
+  <form id="login-id" class="Log">
     <div class="container">
       <label id="uname"><b>Username</b></label>
       <input type="text" placeholder="Enter Username" id="uname" required>
@@ -159,13 +154,12 @@
         <input type="checkbox" checked="checked" name="remember"> Remember me
       </label>
     </div>
-  
     <div class="container" style="background-color:#f1f1f1">
+      <button type="button" class="cancelbtn">Sign Up</button>
       <button type="button" class="cancelbtn">Cancel</button>
       <span class="psw">Forgot <a href="#">password?</a></span>
     </div>
   </form>
-
   </body>
 </html>
 

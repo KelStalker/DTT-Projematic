@@ -96,6 +96,7 @@ function ShowFunctionPreproject(){
   }
 
 }
+
 function ShowFunctionInitiation(){
 
   
@@ -149,7 +150,6 @@ function ShowFunctionClosing(){
 
 }
 
-
 function ShowFunctioncomare()
 {
   var psw1 = document.getElementById("psw");
@@ -167,4 +167,16 @@ function load(url)
 window.location.href=url
 }
 
+function ShowFunctionlogin(){
+  var x = document.getElementById("login-id");
+  
+  if (x.style.display === "none") {
+    x.style.display = "grid";
+   
+    
+  } else {
+    x.style.display = "none";
+  }
+
+}
 
