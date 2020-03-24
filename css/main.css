@@ -8,12 +8,13 @@
   @import url(https://fonts.googleapis.com/css?family=Raleway);
   body {
     margin: 0px;
+    font-family: 'Jura';
   }
 
 
   .nav-2 {
     background: #5175C0;
-    font-family: Raleway;
+    font-family: 'Jura';
     padding: 20px;
     text-align: left;
 
@@ -22,14 +23,14 @@
    .nav-3{
     background: #5175C0;
     text-align: right;
-    font-family: Raleway;
+    font-family: 'Jura';
     padding: 20px;
 
   }
   .nav-4{
     background: #5175C0;
     text-align: left;
-    font-family: Raleway;
+    font-family: 'Jura';
     padding: 20px;
   }
   .nav-4 ul li {
@@ -46,12 +47,12 @@
   .logo {
     background: #5175C0;
     text-align: center;
-    font-family: Raleway;
+    font-family: 'Jura';
     padding: 20px;
   }
   .logo p{
     text-align: center;
-    font-family: Raleway;
+    font-family: 'Jura';
     font-size: large;
     font: outline;
     color: cornsilk;
@@ -553,18 +554,17 @@ box-sizing: border-box;
 
 .cssGrid{
     display: grid;
-    grid-template-columns: auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto 20vw;
     grid-template-rows: auto auto auto auto;
     grid-template-areas:
-    "nav-2 nav-2 logo nav-3 nav-3""form form form form form"
-    "nav-4 nav-4 nav-4 nav-4 nav-4"
-    "pre-project-grid pre-project-grid pre-project-grid pre-project-grid pre-project-grid"
+    "nav-2 logo nav-3 nav-3 nav-3"
+    "nav-4 nav-4 nav-4 nav-4  Login-class"
+    "pre-project-grid pre-project-grid pre-project-grid pre-project-grid Login-class"
     "inintion-Grid inintion-Grid inintion-Grid inintion-Grid inintion-Grid"
      "planingGrid planingGrid planingGrid planingGrid planingGrid" 
      "project-status-report-grid project-status-report-grid project-status-report-grid project-status-report-grid project-status-report-grid"
       "closing-grid closing-grid closing-grid closing-grid closing-grid"
   ;
-
 }
 .nav-2{grid-area: nav-2;}
 .nav-3{grid-area: nav-3;}
@@ -575,11 +575,20 @@ box-sizing: border-box;
 .pre-project-grid{grid-area: pre-project-grid;display: none;}
 .project-status-report-grid{grid-area: project-status-report-grid;display: none;}
 .closing-grid{grid-area: closing-grid; display: none;}
-form{grid-area: form; }
+.Login-class{grid-area: Login-class; display: auto;
+}
 
 
-form {
-  border: 3px solid #f1f1f1;
+.Login-class {
+  position: relative;
+  left: 400px;
+  /* left: 0;
+  bottom: 0;
+  top: 0; */
+width: 33%;
+
+
+ border: 3px solid #f1f1f1;
 }
 
 /* Full-width inputs */
@@ -671,5 +680,5 @@ span.psw {
 .pre-project-grid{grid-area: pre-project-grid;}
 .project-status-report-grid{grid-area: project-status-report-grid;}
 .closing-grid{grid-area: closing-grid;}
-form{grid-area: form; display: none;}
+.Login-class{grid-area: Login-class; display:none;}
 }

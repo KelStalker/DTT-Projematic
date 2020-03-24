@@ -97,16 +97,6 @@ function ShowFunctionPreproject(){
 
 }
 
-function AddFunctiion(){
-  var x = document.getElementById("pre-project-function").Value;
-  var t =document.getElementById("add-text")
-  if (x.style.display === "grid") {
-    t.document.body.innerHTML+=`<div id="empty5">`+t+`<a href=""></a></div>`;
-  } 
-  
-}
-
-
 function ShowFunctionInitiation(){
 
   
@@ -160,7 +150,6 @@ function ShowFunctionClosing(){
 
 }
 
-
 function ShowFunctioncomare()
 {
   var psw1 = document.getElementById("psw");
@@ -178,4 +167,16 @@ function load(url)
 window.location.href=url
 }
 
+function ShowFunctionlogin(){
+  var x = document.getElementById("login-id");
+  
+  if (x.style.display === "none") {
+    x.style.display = "grid";
+   
+    
+  } else {
+    x.style.display = "none";
+  }
+
+}
 
