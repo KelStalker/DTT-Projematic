@@ -96,6 +96,17 @@ function ShowFunctionPreproject(){
   }
 
 }
+
+function AddFunctiion(){
+  var x = document.getElementById("pre-project-function").Value;
+  var t =document.getElementById("add-text")
+  if (x.style.display === "grid") {
+    t.document.body.innerHTML+=`<div id="empty5">`+t+`<a href=""></a></div>`;
+  } 
+  
+}
+
+
 function ShowFunctionInitiation(){
 
   

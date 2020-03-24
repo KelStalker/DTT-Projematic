@@ -666,7 +666,7 @@ span.psw {
 .nav-3{grid-area: nav-3;}
 .nav-4{grid-area: nav-4;}
 .logo{grid-area:   logo;}
-.planingGrid{grid-area:   planingGrid; }
+.planingGrid{grid-area:  planingGrid; }
 .inintion-Grid{grid-area: inintion-Grid;}
 .pre-project-grid{grid-area: pre-project-grid;}
 .project-status-report-grid{grid-area: project-status-report-grid;}
