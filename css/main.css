@@ -569,7 +569,7 @@ box-sizing: border-box;
 }
 .nav-2{grid-area: nav-2;}
 .nav-3{grid-area: nav-3;}
-.nav-4{grid-area:   nav-4;}
+.nav-4{grid-area: nav-4;}
 .logo{grid-area:   logo;}
 .planingGrid{grid-area:   planingGrid;display: none; }
 .inintion-Grid{grid-area: inintion-Grid;display: none;}
