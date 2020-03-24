@@ -360,6 +360,11 @@ box-sizing: border-box;
 }
 #h3-planing-id{
   grid-area: h3-planing-id;
+  background: #c0c6d0;
+  box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+  border: 0;
+  margin: 1em;
+  padding: 1em 2em;
 }
 #project-status-report{
   grid-area: project-status-report;
@@ -495,31 +500,39 @@ box-sizing: border-box;
 }
 #h2-closing-id{grid-area: h2-closing-id;}
 #h3-closing-id{grid-area: h3-closing-id;}
-#final-project-report{grid-area: final-project-report;  
+#final-project-report{
+  grid-area: final-project-report;  
   box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
   background: #c0c6d0;
   border: 0;
   margin: 1em;
   padding: 1em 2em;}
-#satisfaction-Assessment{grid-area: satisfaction-Assessment;  /* display: none; */
+
+#satisfaction-Assessment{
+  grid-area: satisfaction-Assessment;  /* display: none; */
   background-color: #00e6e6;
   box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
   border: 0;
   margin: 1em;
   padding: 1em 2em;}
-#Lessons-Learned{grid-area: Lessons-Learned;  /* display: none; */
+
+#Lessons-Learned{
+  grid-area: Lessons-Learned;  /* display: none; */
   background-color: #00e6e6;
   box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
   border: 0;
   margin: 1em;
   padding: 1em 2em;}
-#Implement-project{grid-area: Implement-project;
+
+#Implement-project{
+  grid-area: Implement-project;
   background: #c0c6d0;
   box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
   border: 0;
   margin: 1em;
   padding: 1em 2em;}
-#Reallocate-resources{grid-area: Reallocate-resources;
+#Reallocate-resources{
+  grid-area: Reallocate-resources;
   background: #c0c6d0;
   box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
   border: 0;
@@ -588,18 +601,17 @@ box-sizing: border-box;
 
 .cssGrid{
     display: grid;
-    grid-template-columns: auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto 20vw;
     grid-template-rows: auto auto auto auto;
     grid-template-areas:
-    "nav-2 nav-2 logo nav-3 nav-3""form form form form form"
-    "nav-4 nav-4 nav-4 nav-4 nav-4"
-    "pre-project-grid pre-project-grid pre-project-grid pre-project-grid pre-project-grid"
+    "nav-2 logo nav-3 nav-3 nav-3"
+    "nav-4 nav-4 nav-4 nav-4  Login-class"
+    "pre-project-grid pre-project-grid pre-project-grid pre-project-grid Login-class"
     "inintion-Grid inintion-Grid inintion-Grid inintion-Grid inintion-Grid"
      "planingGrid planingGrid planingGrid planingGrid planingGrid" 
      "project-status-report-grid project-status-report-grid project-status-report-grid project-status-report-grid project-status-report-grid"
       "closing-grid closing-grid closing-grid closing-grid closing-grid"
   ;
-
 }
 .nav-2{grid-area: nav-2;}
 .nav-3{grid-area: nav-3;}
@@ -610,11 +622,20 @@ box-sizing: border-box;
 .pre-project-grid{grid-area: pre-project-grid;display: none;}
 .project-status-report-grid{grid-area: project-status-report-grid;display: none;}
 .closing-grid{grid-area: closing-grid; display: none;}
-form{grid-area: form; }
+.Login-class{grid-area: Login-class; display: auto;
+}
 
 
-form {
-  border: 3px solid #f1f1f1;
+.Login-class {
+  position: relative;
+  left: 400px;
+  /* left: 0;
+  bottom: 0;
+  top: 0; */
+width: 33%;
+
+
+ border: 3px solid #f1f1f1;
 }
 
 /* Full-width inputs */
@@ -629,7 +650,7 @@ input[type=text], input[type=password] {
 
 /* Set a style for all buttons */
 button {
-  background-color: #4CAF50;
+  background-color: #c0c6d0;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -701,10 +722,10 @@ span.psw {
 .nav-3{grid-area: nav-3;}
 .nav-4{grid-area: nav-4;}
 .logo{grid-area:   logo;}
-.planingGrid{grid-area:   planingGrid; }
+.planingGrid{grid-area:  planingGrid; }
 .inintion-Grid{grid-area: inintion-Grid;}
 .pre-project-grid{grid-area: pre-project-grid;}
 .project-status-report-grid{grid-area: project-status-report-grid;}
 .closing-grid{grid-area: closing-grid;}
-form{grid-area: form; display: none;}
+.Login-class{grid-area: Login-class; display:none;}
 }
