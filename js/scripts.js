@@ -192,7 +192,7 @@ var satisfactionAssessment=document.getElementById("satisfaction-Assessment");
 var LessonsLearned=document.getElementById("Lessons-Learned");
 var statmnetofwork=document.getElementById("statmnet-of-work");
 
-
+var showmore=document.getElementById("showmore"); 
 
 
 
@@ -220,7 +220,9 @@ var statmnetofwork=document.getElementById("statmnet-of-work");
     satisfactionAssessment.style.display="block";
     LessonsLearned.style.display="block";
     statmnetofwork.style.display="block";
+    showmore.style.display="none";
   }
+
 
 
 
@@ -229,12 +231,12 @@ var statmnetofwork=document.getElementById("statmnet-of-work");
 function ShowFunctionlogin(){
   var x = document.getElementById("login-id");
   
-  if (x.style.display === "none") {
-    x.style.display = "grid";
+  if (x.style.display === "grid") {
+    x.style.display = "none";
    
     
   } else {
-    x.style.display = "none";
+    x.style.display = "grid";
   }
 }
 
@@ -244,8 +246,3 @@ function myFunction() {
   popup.classList.toggle("show");
 }
 
-function myclickFunction() {
-  var popup = document.getElementById("myPopup");
-  
-alert();
-}
