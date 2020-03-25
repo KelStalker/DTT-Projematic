@@ -483,7 +483,7 @@ box-sizing: border-box;
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto auto auto auto auto;
-  grid-template-areas:"h2-inintion-id""h3-inintion-id""project-charter""stakeholder-managementplan"
+  grid-template-areas:"h2-inintion-id""h3-inintion-id""project-charter""stakeholder-managementplan""initiationpopup"
   "stakeholder-register""statmnet-of-work"
 }
 #project-charter{grid-area: project-charter;}
@@ -492,7 +492,7 @@ box-sizing: border-box;
 #h3-inintion-id{grid-area: h3-inintion-id;}
 #stakeholder-register{grid-area: stakeholder-register;}
 #statmnet-of-work{grid-area: statmnet-of-work;}
-
+#initiationpopup{grid-area: initiationpopup;}
 
 .closing-grid{
   text-align: center;
