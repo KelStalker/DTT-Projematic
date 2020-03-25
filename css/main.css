@@ -367,6 +367,11 @@ box-sizing: border-box;
 }
 #h3-planing-id{
   grid-area: h3-planing-id;
+  background: #c0c6d0;
+  box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+  border: 0;
+  margin: 1em;
+  padding: 1em 2em;
 }
 #project-status-report{
   grid-area: project-status-report;
@@ -502,7 +507,8 @@ box-sizing: border-box;
 }
 #h2-closing-id{grid-area: h2-closing-id;}
 #h3-closing-id{grid-area: h3-closing-id;}
-#final-project-report{grid-area: final-project-report;  
+#final-project-report{
+  grid-area: final-project-report;  
   box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
   background: #c0c6d0;
   border: 0;
@@ -520,13 +526,16 @@ box-sizing: border-box;
   border: 0;
   margin: 1em;
   padding: 1em 2em;}
-#Implement-project{grid-area: Implement-project;
+
+#Implement-project{
+  grid-area: Implement-project;
   background: #c0c6d0;
   box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
   border: 0;
   margin: 1em;
   padding: 1em 2em;}
-#Reallocate-resources{grid-area: Reallocate-resources;
+#Reallocate-resources{
+  grid-area: Reallocate-resources;
   background: #c0c6d0;
   box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
   border: 0;
@@ -636,7 +645,7 @@ input[type=text], input[type=password] {
 
 /* Set a style for all buttons */
 button {
-  background-color: #4CAF50;
+  background-color: #c0c6d0;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
