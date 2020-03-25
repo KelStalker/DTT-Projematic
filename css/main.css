@@ -30,7 +30,7 @@
   }
   .nav-4{
     background: #003399;
-    text-align: left;
+    text-align: center;
     font-family: 'Jura';
     padding: 20px;
   }
@@ -72,7 +72,9 @@
     padding-bottom: 24px;
   }
   
-
+#signOut{
+  display: none;
+}
    
     /* .style_prevu_kit
    {
@@ -235,55 +237,55 @@ box-sizing: border-box;
   margin: 1em;
   padding: 1em 2em;
   background-color: #00e6e6;
-  /* display: none; */
+  display: none;
 }
 #pruject-budget{ box-shadow: inset 0 0 0 2px black;
   box-sizing: border-box;
   margin: 1em;
   padding: 1em 2em;background-color: #00e6e6;
-  /* display: none; */
+  display: none;
 }
 #pruject-schedule{ box-shadow: inset 0 0 0 2px black;
   box-sizing: border-box;
   margin: 1em;
   padding: 1em 2em;background-color: #00e6e6;
-  /* display: none; */
+  display: none;
 }
 #Risk-register{ box-shadow: inset 0 0 0 2px black;
   box-sizing: border-box;
   margin: 1em;
   padding: 1em 2em;background-color: #00e6e6;
-  /* display: none; */
+  display: none;
 }
 #Communitcuion-matrix{
   box-shadow: inset 0 0 0 2px black;
   box-sizing: border-box;
   margin: 1em;
   padding: 1em 2em;background-color: #00e6e6;
-  /* display: none; */
+  display: none;
 }
 #ram{
   box-shadow: inset 0 0 0 2px black;
   box-sizing: border-box;
   margin: 1em;
   padding: 1em 2em;background-color: #00e6e6;
-  /* display: none; */
+  display: none;
 }
 #change-request{ box-shadow: inset 0 0 0 2px black;
   box-sizing: border-box;
   margin: 1em;
   padding: 1em 2em;background-color: #00e6e6;
-  /* display: none; */}
+  display: none;}
 #Requirments-matrix{ box-shadow: inset 0 0 0 2px black;
   box-sizing: border-box;
   margin: 1em;
   padding: 1em 2em;background-color: #00e6e6;
-  /* display: none; */}
+  display: none;}
 #test-script{ box-shadow: inset 0 0 0 2px black;
   box-sizing: border-box;
   margin: 1em;
   padding: 1em 2em;background-color: #00e6e6;
-  /* display: none; */}
+  display: none;}
 
 
  #Implementation-managemnet-plan{
@@ -301,12 +303,14 @@ box-sizing: border-box;
   padding: 1em 2em;
   
 }
+
 #stakeholder-managementplan{
   background: #c0c6d0;
   box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
   border: 0;
   margin: 1em;
   padding: 1em 2em;
+  display: none;
 }
 #project-charter{
   background: #c0c6d0;
@@ -314,12 +318,14 @@ box-sizing: border-box;
   border: 0;
   margin: 1em;
   padding: 1em 2em;
+  
 }
+
+
 #stakeholder-register{
-  /* display: none; */
+  display: none;
   position: relative;
-  background: #c0c6d0;
-  display: block;
+  background-color: #00e6e6;
   overflow: hidden;
   box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
   border: 0;
@@ -327,7 +333,8 @@ box-sizing: border-box;
   padding: 1em 2em;
 }
 #statmnet-of-work{
-  /* display: none; */
+  display: none;
+  
   background-color: #00e6e6;
   box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
   border: 0;
@@ -381,6 +388,7 @@ box-sizing: border-box;
   border: 0;
   margin: 1em;
   padding: 1em 2em;
+  border-radius: 20px;
 }
 #empty5{
   grid-area: empty5;
@@ -507,17 +515,13 @@ box-sizing: border-box;
   border: 0;
   margin: 1em;
   padding: 1em 2em;}
-
-#satisfaction-Assessment{
-  grid-area: satisfaction-Assessment;  /* display: none; */
+#satisfaction-Assessment{grid-area: satisfaction-Assessment;  display: none;
   background-color: #00e6e6;
   box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
   border: 0;
   margin: 1em;
   padding: 1em 2em;}
-
-#Lessons-Learned{
-  grid-area: Lessons-Learned;  /* display: none; */
+#Lessons-Learned{grid-area: Lessons-Learned;  display: none;
   background-color: #00e6e6;
   box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
   border: 0;
@@ -567,6 +571,7 @@ box-sizing: border-box;
 "empty3 test-script empty4 empty4"
 "Implementation-managemnet-plan Implementation-managemnet-plan Traning-managemnet-plan Traning-managemnet-plan"
 }
+
 #Project-managemnet-plan{grid-area: Project-managemnet-plan;}
 #Scope-managemnet-plan{grid-area: Scope-managemnet-plan;}
 #Schdule-managemnet-plan{grid-area: Schdule-managemnet-plan;}
@@ -606,7 +611,7 @@ box-sizing: border-box;
     grid-template-areas:
     "nav-2 logo nav-3 nav-3 nav-3"
     "nav-4 nav-4 nav-4 nav-4  Login-class"
-    "pre-project-grid pre-project-grid pre-project-grid pre-project-grid Login-class"
+    "pre-project-grid pre-project-grid pre-project-grid pre-project-grid pre-project-grid"
     "inintion-Grid inintion-Grid inintion-Grid inintion-Grid inintion-Grid"
      "planingGrid planingGrid planingGrid planingGrid planingGrid" 
      "project-status-report-grid project-status-report-grid project-status-report-grid project-status-report-grid project-status-report-grid"
@@ -622,20 +627,12 @@ box-sizing: border-box;
 .pre-project-grid{grid-area: pre-project-grid;display: none;}
 .project-status-report-grid{grid-area: project-status-report-grid;display: none;}
 .closing-grid{grid-area: closing-grid; display: none;}
-.Login-class{grid-area: Login-class; display: auto;
+.Login-class{grid-area: Login-class;
 }
 
 
-.Login-class {
-  position: relative;
-  left: 400px;
-  /* left: 0;
-  bottom: 0;
-  top: 0; */
-width: 33%;
-
-
- border: 3px solid #f1f1f1;
+#login-id {
+display: none;
 }
 
 /* Full-width inputs */
@@ -694,6 +691,33 @@ span.psw {
   padding-top: 16px;
 }
 
+.planingGridMobile{
+  text-align: center;
+  box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+  border: 0;
+  box-sizing: border-box;
+  margin: 1em;
+  padding: 1em 2em;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+  grid-template-areas: "h2-planning-id" "h3-planning-id" "Project-managemnet-plan" "Scope-managemnet-plan" "Cost-managemnet-plan" "Schdule-managmnet-plan" "Risk-managemnet-plan" "work-breakgown-structure" "pruject-budget" "pruject-schedule" "Risk-register" "Communitcuion-managemnet-plan" "resource-managemnet-plan" "procurement-managemnet-plan" "Communitcuion-matrix" "ram" "Quality-managemnet-plan" "Test-managemnet-plan" "change-managemnet-plan" "Requirements-matrix" "change-request" "test-script" "Implementation-managemnet-plan" "Traning-managemnet-plan";
+}
+
+.project-status-report-grid-mobile{
+  text-align: center;
+  box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+  border: 0;
+  box-sizing: border-box;
+  margin: 1em;
+  padding: 1em 2em;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
+  grid-template-areas:
+  "h2-planning-id" "h3-planning-id" "project-status-report" "Execution-1" "Execution-2" "Execution-3" "Execution-4" "Execution-5" "Execution-6" "Execution-7" "Execution-8" "Execution-9" "Execution-10"
+}
+
 /* Change styles for span and cancel button on extra small screens */
 @media screen and (max-width: 300px) {
   span.psw {
@@ -708,24 +732,24 @@ span.psw {
 @media screen and (max-width: 300px) {
   .cssGrid{
     display: grid;
-    grid-template-columns: auto auto auto ;
+    grid-template-columns: auto auto auto auto auto;
     grid-template-rows: auto auto auto auto;
     grid-template-areas:
     "nav-2 logo nav-3"
     "nav-3 nav-3 nav-3"
-    " pre-project-grid inintion-Grid planingGrid"
-    "project-status-report-grid project-status-report-grid closing-grid"
+    " pre-project-grid inintion-Grid planingGridMobile"
+    "project-status-report-grid-mobile project-status-report-grid-mobile closing-grid"
+    "planningGridMobile planningGridMobile planningGridMobile planningGridMobile"
   ;
-
 }
 .nav-2{grid-area: nav-2;}
 .nav-3{grid-area: nav-3;}
 .nav-4{grid-area: nav-4;}
 .logo{grid-area:   logo;}
-.planingGrid{grid-area:  planingGrid; }
+.planingGridMobile{grid-area:  planingGridMobile; }
 .inintion-Grid{grid-area: inintion-Grid;}
 .pre-project-grid{grid-area: pre-project-grid;}
-.project-status-report-grid{grid-area: project-status-report-grid;}
+.project-status-report-grid-mobile{grid-area: project-status-report-grid-mobile;}
 .closing-grid{grid-area: closing-grid;}
-.Login-class{grid-area: Login-class; display:none;}
+.Login-class{grid-area: Login-class; }
 }
