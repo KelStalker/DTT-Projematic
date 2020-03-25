@@ -1,44 +1,45 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Project Management</title>
-    <link rel="stylesheet" href="./css/main.css">
-    <script type="text/javascript" src="./js/scripts.js" defer></script>
-    <link href="https://fonts.googleapis.com/css?family=Jura:400,600,700&display=swap" rel="stylesheet">
-  </head>
 
-          
-  <body class="cssGrid">
+<head>
+  <meta charset="UTF-8">
+  <title>Project Management</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <script type="text/javascript" src="./js/scripts.js" defer></script>
+  <link href="https://fonts.googleapis.com/css?family=Jura:400,600,700&display=swap" rel="stylesheet">
+</head>
 
 
-    <nav class="nav-2">
-      <!-- Links to index about and contactus -->
-      <ul>
-        <li><a href="./index.html" class="link-2">Home</a></li>
-        <li><a href="about.html" class="link-2">About</a></li>
-        <li><a href="contactus.html" class="link-2">Contact us</a></li>
-      </ul> 
-    </nav>
+<body class="cssGrid">
 
-    
-    <nav class="logo">
-      <p>Projematic</p>
-    </nav>
-    <nav class="nav-3">
-      <ul>
-          <li><a class="link-2" ondblclick="ShowFunctionlogin()">Login</a></li>
-        </ul> 
+
+  <nav class="nav-2">
+    <!-- Links to index about and contactus -->
+    <ul>
+      <li><a href="./index.html" class="link-2">Home</a></li>
+      <li><a href="about.html" class="link-2">About</a></li>
+      <li><a href="contactus.html" class="link-2">Contact us</a></li>
+    </ul>
+  </nav>
+
+
+  <nav class="logo">
+    <p>Projematic</p>
+  </nav>
+  <nav class="nav-3">
+    <ul>
+      <li><a class="link-2" href="#"  onclick="ShowFunctionlogin()" id="logIn">Login</a></li>
+    </ul>
   </nav>
 
 
   <nav class="nav-4">
     <ul>
-       <!-- <h2>Preproject</h2> -->
-       <li> <a href="#" id="Preproject" onclick="ShowFunctionPreproject()"class="link-2">Preproject</a></li>
+      <!-- <h2>Preproject</h2> -->
+      <li> <a href="#" id="Preproject" onclick="ShowFunctionPreproject()" class="link-2">Preproject</a></li>
       <li>
         <!-- <h2>Initiation</h2> -->
-        <a href="#" id="Initiation"onclick="ShowFunctionInitiation()" class="link-2">Initiation</a> </li>
+        <a href="#" id="Initiation" onclick="ShowFunctionInitiation()" class="link-2">Initiation</a> </li>
       <li>
         <!-- <h2>Planning</h2> -->
         <a href="#" id="Planning" onclick="ShowFunctionPlanning()" class="link-2">Planning</a></li>
@@ -48,8 +49,8 @@
 
       <li>
         <!-- <h2>Closing</h2> -->
-        <a href="#" id="Closing"onclick="ShowFunctionClosing()" class="link-2"> Closing </a></li>
-    </ul> 
+        <a href="#" id="Closing" onclick="ShowFunctionClosing()" class="link-2"> Closing </a></li>
+    </ul>
   </nav>
 
 
@@ -63,93 +64,93 @@
     <div id="business-Case"><a href=""> Business Case</a></div>
     <button add ondblclick="AddFunctiion()">Add</button>
     <input type="text" id="add-text"></input>
-</div> 
+  </div>
 
-<!-- Initiation -->
+  <!-- Initiation -->
   <div class="inintion-Grid" id="inintion-function">
     <h2 id="h2-inintion-id">Initiation</h2>
     <h3 id="h3-inintion-id">Project Sponser and Project Manager define the Project</h3>
     <div id="project-charter"><a href=""> Project Charter</a></div>
-    <div id="stakeholder-managementplan">  <a href="#" id="Planning" onclick="plsRegisterFunctionPlanning()"> stake holder management plan</a></div> 
-     <div id="stakeholder-register" id="pls-register">
-       <a href="#"></a>Stakeholder Register</div> 
-     <div id="statmnet-of-work"><a href=""> Statment of Work</a></div> 
-     <a href="https://drive.google.com/drive/folders/14OjWIBJxFZLhnpXqlaDpxOjxq457SQ5h" id=""> Download</a>  
-     </div>
-</div> 
-<div class="planingGrid" id="planingGrid-function">
-  <h2 id="h2-planing-id">Planning</h2>
-  <h3 id="h3-planing-id"><a href = "#">Plan the Project</a></h3>
-  <div id="Project-managemnet-plan"><a href="#">Project Management Plan</a></div>
-  <div id="Scope-managemnet-plan"><a href="#"> Scope Management Plan </a></div>
-  <div id="Cost-managemnet-plan"><a href="#"> Cost Management Plan </a></div>
-  <div id="Schdule-managemnet-plan"><a href="#">Schedule Management Plan</a></div>
-  <div id="Risk-managemnet-plan"><a href="#">Risk management Plan</a></div>
-  <div id="work-breakgown-structure"><a href="#">Work Breakdown Structure (WBS)</a></div>
-  <div id="pruject-budget"><a href="#">Project Budget</a></div>
-  <div id="pruject-schedule"><a href="#">Project Schedule</a></div>
-  <div id="Risk-register"><a href="#">Risk Register</a></div>
-  <div id="Communitcuion-managemnet-plan"><a href="#">Communication Management Plan </a></div>
-  <div id="resource-managemnet-plan"><a href="#">Resource Management Plan </a></div>
-  <div id="Communitcuion-matrix"><a href="#">Communication Matrix </a></div>
-  <div id="ram"><a href="#">RAM </a></div>
-  <div id="empty"></div>
-  <div id="empty1"></div>
-  <div id="procurement-managemnet-plan"><a href="#">Procurement Management Plan </a></div>
-  <div id="Quality-managemnet-plan"><a href="#">Quality Management Plan </a></div>
-  <div id="Test-managemnet-plan"><a href="#">Test Management Plan </a></div>
-  <div id="change-managemnet-plan"><a href="#">Change Management Plan </a></div>
-  <div id="Requirments-matrix"><a href="#">Requirements Matrix </a></div>
-  <div id="change-request"><a href="#">Change Request</a></div>
-  <div id="empty3"></div>
-  <div id="empty2"></div>
-  <div id="empty4"></div>
-  <div id="test-script"><a href="#">Test Script</a></div>
-  <div id="Implementation-managemnet-plan"><a href="#">Implementation Management Plan </a></div>
-  <div id="Traning-managemnet-plan"><a href="#">Training Management Plan </a></div>
-</div>   
-<div class="project-status-report-grid" id = "project-status-function">
-  <h2 id="h2-planing-id">Execution</h2>
-  <h3 id="h3-planing-id">Monitor and Control</h3>
-  <div id="project-status-report"><a href="">Project Status Report</a></div>
-  <div id="Execution-1"><a href="">keep the project baseline up to date</a></div>
-  <div id="empty5"><a href=""></a></div>
-  <div id="empty6"><a href=""></a></div>
-  <div id="empty7"><a href=""></a></div>
-  <div id="empty8"><a href=""></a></div>
-  <div id="empty9"><a href=""></a></div>
-  <div id="empty10"><a href=""></a></div>
-  <div id="empty11"><a href=""></a></div>
-  <div id="Execution-2"><a href="">Monitor Risks and Implement Risk Responses</a></div>
-  <div id="Execution-3"><a href="">Capture lessons learned</a></div>
-  <div id="Execution-4"><a href="">Communicate with stakeholders</a></div>
-  <div id="Execution-5"><a href="">Assign resources to Work Packages </a></div>
-  <div id="Execution-6"><a href="">Rocure goods and services </a></div>
-  <div id="Execution-7"><a href="">Implement quality measures and validation </a></div>
-  <div id="Execution-8"><a href="">Process change requests and update baseline</a></div>
-  <div id="Execution-9"><a href="">Perform testing</a></div>
-  <div id="Execution-10"><a href="">deliver training</a></div>
-</div>
-<div class="closing-grid" >
-  <h2 id="h2-closing-id">Closing</h2>
-  <h3 id="h3-closing-id">Finish and close the project</h3>
-  <div id="final-project-report"><a href="">Final Project Report</a></div>
-  <div id="satisfaction-Assessment"><a href="">Satisfaction Assessment</a></div>
-  <div id="Lessons-Learned"><a href="">Lessons Learned</a></div>
-  <div id="Implement-project"><a href="">Implement project deliverables to organization</a></div>
-  <div id="Reallocate-resources"><a href="">Reallocate-resources</a></div>
-  <div id="close-procurement-contract"><a href="">Close Procurement Contract</a></div>
+    <div id="stakeholder-managementplan"> <a href="#" id="Planning"> stake holder management plan</a></div>
+    <div id="stakeholder-register" id="pls-register">
+      <a href="#"></a>Stakeholder Register</div>
+    <div id="statmnet-of-work"><a href=""> Statment of Work</a></div>
+    <a href="#"  onclick="ShowFunctionlogin()" > To view premium content, please login </a>
+  </div>
+  </div>
+  <div class="planingGrid" id="planingGrid-function">
+    <h2 id="h2-planing-id">Planning</h2>
+    <h3 id="h3-planing-id"><a href="#">Plan the Project</a></h3>
+    <div id="Project-managemnet-plan"><a href="#">Project Management Plan</a></div>
+    <div id="Scope-managemnet-plan"><a href="#"> Scope Management Plan </a></div>
+    <div id="Cost-managemnet-plan"><a href="#"> Cost Management Plan </a></div>
+    <div id="Schdule-managemnet-plan"><a href="#">Schedule Management Plan</a></div>
+    <div id="Risk-managemnet-plan"><a href="#">Risk management Plan</a></div>
+    <div id="work-breakgown-structure"><a href="#">Work Breakdown Structure (WBS)</a></div>
+    <div id="pruject-budget"><a href="#">Project Budget</a></div>
+    <div id="pruject-schedule"><a href="#">Project Schedule</a></div>
+    <div id="Risk-register"><a href="#">Risk Register</a></div>
+    <div id="Communitcuion-managemnet-plan"><a href="#">Communication Management Plan </a></div>
+    <div id="resource-managemnet-plan"><a href="#">Resource Management Plan </a></div>
+    <div id="Communitcuion-matrix"><a href="#">Communication Matrix </a></div>
+    <div id="ram"><a href="#">RAM </a></div>
+    <div id="empty"></div>
+    <div id="empty1"></div>
+    <div id="procurement-managemnet-plan"><a href="#">Procurement Management Plan </a></div>
+    <div id="Quality-managemnet-plan"><a href="#">Quality Management Plan </a></div>
+    <div id="Test-managemnet-plan"><a href="#">Test Management Plan </a></div>
+    <div id="change-managemnet-plan"><a href="#">Change Management Plan </a></div>
+    <div id="Requirments-matrix"><a href="#">Requirements Matrix </a></div>
+    <div id="change-request"><a href="#">Change Request</a></div>
+    <div id="empty3"></div>
+    <div id="empty2"></div>
+    <div id="empty4"></div>
+    <div id="test-script"><a href="#">Test Script</a></div>
+    <div id="Implementation-managemnet-plan"><a href="#">Implementation Management Plan </a></div>
+    <div id="Traning-managemnet-plan"><a href="#">Training Management Plan </a></div>
+  </div>
+  <div class="project-status-report-grid" id="project-status-function">
+    <h2 id="h2-planing-id">Execution</h2>
+    <h3 id="h3-planing-id">Monitor and Control</h3>
+    <div id="project-status-report"><a href="">Project Status Report</a></div>
+    <div id="Execution-1"><a href="">keep the project baseline up to date</a></div>
+    <div id="empty5"><a href=""></a></div>
+    <div id="empty6"><a href=""></a></div>
+    <div id="empty7"><a href=""></a></div>
+    <div id="empty8"><a href=""></a></div>
+    <div id="empty9"><a href=""></a></div>
+    <div id="empty10"><a href=""></a></div>
+    <div id="empty11"><a href=""></a></div>
+    <div id="Execution-2"><a href="">Monitor Risks and Implement Risk Responses</a></div>
+    <div id="Execution-3"><a href="">Capture lessons learned</a></div>
+    <div id="Execution-4"><a href="">Communicate with stakeholders</a></div>
+    <div id="Execution-5"><a href="">Assign resources to Work Packages </a></div>
+    <div id="Execution-6"><a href="">Rocure goods and services </a></div>
+    <div id="Execution-7"><a href="">Implement quality measures and validation </a></div>
+    <div id="Execution-8"><a href="">Process change requests and update baseline</a></div>
+    <div id="Execution-9"><a href="">Perform testing</a></div>
+    <div id="Execution-10"><a href="">deliver training</a></div>
+  </div>
+  <div class="closing-grid" id="closing-function">
+    <h2 id="h2-closing-id">Closing</h2>
+    <h3 id="h3-closing-id">Finish and close the project</h3>
+    <div id="final-project-report"><a href="">Final Project Report</a></div>
+    <div id="satisfaction-Assessment"><a href="">Satisfaction Assessment</a></div>
+    <div id="Lessons-Learned"><a href="">Lessons Learned</a></div>
+    <div id="Implement-project"><a href="">Implement project deliverables to organization</a></div>
+    <div id="Reallocate-resources"><a href="">Reallocate-resources</a></div>
+    <div id="close-procurement-contract"><a href="">Close Procurement Contract</a></div>
   </div>
 
-  <form id="login-id" class="Log">
+  <form id="login-id" class="Login-class">
     <div class="container">
       <label id="uname"><b>Username</b></label>
       <input type="text" placeholder="Enter Username" id="uname" required>
-  
+
       <label id="psw"><b>Password</b></label>
       <input type="password" placeholder="Enter Password" id="psw" required>
-  
-      <button type="submit" onclick="ShowFunctioncomare()">Login</button>
+
+      <button type="submit" onclick="ShowFunctioncompare()">Login</button>
       <label>
         <input type="checkbox" checked="checked" name="remember"> Remember me
       </label>
@@ -160,6 +161,6 @@
       <span class="psw">Forgot <a href="#">password?</a></span>
     </div>
   </form>
-  </body>
-</html>
+</body>
 
+</html>

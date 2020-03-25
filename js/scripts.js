@@ -1,6 +1,3 @@
-
-
-
 // document.getElementById('Preproject').onclick = function(){
 //     document.body.innerHTML+=
 //     `<section class="card-Preproject">
@@ -150,21 +147,69 @@ function ShowFunctionClosing(){
 
 }
 
-function ShowFunctioncomare()
+function ShowFunctioncompare()
 {
   var psw1 = document.getElementById("psw");
   var uname1 = document.getElementById("uname");
     if(uname1=="workshop" && psw1=="workshop"){
-      load("3planning.html");    }
+      // load("3planning.html");  
+      }
     else
 
     {
       load("login.html");
     }
 }
-function load(url)
+function reloadThePage(){
+  window.location.reload();
+} 
+function load()
 {
-window.location.href=url
+  var loginText=document.getElementById("logIn");
+  var loginForm=document.getElementById("login-id");
+  var  stakeholderRegister=document.getElementById("stakeholder-register");
+  var   prujectbudget=document.getElementById("pruject-budget");
+  var   workbreakgownStructure=document.getElementById("work-breakgown-structure");
+  var   prujectschedule=document.getElementById("pruject-schedule");
+  var Riskregister=document.getElementById("Risk-register");
+  var Communitcuionmatrix=document.getElementById("Communitcuion-matrix");
+  var ram=document.getElementById("ram");
+  var changerequest=document.getElementById("change-request");
+var Requirmentsmatrix=document.getElementById("Requirments-matrix");
+var testscript=document.getElementById("test-script");
+var satisfactionAssessment=document.getElementById("satisfaction-Assessment");
+var LessonsLearned=document.getElementById("Lessons-Learned");
+
+
+
+
+
+
+
+  loginForm.style.display ="none";
+  loginText.textContent="signout";
+  loginText.addEventListener('click',function(evnt){
+    reloadThePage()
+    
+    });
+  if ( loginText.textContent=="signout"){
+    stakeholderRegister.style.display="block";
+    workbreakgownStructure.style.display="block";
+    prujectbudget.style.display="block";
+    prujectschedule.style.display="block";
+    Riskregister.style.display="block";
+    Communitcuionmatrix.style.display="block";
+    ram.style.display="block";
+    changerequest.style.display="block";
+    Requirmentsmatrix.style.display="block";
+    testscript.style.display="block";
+    satisfactionAssessment.style.display="block";
+    LessonsLearned.style.display="block";
+
+  }
+
+
+
 }
 
 function ShowFunctionlogin(){
@@ -179,4 +224,3 @@ function ShowFunctionlogin(){
   }
 
 }
-

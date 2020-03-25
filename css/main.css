@@ -72,7 +72,9 @@
     padding-bottom: 24px;
   }
   
-
+#signOut{
+  display: none;
+}
    
     /* .style_prevu_kit
    {
@@ -235,55 +237,55 @@ box-sizing: border-box;
   margin: 1em;
   padding: 1em 2em;
   background-color: #00e6e6;
-  /* display: none; */
+  display: none;
 }
 #pruject-budget{ box-shadow: inset 0 0 0 2px black;
   box-sizing: border-box;
   margin: 1em;
   padding: 1em 2em;background-color: #00e6e6;
-  /* display: none; */
+  display: none;
 }
 #pruject-schedule{ box-shadow: inset 0 0 0 2px black;
   box-sizing: border-box;
   margin: 1em;
   padding: 1em 2em;background-color: #00e6e6;
-  /* display: none; */
+  display: none;
 }
 #Risk-register{ box-shadow: inset 0 0 0 2px black;
   box-sizing: border-box;
   margin: 1em;
   padding: 1em 2em;background-color: #00e6e6;
-  /* display: none; */
+  display: none;
 }
 #Communitcuion-matrix{
   box-shadow: inset 0 0 0 2px black;
   box-sizing: border-box;
   margin: 1em;
   padding: 1em 2em;background-color: #00e6e6;
-  /* display: none; */
+  display: none;
 }
 #ram{
   box-shadow: inset 0 0 0 2px black;
   box-sizing: border-box;
   margin: 1em;
   padding: 1em 2em;background-color: #00e6e6;
-  /* display: none; */
+  display: none;
 }
 #change-request{ box-shadow: inset 0 0 0 2px black;
   box-sizing: border-box;
   margin: 1em;
   padding: 1em 2em;background-color: #00e6e6;
-  /* display: none; */}
+  display: none;}
 #Requirments-matrix{ box-shadow: inset 0 0 0 2px black;
   box-sizing: border-box;
   margin: 1em;
   padding: 1em 2em;background-color: #00e6e6;
-  /* display: none; */}
+  display: none;}
 #test-script{ box-shadow: inset 0 0 0 2px black;
   box-sizing: border-box;
   margin: 1em;
   padding: 1em 2em;background-color: #00e6e6;
-  /* display: none; */}
+  display: none;}
 
 
  #Implementation-managemnet-plan{
@@ -301,12 +303,14 @@ box-sizing: border-box;
   padding: 1em 2em;
   
 }
+
 #stakeholder-managementplan{
   background: #c0c6d0;
   box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
   border: 0;
   margin: 1em;
   padding: 1em 2em;
+  display: none;
 }
 #project-charter{
   background: #c0c6d0;
@@ -314,12 +318,14 @@ box-sizing: border-box;
   border: 0;
   margin: 1em;
   padding: 1em 2em;
+  
 }
+
+
 #stakeholder-register{
-  /* display: none; */
+  display: none;
   position: relative;
-  background: #c0c6d0;
-  display: block;
+  background-color: #00e6e6;
   overflow: hidden;
   box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
   border: 0;
@@ -327,7 +333,8 @@ box-sizing: border-box;
   padding: 1em 2em;
 }
 #statmnet-of-work{
-  /* display: none; */
+  display: none;
+  
   background-color: #00e6e6;
   box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
   border: 0;
@@ -501,13 +508,13 @@ box-sizing: border-box;
   border: 0;
   margin: 1em;
   padding: 1em 2em;}
-#satisfaction-Assessment{grid-area: satisfaction-Assessment;  /* display: none; */
+#satisfaction-Assessment{grid-area: satisfaction-Assessment;  display: none;
   background-color: #00e6e6;
   box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
   border: 0;
   margin: 1em;
   padding: 1em 2em;}
-#Lessons-Learned{grid-area: Lessons-Learned;  /* display: none; */
+#Lessons-Learned{grid-area: Lessons-Learned;  display: none;
   background-color: #00e6e6;
   box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
   border: 0;
@@ -609,20 +616,12 @@ box-sizing: border-box;
 .pre-project-grid{grid-area: pre-project-grid;display: none;}
 .project-status-report-grid{grid-area: project-status-report-grid;display: none;}
 .closing-grid{grid-area: closing-grid; display: none;}
-.Login-class{grid-area: Login-class; display: auto;
+.Login-class{grid-area: Login-class;
 }
 
 
-.Login-class {
-  position: relative;
-  left: 400px;
-  /* left: 0;
-  bottom: 0;
-  top: 0; */
-width: 33%;
-
-
- border: 3px solid #f1f1f1;
+#login-id {
+display: none;
 }
 
 /* Full-width inputs */
@@ -714,5 +713,5 @@ span.psw {
 .pre-project-grid{grid-area: pre-project-grid;}
 .project-status-report-grid{grid-area: project-status-report-grid;}
 .closing-grid{grid-area: closing-grid;}
-.Login-class{grid-area: Login-class; display:none;}
+.Login-class{grid-area: Login-class; }
 }
