@@ -190,6 +190,9 @@ var Requirmentsmatrix=document.getElementById("Requirments-matrix");
 var testscript=document.getElementById("test-script");
 var satisfactionAssessment=document.getElementById("satisfaction-Assessment");
 var LessonsLearned=document.getElementById("Lessons-Learned");
+var statmnetofwork=document.getElementById("statmnet-of-work");
+
+
 
 
 
@@ -216,7 +219,7 @@ var LessonsLearned=document.getElementById("Lessons-Learned");
     testscript.style.display="block";
     satisfactionAssessment.style.display="block";
     LessonsLearned.style.display="block";
-
+    statmnetofwork.style.display="block";
   }
 
 
@@ -235,3 +238,14 @@ function ShowFunctionlogin(){
   }
 }
 
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  
+  popup.classList.toggle("show");
+}
+
+function myclickFunction() {
+  var popup = document.getElementById("myPopup");
+  
+alert();
+}

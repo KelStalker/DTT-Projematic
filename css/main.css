@@ -312,7 +312,7 @@ box-sizing: border-box;
   border: 0;
   margin: 1em;
   padding: 1em 2em;
-  display: none;
+  /* display: none; */
 }
 #project-charter{
   background: #c0c6d0;
@@ -336,7 +336,6 @@ box-sizing: border-box;
 }
 #statmnet-of-work{
   display: none;
-  
   background-color: #00e6e6;
   box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
   border: 0;
@@ -693,7 +692,58 @@ span.psw {
   float: right;
   padding-top: 16px;
 }
+/* Popup container */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
 
+/* The actual popup (appears on top) */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
 .planingGridMobile{
   text-align: center;
   box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
