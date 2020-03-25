@@ -112,7 +112,9 @@ text-align: center;
        
    }  */
  
-
+#pre-project-function{
+display: none;
+}
 
   .pre-project-grid{
     text-align: center;
