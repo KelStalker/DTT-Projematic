@@ -81,132 +81,83 @@
 //   this.className= 'planingGrid';
 //   });
 
-function ShowFunctionPreproject(){
-
-  var preprojectfunction = document.getElementById("pre-project-function");
-  var Initiation = document.getElementById("Initiation");
-  var Planning = document.getElementById("Planning");
-  var Execution = document.getElementById("Execution");
-  var Closing = document.getElementById("Closing");
-
-  if (preprojectfunction.style.display === "grid") {
-    preprojectfunction.style.display = "none";
-    Initiation.style.display = "inline";
-    Planning.style.display = "inline";
-    Execution.style.display = "inline";
-    Closing.style.display = "inline";
-
-
+function ShowFunctionLogin(){
+  var x = document.getElementById("nav-3-function");
+  
+  if (x.style.display === "none") {
+    x.style.display = "grid";
+   
+    
   } else {
-    preprojectfunction.style.display = "grid";
-    Initiation.style.display = "none";
-    Planning.style.display = "none";
-    Execution.style.display = "none";
-    Closing.style.display = "none";
+    x.style.display = "none";
+  }
+}
+function ShowFunctionPreproject(){
+ 
+  var x = document.getElementById("pre-project-function");
+  
+  if (x.style.display === "none") {
+    x.style.display = "grid";
+   
+  } else {
+    x.style.display = "none";
   }
 
 }
 
 function ShowFunctionInitiation(){
-  var Preproject = document.getElementById("Preproject");
-  var Initiation = document.getElementById("Initiation");
-  var Planning = document.getElementById("Planning");
-  var Execution = document.getElementById("Execution");
-  var Closing = document.getElementById("Closing");
-  var inintionfunction = document.getElementById("inintion-function");
+
   
-  if (inintionfunction.style.display === "grid") {
-    inintionfunction.style.display = "none";
-    Preproject.style.display = "inline";
-    Planning.style.display = "inline";
-    Execution.style.display = "inline";
-    Closing.style.display = "inline";
-
-
+  var x = document.getElementById("inintion-function");
+  
+  if (x.style.display === "none") {
+    x.style.display = "grid";
+   
+    
   } else {
-    inintionfunction.style.display = "grid";
-    Preproject.style.display = "none";
-    Planning.style.display = "none";
-    Execution.style.display = "none";
-    Closing.style.display = "none";
+    x.style.display = "none";
   }
+
 }
 
 function ShowFunctionPlanning(){
-  var planingGridfunction = document.getElementById("planingGrid-function");
-    var Initiation = document.getElementById("Initiation");
-  var Planning = document.getElementById("Planning");
-  var Execution = document.getElementById("Execution");
-  var Closing = document.getElementById("Closing");
-
-  if (planingGridfunction.style.display === "grid") {
-    planingGridfunction.style.display = "none";
-    Initiation.style.display = "inline";
-    Preproject.style.display = "inline";
-    Execution.style.display = "inline";
-    Closing.style.display = "inline";
-
-
+  var x = document.getElementById("planingGrid-function");
+  
+  if (x.style.display === "none") {
+    x.style.display = "grid";
+   
+    
   } else {
-    planingGridfunction.style.display = "grid";
-    Initiation.style.display = "none";
-    Preproject.style.display = "none";
-    Execution.style.display = "none";
-    Closing.style.display = "none";
+    x.style.display = "none";
   }
 
 }
 
-function ShowFunctionExecution(){ 
-  var projectstatusfunction = document.getElementById("project-status-function");
-
-  var Initiation = document.getElementById("Initiation");
-var Planning = document.getElementById("Planning");
-var Execution = document.getElementById("Execution");
-var Closing = document.getElementById("Closing");
-
-if (projectstatusfunction.style.display === "grid") {
-  projectstatusfunction.style.display = "none";
-  Initiation.style.display = "inline";
-  Preproject.style.display = "inline";
-  Planning.style.display = "inline";
-  Closing.style.display = "inline";
-
-
-} else {
-  projectstatusfunction.style.display = "grid";
-  Initiation.style.display = "none";
-  Preproject.style.display = "none";
-  Planning.style.display = "none";
-  Closing.style.display = "none";
-}
-
+function ShowFunctionExecution(){
+  var x = document.getElementById("project-status-function");
+  
+  if (x.style.display === "none") {
+    x.style.display = "grid";
+   
+    
+  } else {
+    x.style.display = "none";
+  }
 
 }
 function ShowFunctionClosing(){
-  var closingfunction = document.getElementById("closing-function");
+  var x = document.getElementById("closing-function");
+  
+  if (x.style.display === "none") {
+    x.style.display = "grid";
+   
+    
+  } else {
+    x.style.display = "none";
+  }
 
-  var Initiation = document.getElementById("Initiation");
-var Planning = document.getElementById("Planning");
-var Execution = document.getElementById("Execution");
-var Closing = document.getElementById("Closing");
-
-if (closingfunction.style.display === "grid") {
-  closingfunction.style.display = "none";
-  Initiation.style.display = "inline";
-  Preproject.style.display = "inline";
-  Planning.style.display = "inline";
-  Execution.style.display = "inline";
-
-
-} else {
-  closingfunction.style.display = "grid";
-  Initiation.style.display = "none";
-  Preproject.style.display = "none";
-  Planning.style.display = "none";
-  Execution.style.display = "none";
 }
-}
+
 function ShowFunctioncompare()
 {
   var psw1 = document.getElementById("psw");
@@ -282,5 +233,5 @@ function ShowFunctionlogin(){
   } else {
     x.style.display = "none";
   }
-
 }
+
