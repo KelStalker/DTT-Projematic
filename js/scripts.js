@@ -91,7 +91,7 @@ function ShowFunctionLogin(){
   } else {
     x.style.display = "none";
   }
-
+}
 function ShowFunctionPreproject(){
  
   var x = document.getElementById("pre-project-function");
@@ -234,4 +234,4 @@ function ShowFunctionlogin(){
     x.style.display = "none";
   }
 }
-}
+
