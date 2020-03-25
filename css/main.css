@@ -112,7 +112,9 @@ text-align: center;
        
    }  */
  
-
+#pre-project-function{
+display: none;
+}
 
   .pre-project-grid{
     text-align: center;
@@ -561,7 +563,7 @@ box-sizing: border-box;
   grid-template-columns: auto auto auto auto;
   grid-template-rows: auto auto auto auto auto;
   grid-template-areas:"h2-planing-id h2-planing-id h2-planing-id h2-planing-id"
-  "h3-planing-id Project-managemnet-plan Project-managemnet-plan Project-managemnet-plan"
+  "Project-managemnet-plan Project-managemnet-plan Project-managemnet-plan Project-managemnet-plan"
   "Scope-managemnet-plan Cost-managemnet-plan Schdule-managemnet-plan Risk-managemnet-plan"
   "work-breakgown-structure pruject-budget pruject-schedule Risk-register"
 "Communitcuion-managemnet-plan resource-managemnet-plan procurement-managemnet-plan procurement-managemnet-plan"
@@ -610,7 +612,8 @@ box-sizing: border-box;
     grid-template-rows: auto auto auto auto;
     grid-template-areas:
     "nav-2 logo nav-3 nav-3 nav-3"
-    "nav-4 nav-4 nav-4 nav-4  Login-class"
+    " Login-class  Login-class  Login-class  Login-class Login-class"
+    "nav-4 nav-4 nav-4 nav-4 nav-4"
     "pre-project-grid pre-project-grid pre-project-grid pre-project-grid pre-project-grid"
     "inintion-Grid inintion-Grid inintion-Grid inintion-Grid inintion-Grid"
      "planingGrid planingGrid planingGrid planingGrid planingGrid" 
@@ -729,7 +732,7 @@ span.psw {
   }
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 500px) {
   .cssGrid{
     display: grid;
     grid-template-columns: auto auto auto auto auto;
@@ -742,7 +745,7 @@ span.psw {
     "planningGridMobile planningGridMobile planningGridMobile planningGridMobile"
   ;
 }
-.nav-2{grid-area: nav-2;}
+.nav-2{grid-area: nav-2; width: 40%; background-color: yellow; }
 .nav-3{grid-area: nav-3;}
 .nav-4{grid-area: nav-4;}
 .logo{grid-area:   logo;}
