@@ -388,6 +388,7 @@ box-sizing: border-box;
   border: 0;
   margin: 1em;
   padding: 1em 2em;
+  border-radius: 20px;
 }
 #empty5{
   grid-area: empty5;
