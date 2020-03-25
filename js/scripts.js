@@ -176,4 +176,5 @@ function ShowFunctioncomare()
 function load(url)
 {
 window.location.href=url
+}
 } 
