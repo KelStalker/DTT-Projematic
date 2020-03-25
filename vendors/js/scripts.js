@@ -17,11 +17,11 @@
 
 //     document.getElementById('Initiation').onclick = function(){
 //       document.body.innerHTML+=
-//       `      <div class="inintionGrid">
+//       `      <div class="initiationGrid">
 //       <div id="project-charter"><a href=""> project-charter</a></div>
 //       <div id="stakeholder-managementplan"><a href=""> stake holder management plan</a></div>
 //       <!-- <div id="stakeholder-register"><a href=""> stakeholder-register</a></div> -->
-//       <a href="#" id="hide-inintionGrid">Hide</a>
+//       <a href="#" id="hide-initiationGrid">Hide</a>
 //   </div>      
 //    `;
 //   document.getElementById('hide-1').onclick = function(){
@@ -45,7 +45,7 @@
 //   <div id="change-managemnet-plan"><a href="#">change managemnet plan </a></div>
 //   <div id="Implementation-managemnet-plan"><a href="#">Implementation managemnet plan </a></div>
 //   <div id="Traning-managemnet-plan"><a href="#">Traning managemnet plan </a></div>
-//      <a href="#" id="hide-inintionGrid" onclick="hideFunction()">Hide</a>
+//      <a href="#" id="hide-initiationGrid" onclick="hideFunction()">Hide</a>
 // </div>   
 // `;
 
@@ -91,7 +91,7 @@ function ShowFunctionLogin(){
   } else {
     x.style.display = "none";
   }
-
+}
 function ShowFunctionPreproject(){
  
   var x = document.getElementById("pre-project-function");
@@ -108,7 +108,7 @@ function ShowFunctionPreproject(){
 function ShowFunctionInitiation(){
 
   
-  var x = document.getElementById("inintion-function");
+  var x = document.getElementById("initiation-function");
   
   if (x.style.display === "none") {
     x.style.display = "grid";
@@ -234,4 +234,4 @@ function ShowFunctionlogin(){
     x.style.display = "none";
   }
 }
-}
+
