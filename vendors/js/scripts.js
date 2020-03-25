@@ -84,23 +84,24 @@
 function ShowFunctionLogin(){
   var x = document.getElementById("nav-3-function");
   
-  if (x.style.display === "none") {
-    x.style.display = "grid";
+  if (x.style.display === "grid") {
+    x.style.display = "none";
    
     
   } else {
-    x.style.display = "none";
+    x.style.display = "grid";
   }
 }
 function ShowFunctionPreproject(){
  
   var x = document.getElementById("pre-project-function");
   
-  if (x.style.display === "none") {
-    x.style.display = "grid";
-   
-  } else {
+  if (x.style.display === "grid") {
     x.style.display = "none";
+   
+    
+  } else {
+    x.style.display = "grid";
   }
 
 }
@@ -109,13 +110,12 @@ function ShowFunctionInitiation(){
 
   
   var x = document.getElementById("inintion-function");
-  
-  if (x.style.display === "none") {
-    x.style.display = "grid";
+  if (x.style.display === "grid") {
+    x.style.display = "none";
    
     
   } else {
-    x.style.display = "none";
+    x.style.display = "grid";
   }
 
 }
@@ -123,12 +123,12 @@ function ShowFunctionInitiation(){
 function ShowFunctionPlanning(){
   var x = document.getElementById("planingGrid-function");
   
-  if (x.style.display === "none") {
-    x.style.display = "grid";
+  if (x.style.display === "grid") {
+    x.style.display = "none";
    
     
   } else {
-    x.style.display = "none";
+    x.style.display = "grid";
   }
 
 }
@@ -136,24 +136,24 @@ function ShowFunctionPlanning(){
 function ShowFunctionExecution(){
   var x = document.getElementById("project-status-function");
   
-  if (x.style.display === "none") {
-    x.style.display = "grid";
+  if (x.style.display === "grid") {
+    x.style.display = "none";
    
     
   } else {
-    x.style.display = "none";
+    x.style.display = "grid";
   }
 
 }
 function ShowFunctionClosing(){
   var x = document.getElementById("closing-function");
   
-  if (x.style.display === "none") {
-    x.style.display = "grid";
+  if (x.style.display === "grid") {
+    x.style.display = "none";
    
     
   } else {
-    x.style.display = "none";
+    x.style.display = "grid";
   }
 
 }
@@ -190,6 +190,9 @@ var Requirmentsmatrix=document.getElementById("Requirments-matrix");
 var testscript=document.getElementById("test-script");
 var satisfactionAssessment=document.getElementById("satisfaction-Assessment");
 var LessonsLearned=document.getElementById("Lessons-Learned");
+var statmnetofwork=document.getElementById("statmnet-of-work");
+
+
 
 
 
@@ -216,7 +219,7 @@ var LessonsLearned=document.getElementById("Lessons-Learned");
     testscript.style.display="block";
     satisfactionAssessment.style.display="block";
     LessonsLearned.style.display="block";
-
+    statmnetofwork.style.display="block";
   }
 
 
@@ -235,3 +238,14 @@ function ShowFunctionlogin(){
   }
 }
 
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  
+  popup.classList.toggle("show");
+}
+
+function myclickFunction() {
+  var popup = document.getElementById("myPopup");
+  
+alert();
+}
