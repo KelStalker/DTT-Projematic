@@ -28,7 +28,7 @@ function ShowFunctionPreproject(){
 function ShowFunctionInitiation(){
 
   
-  var x = document.getElementById("inintion-function");
+  var x = document.getElementById("initiation-function");
   if (x.style.display === "grid") {
     x.style.display = "none";
    
@@ -159,10 +159,9 @@ var testscript=document.getElementById("test-script");
 var satisfactionAssessment=document.getElementById("satisfaction-Assessment");
 var LessonsLearned=document.getElementById("Lessons-Learned");
 var statmnetofwork=document.getElementById("statmnet-of-work");
-
-
-
-
+var formcontainerinintion=document.getElementById("formcontainerinintion");
+var formcontainerplaning=document.getElementById("formcontainerplaning");
+var formcontainerclosing=document.getElementById("formcontainerclosing");
 
 
 
@@ -174,7 +173,7 @@ var statmnetofwork=document.getElementById("statmnet-of-work");
     reloadThePage()
     
     });
-  if ( loginText.textContent=="signout"){
+  if (loginText.textContent=="signout"){
     stakeholderRegister.style.display="block";
     workbreakgownStructure.style.display="block";
     prujectbudget.style.display="block";
@@ -188,8 +187,10 @@ var statmnetofwork=document.getElementById("statmnet-of-work");
     satisfactionAssessment.style.display="block";
     LessonsLearned.style.display="block";
     statmnetofwork.style.display="block";
+    formcontainerinintion.style.display="none";
+    formcontainerplaning.style.display="none";
+    formcontainerclosing.style.display="none"
   }
-
 
 
 }
@@ -208,26 +209,16 @@ function ShowFunctionlogin(){
 }
 
 
-function myPopupFunction() {
-  var popup = document.getElementById("myPopup");
+function myPopupFunctioninintion() {
+  document.getElementById("formcontainerinintion").style.display = "block";
 
-  popup.classList.toggle("show");
+}
+function myPopupFunctionplaning() {
+  document.getElementById("formcontainerplaning").style.display = "grid";
+}
+function myPopupFunctionclosing(){
+  document.getElementById("formcontainerclosing").style.display = "grid";
+
 }
 
-// function myclickFunction() {
-//   var popup = document.getElementById("myPopup");
-  
-// alert();
-// }
 
-$(".card").on("click", function(e) {
-  e.preventDefault();
-  $(".card").removeClass("active");
-  $(this).addClass("active");
-  $(".form")
-    .stop()
-    .slideUp();
-  $(".form")
-    .delay(300)
-    .slideDown();
-});

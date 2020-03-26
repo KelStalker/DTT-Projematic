@@ -1,355 +1,126 @@
 * {
-    box-sizing: border-box;
-    height: auto;
-    width: auto;
-  }
-
-
-  @import url(https://fonts.googleapis.com/css?family=Raleway);
-  body {
-    margin: 0px;
-    font-family: 'Jura';
-    background: #fcf7f8;
-  }
-
-  .nav-2 {
-    background: #003399;
-    font-family: 'Jura';
-    padding: 20px;
-    text-align: left;
-  }
- 
-   .nav-3{
-    background: #003399;
-    text-align: right;
-    font-family: 'Jura';
-    padding: 20px;
-  }
-
-  .nav-4{
-    background: #003399;
-    text-align: center;
-    font-family: 'Jura';
-    padding: 20px;
-  }
-  .nav-4 ul li {
-    /* color: whitesmoke; */
-    display: inline;
-  } 
-  
-  .nav-3 ul li{
-    display: inline;
-  }
-  .nav-2 ul li{
-    display: inline;
-  }
-
-  .display-4{
-    text-align: center;
-  }
-
-  .logo {
-    background: #003399;
-    text-align: right;
-    font-family: 'Jura';
-    padding: 20px;
-  }
-  .logo p{
-    text-align: right;
-    font-family: 'Jura';
-    font-size: large;
-    font: outline;
-    color: cornsilk;
-  }
-
-  .link-2 {
-    transition: 0.6s;
-    color: #ffffff;
-    font-size: 20px;
-    text-decoration: none;
-    border-right: 2px dotted transparent;
-    padding: 30px 8px 0 10px;
-    margin: 0 10px;
-  }
-  .link-2:hover {
-    border-right: 2px dotted #ffffff;
-    padding-bottom: 24px;
-  }
-  
-#signOut{
-  display: none;
+  box-sizing: border-box;
+  height: auto;
+  width: auto;
 }
-   
-    /* .style_prevu_kit
-   {
-       display:inline-block;
-       border:0;
-       width:196px;
-       margin: auto;
-       padding-left: 20px;
-       padding-right: 20px;
-       height:210px;
-       position: relative;
-       -webkit-transition: all 200ms ease-in;
-       -webkit-transform: scale(1); 
-       -ms-transition: all 200ms ease-in;
-       -ms-transform: scale(1); 
-       -moz-transition: all 200ms ease-in;
-       -moz-transform: scale(1);
-       transition: all 200ms ease-in;
-       transform: scale(1);   
-       margin-top: 40px;
-text-align: center;
-   } 
-    .style_prevu_kit:hover
-   {
-       box-shadow: 0px 0px 150px #000000;
-       z-index: 2;
-       -webkit-transition: all 200ms ease-in;
-       -webkit-transform: scale(1.5);
-       -ms-transition: all 200ms ease-in;
-       -ms-transform: scale(1.5);   
-       -moz-transition: all 200ms ease-in;
-       -moz-transform: scale(1.5);
-       transition: all 200ms ease-in;
-       transform: scale(1.1);
-       
-   }  */
+
+
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+body {
+  margin: 0px;
+  font-family: 'Jura';
+  background: #fcf7f8;
+}
+
+.nav-2 {
+  background: #003399;
+  font-family: 'Jura';
+  padding: 20px;
+  text-align: left;
+}
+
+ .nav-3{
+  background: #003399;
+  text-align: right;
+  font-family: 'Jura';
+  padding: 20px;
+}
+
+.nav-4{
+  background: #003399;
+  text-align: center;
+  font-family: 'Jura';
+  padding: 20px;
+}
+.nav-4 ul li {
+  /* color: whitesmoke; */
+  display: inline;
+} 
+
+.nav-3 ul li{
+  display: inline;
+}
+.nav-2 ul li{
+  display: inline;
+}
+
+.display-4{
+  text-align: center;
+}
+
+.logo {
+  background: #003399;
+  text-align: right;
+  font-family: 'Jura';
+  padding: 20px;
+}
+.logo p{
+  text-align: right;
+  font-family: 'Jura';
+  font-size: large;
+  font: outline;
+  color: cornsilk;
+}
+
+.link-2 {
+  transition: 0.6s;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  border-right: 2px dotted transparent;
+  padding: 30px 8px 0 10px;
+  margin: 0 10px;
+}
+.link-2:hover {
+  border-right: 2px dotted #ffffff;
+  padding-bottom: 24px;
+}
+
+#signOut{
+display: none;
+}
  
+  /* .style_prevu_kit
+ {
+     display:inline-block;
+     border:0;
+     width:196px;
+     margin: auto;
+     padding-left: 20px;
+     padding-right: 20px;
+     height:210px;
+     position: relative;
+     -webkit-transition: all 200ms ease-in;
+     -webkit-transform: scale(1); 
+     -ms-transition: all 200ms ease-in;
+     -ms-transform: scale(1); 
+     -moz-transition: all 200ms ease-in;
+     -moz-transform: scale(1);
+     transition: all 200ms ease-in;
+     transform: scale(1);   
+     margin-top: 40px;
+text-align: center;
+ } 
+  .style_prevu_kit:hover
+ {
+     box-shadow: 0px 0px 150px #000000;
+     z-index: 2;
+     -webkit-transition: all 200ms ease-in;
+     -webkit-transform: scale(1.5);
+     -ms-transition: all 200ms ease-in;
+     -ms-transform: scale(1.5);   
+     -moz-transition: all 200ms ease-in;
+     -moz-transform: scale(1.5);
+     transition: all 200ms ease-in;
+     transform: scale(1.1);
+     
+ }  */
+
 #pre-project-function{
 display: none;
 }
 
-  .pre-project-grid{
-    text-align: center;
-    box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
-    border: 0;
-    box-sizing: border-box;
-    margin: 1em;
-    padding: 1em 2em;
-    display: grid;
-  }
-  #business-Case{
-    box-shadow: inset 0 0 0 2px black;
-    background: #c0c6d0;
-    box-sizing: border-box;
-    margin: 1em;
-    padding: 1em 2em;
-  }
-   /* .section-boxs{
-background-color: rgb(79, 106, 163);
-    text-align: center;
-   }
-  .section-boxs  li a {
-    text-align: center;
-    color: cornsilk;
-   display: inline-block;
-  }
-.section-boxs ul li a :hover{
-  background-color: rgb(50, 81, 150);
-
-
-} */
-
-.jumbotron{
-  background: #fcf7f8;
-}
-#Project-managemnet-plan {
-  background: #c0c6d0;
-  box-shadow: inset 0 0 0 2px black;
-  box-sizing: border-box;
-  margin: 1em;
-  padding: 1em 2em;
- }
-
-#Scope-managemnet-plan {
-  background: #c0c6d0;
-  box-shadow: inset 0 0 0 2px black;
-  box-sizing: border-box;
-  margin: 1em;
-  padding: 1em 2em;
-}
-
-#Cost-managemnet-plan {
-  background: #c0c6d0;
-  box-shadow: inset 0 0 0 2px black;
-  box-sizing: border-box;
-  margin: 1em;
-  padding: 1em 2em;
- }
-
-#Schdule-managemnet-plan {
-  background: #c0c6d0;
-  box-shadow: inset 0 0 0 2px black;
-  box-sizing: border-box;
-  margin: 1em;
-  padding: 1em 2em;
- }  
-#Risk-managemnet-plan{
-  background: #c0c6d0;
-  box-shadow: inset 0 0 0 2px black;
-  box-sizing: border-box;
-  margin: 1em;
-  padding: 1em 2em;
- }  
- 
-
-#Communitcuion-managemnet-plan{
-  background: #c0c6d0;
-  box-shadow: inset 0 0 0 2px black;
-  box-sizing: border-box;
-  margin: 1em;
-  padding: 1em 2em;
-}
-#resource-managemnet-plan{
-  background: #c0c6d0;
-  box-shadow: inset 0 0 0 2px black;
-  box-sizing: border-box;
-  margin: 1em;
-  padding: 1em 2em;
-
-}#procurement-managemnet-plan {
-  background: #c0c6d0;
-box-shadow: inset 0 0 0 2px black;
-box-sizing: border-box;
-  margin: 1em;
-  padding: 1em 2em;
-}
- #Quality-managemnet-plan{
-  background: #c0c6d0;
-  box-shadow: inset 0 0 0 2px black;
-  box-sizing: border-box;
-  margin: 1em;
-  padding: 1em 2em;
- }
-
-#Test-managemnet-plan{
-  background: #c0c6d0;
-  box-shadow: inset 0 0 0 2px black;
-  box-sizing: border-box;
-  margin: 1em;
-  padding: 1em 2em;
-
-}
-#change-managemnet-plan{
-  background: #c0c6d0;
-  box-shadow: inset 0 0 0 2px black;
-  box-sizing: border-box;
-  margin: 1em;
-  padding: 1em 2em;
-
-}
-#work-breakgown-structure{ 
-  background: #c0c6d0;
-  box-shadow: inset 0 0 0 2px black;
-  box-sizing: border-box;
-  margin: 1em;
-  padding: 1em 2em;
-  background-color: #00e6e6;
-  display: none;
-}
-#pruject-budget{ box-shadow: inset 0 0 0 2px black;
-  box-sizing: border-box;
-  margin: 1em;
-  padding: 1em 2em;background-color: #00e6e6;
-  display: none;
-}
-#pruject-schedule{ box-shadow: inset 0 0 0 2px black;
-  box-sizing: border-box;
-  margin: 1em;
-  padding: 1em 2em;background-color: #00e6e6;
-  display: none;
-}
-#Risk-register{ box-shadow: inset 0 0 0 2px black;
-  box-sizing: border-box;
-  margin: 1em;
-  padding: 1em 2em;background-color: #00e6e6;
-  display: none;
-}
-#Communitcuion-matrix{
-  box-shadow: inset 0 0 0 2px black;
-  box-sizing: border-box;
-  margin: 1em;
-  padding: 1em 2em;background-color: #00e6e6;
-  display: none;
-}
-#ram{
-  box-shadow: inset 0 0 0 2px black;
-  box-sizing: border-box;
-  margin: 1em;
-  padding: 1em 2em;background-color: #00e6e6;
-  display: none;
-}
-#change-request{ box-shadow: inset 0 0 0 2px black;
-  box-sizing: border-box;
-  margin: 1em;
-  padding: 1em 2em;background-color: #00e6e6;
-  display: none;}
-#Requirments-matrix{ box-shadow: inset 0 0 0 2px black;
-  box-sizing: border-box;
-  margin: 1em;
-  padding: 1em 2em;background-color: #00e6e6;
-  display: none;}
-#test-script{ box-shadow: inset 0 0 0 2px black;
-  box-sizing: border-box;
-  margin: 1em;
-  padding: 1em 2em;background-color: #00e6e6;
-  display: none;}
-
-
- #Implementation-managemnet-plan{
-  background: #c0c6d0; 
-  box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
-  border: 0;
-  margin: 1em;
-  padding: 1em 2em;
-        }      
-#Traning-managemnet-plan{
-  background: #c0c6d0;
-  box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
-  border: 0;
-  margin: 1em;
-  padding: 1em 2em;
-  
-}
-
-#stakeholder-managementplan{
-  background: #c0c6d0;
-  box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
-  border: 0;
-  margin: 1em;
-  padding: 1em 2em;
-  /* display: none; */
-}
-#project-charter{
-  background: #c0c6d0;
-  box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
-  border: 0;
-  margin: 1em;
-  padding: 1em 2em;
-  
-}
-
-#stakeholder-register{
-  display: none;
-  position: relative;
-  background-color: #00e6e6;
-  overflow: hidden;
-  box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
-  border: 0;
-  margin: 1em;
-  padding: 1em 2em;
-}
-#statmnet-of-work{
-  display: none;
-  background-color: #00e6e6;
-  box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
-  border: 0;
-  margin: 1em;
-  padding: 1em 2em;
-}
-
-.project-status-report-grid{
+.pre-project-grid{
   text-align: center;
   box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
   border: 0;
@@ -357,55 +128,284 @@ box-sizing: border-box;
   margin: 1em;
   padding: 1em 2em;
   display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
-  grid-template-areas:"h2-planing-id h2-planing-id h2-planing-id"
-  "h3-planing-id h3-planing-id h3-planing-id"
-  "project-status-report project-status-report project-status-report"
-  "Execution-1 empty5 Execution-2""empty6 Execution-3 empty7"
-  "Execution-4 Execution-5 Execution-6"
-  "Execution-7 Execution-8 empty8"
-  "empty9 Execution-9 empty10"
-  "empty11 empty11 Execution-10"
+}
+#business-Case{
+  box-shadow: inset 0 0 0 2px black;
+  background: #c0c6d0;
+  box-sizing: border-box;
+  margin: 1em;
+  padding: 1em 2em;
+}
+ /* .section-boxs{
+background-color: rgb(79, 106, 163);
+  text-align: center;
+ }
+.section-boxs  li a {
+  text-align: center;
+  color: cornsilk;
+ display: inline-block;
+}
+.section-boxs ul li a :hover{
+background-color: rgb(50, 81, 150);
+
+
+} */
+
+.jumbotron{
+background: #fcf7f8;
+}
+#Project-managemnet-plan {
+background: #c0c6d0;
+box-shadow: inset 0 0 0 2px black;
+box-sizing: border-box;
+margin: 1em;
+padding: 1em 2em;
+}
+
+#Scope-managemnet-plan {
+background: #c0c6d0;
+box-shadow: inset 0 0 0 2px black;
+box-sizing: border-box;
+margin: 1em;
+padding: 1em 2em;
+}
+
+#Cost-managemnet-plan {
+background: #c0c6d0;
+box-shadow: inset 0 0 0 2px black;
+box-sizing: border-box;
+margin: 1em;
+padding: 1em 2em;
+}
+
+#Schdule-managemnet-plan {
+background: #c0c6d0;
+box-shadow: inset 0 0 0 2px black;
+box-sizing: border-box;
+margin: 1em;
+padding: 1em 2em;
+}  
+#Risk-managemnet-plan{
+background: #c0c6d0;
+box-shadow: inset 0 0 0 2px black;
+box-sizing: border-box;
+margin: 1em;
+padding: 1em 2em;
+}  
+
+
+#Communitcuion-managemnet-plan{
+background: #c0c6d0;
+box-shadow: inset 0 0 0 2px black;
+box-sizing: border-box;
+margin: 1em;
+padding: 1em 2em;
+}
+#resource-managemnet-plan{
+background: #c0c6d0;
+box-shadow: inset 0 0 0 2px black;
+box-sizing: border-box;
+margin: 1em;
+padding: 1em 2em;
+
+}#procurement-managemnet-plan {
+background: #c0c6d0;
+box-shadow: inset 0 0 0 2px black;
+box-sizing: border-box;
+margin: 1em;
+padding: 1em 2em;
+}
+#Quality-managemnet-plan{
+background: #c0c6d0;
+box-shadow: inset 0 0 0 2px black;
+box-sizing: border-box;
+margin: 1em;
+padding: 1em 2em;
+}
+
+#Test-managemnet-plan{
+background: #c0c6d0;
+box-shadow: inset 0 0 0 2px black;
+box-sizing: border-box;
+margin: 1em;
+padding: 1em 2em;
+
+}
+#change-managemnet-plan{
+background: #c0c6d0;
+box-shadow: inset 0 0 0 2px black;
+box-sizing: border-box;
+margin: 1em;
+padding: 1em 2em;
+
+}
+#work-breakgown-structure{ 
+background: #c0c6d0;
+box-shadow: inset 0 0 0 2px black;
+box-sizing: border-box;
+margin: 1em;
+padding: 1em 2em;
+background-color: #00e6e6;
+display: none;
+}
+#pruject-budget{ box-shadow: inset 0 0 0 2px black;
+box-sizing: border-box;
+margin: 1em;
+padding: 1em 2em;background-color: #00e6e6;
+display: none;
+}
+#pruject-schedule{ box-shadow: inset 0 0 0 2px black;
+box-sizing: border-box;
+margin: 1em;
+padding: 1em 2em;background-color: #00e6e6;
+display: none;
+}
+#Risk-register{ box-shadow: inset 0 0 0 2px black;
+box-sizing: border-box;
+margin: 1em;
+padding: 1em 2em;background-color: #00e6e6;
+display: none;
+}
+#Communitcuion-matrix{
+box-shadow: inset 0 0 0 2px black;
+box-sizing: border-box;
+margin: 1em;
+padding: 1em 2em;background-color: #00e6e6;
+display: none;
+}
+#ram{
+box-shadow: inset 0 0 0 2px black;
+box-sizing: border-box;
+margin: 1em;
+padding: 1em 2em;background-color: #00e6e6;
+display: none;
+}
+#change-request{ box-shadow: inset 0 0 0 2px black;
+box-sizing: border-box;
+margin: 1em;
+padding: 1em 2em;background-color: #00e6e6;
+display: none;}
+#Requirments-matrix{ box-shadow: inset 0 0 0 2px black;
+box-sizing: border-box;
+margin: 1em;
+padding: 1em 2em;background-color: #00e6e6;
+display: none;}
+#test-script{ box-shadow: inset 0 0 0 2px black;
+box-sizing: border-box;
+margin: 1em;
+padding: 1em 2em;background-color: #00e6e6;
+display: none;}
+
+
+#Implementation-managemnet-plan{
+background: #c0c6d0; 
+box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+border: 0;
+margin: 1em;
+padding: 1em 2em;
+      }      
+#Traning-managemnet-plan{
+background: #c0c6d0;
+box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+border: 0;
+margin: 1em;
+padding: 1em 2em;
+
+}
+
+#stakeholder-managementplan{
+background: #c0c6d0;
+box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+border: 0;
+margin: 1em;
+padding: 1em 2em;
+/* display: none; */
+}
+#project-charter{
+background: #c0c6d0;
+box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+border: 0;
+margin: 1em;
+padding: 1em 2em;
+
+}
+
+#stakeholder-register{
+display: none;
+position: relative;
+background-color: #00e6e6;
+overflow: hidden;
+box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+border: 0;
+margin: 1em;
+padding: 1em 2em;
+}
+#statmnet-of-work{
+display: none;
+background-color: #00e6e6;
+box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+border: 0;
+margin: 1em;
+padding: 1em 2em;
+}
+
+.project-status-report-grid{
+text-align: center;
+box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+border: 0;
+box-sizing: border-box;
+margin: 1em;
+padding: 1em 2em;
+display: grid;
+grid-template-columns: auto auto auto;
+grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
+grid-template-areas:"h2-planing-id h2-planing-id h2-planing-id"
+"h3-planing-id h3-planing-id h3-planing-id"
+"project-status-report project-status-report project-status-report"
+"Execution-1 empty5 Execution-2""empty6 Execution-3 empty7"
+"Execution-4 Execution-5 Execution-6"
+"Execution-7 Execution-8 empty8"
+"empty9 Execution-9 empty10"
+"empty11 empty11 Execution-10"
 }
 #h2-planing-id{
-  grid-area: h2-planing-id;
+grid-area: h2-planing-id;
 }
 #h3-planing-id{
-  grid-area: h3-planing-id;
-  background: #c0c6d0;
-  box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
-  border: 0;
-  margin: 1em;
-  padding: 1em 2em;
+grid-area: h3-planing-id;
+background: #c0c6d0;
+box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+border: 0;
+margin: 1em;
+padding: 1em 2em;
 }
 #project-status-report{
-  grid-area: project-status-report;
-  background: #c0c6d0;
-  box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
-  border: 0;
-  margin: 1em;
-  padding: 1em 2em;
+grid-area: project-status-report;
+background: #c0c6d0;
+box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+border: 0;
+margin: 1em;
+padding: 1em 2em;
 }
 #Execution-1{
-  grid-area: Execution-1;
-  background: #c0c6d0;
-  box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
-  border: 0;
-  margin: 1em;
-  padding: 1em 2em;
-  border-radius: 20px;
+grid-area: Execution-1;
+background: #c0c6d0;
+box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+border: 0;
+margin: 1em;
+padding: 1em 2em;
+border-radius: 20px;
 }
 #empty5{
-  grid-area: empty5;
+grid-area: empty5;
 }
 #Execution-2{
-  grid-area: Execution-2;
-  background: #c0c6d0;
-  box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
-  border: 0;
-  margin: 1em;
-  padding: 1em 2em;
+grid-area: Execution-2;
+background: #c0c6d0;
+box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+border: 0;
+margin: 1em;
+padding: 1em 2em;
 }
 #empty6{grid-area: empty6;}
 #empty7{grid-area: empty7;}
@@ -415,81 +415,81 @@ box-sizing: border-box;
 #empty11{grid-area: empty11;}
 
 #Execution-3{
-  grid-area: Execution-3;
-  background: #c0c6d0;
-  box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
-  border: 0;
-  margin: 1em;
-  padding: 1em 2em;
+grid-area: Execution-3;
+background: #c0c6d0;
+box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+border: 0;
+margin: 1em;
+padding: 1em 2em;
 }
 #Execution-4{
-  grid-area: Execution-4;
-  background: #c0c6d0;
-  box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
-  border: 0;
-  margin: 1em;
-  padding: 1em 2em;
+grid-area: Execution-4;
+background: #c0c6d0;
+box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+border: 0;
+margin: 1em;
+padding: 1em 2em;
 }
 #Execution-5{
-  grid-area: Execution-5;
-  background: #c0c6d0;
-  box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
-  border: 0;
-  margin: 1em;
-  padding: 1em 2em;
+grid-area: Execution-5;
+background: #c0c6d0;
+box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+border: 0;
+margin: 1em;
+padding: 1em 2em;
 }
 #Execution-6{
-  grid-area: Execution-6;
-  background: #c0c6d0;
-  box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
-  border: 0;
-  margin: 1em;
-  padding: 1em 2em;
+grid-area: Execution-6;
+background: #c0c6d0;
+box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+border: 0;
+margin: 1em;
+padding: 1em 2em;
 }
 #Execution-7{
-  grid-area: Execution-7;
-  background: #c0c6d0;
-  box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
-  border: 0;
-  margin: 1em;
-  padding: 1em 2em;
+grid-area: Execution-7;
+background: #c0c6d0;
+box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+border: 0;
+margin: 1em;
+padding: 1em 2em;
 }
 #Execution-8{
-  grid-area: Execution-8;
-  background: #c0c6d0;
-  box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
-  border: 0;
-  margin: 1em;
-  padding: 1em 2em;
+grid-area: Execution-8;
+background: #c0c6d0;
+box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+border: 0;
+margin: 1em;
+padding: 1em 2em;
 }
 #Execution-9{
-  grid-area: Execution-9;
-  background: #c0c6d0;
-  box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
-  border: 0;
-  margin: 1em;
-  padding: 1em 2em;
+grid-area: Execution-9;
+background: #c0c6d0;
+box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+border: 0;
+margin: 1em;
+padding: 1em 2em;
 }
 #Execution-10{
-  grid-area: Execution-10;
-  background: #c0c6d0;
-  box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
-  border: 0;
-  margin: 1em;
-  padding: 1em 2em;
+grid-area: Execution-10;
+background: #c0c6d0;
+box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+border: 0;
+margin: 1em;
+padding: 1em 2em;
 }
 .inintion-Grid{
-  text-align: center;
-  box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
-  border: 0;
-  box-sizing: border-box;
-  margin: 1em;
-  padding: 1em 2em;
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: auto auto auto auto auto;
-  grid-template-areas:"h2-inintion-id""h3-inintion-id""project-charter""stakeholder-managementplan""initiationpopup"
-  "stakeholder-register""statmnet-of-work"
+text-align: center;
+box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+border: 0;
+box-sizing: border-box;
+margin: 1em;
+padding: 1em 2em;
+display: grid;
+grid-template-columns: auto;
+grid-template-rows: auto auto auto auto auto;
+grid-template-areas:"h2-inintion-id""h3-inintion-id""project-charter""stakeholder-managementplan""initiationpopup"
+"stakeholder-register""statmnet-of-work"
 }
 #project-charter{grid-area: project-charter;}
 #stakeholder-managementplan{grid-area: stakeholder-managementplan;}
@@ -500,78 +500,79 @@ box-sizing: border-box;
 #initiationpopup{grid-area: initiationpopup;}
 
 .closing-grid{
-  text-align: center;
-  box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
-  border: 0;
-  box-sizing: border-box;
-  margin: 1em;
-  padding: 1em 2em;
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: auto auto auto auto auto auto;
-  grid-template-areas:"h2-closing-id""h3-closing-id""final-project-report""satisfaction-Assessment"
-  "Lessons-Learned""Implement-project""Reallocate-resources""close-procurement-contract"
+text-align: center;
+box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+border: 0;
+box-sizing: border-box;
+margin: 1em;
+padding: 1em 2em;
+display: grid;
+grid-template-columns: auto;
+grid-template-rows: auto auto auto auto auto auto;
+grid-template-areas:"h2-closing-id""h3-closing-id""final-project-report""form-closing-popup""satisfaction-Assessment"
+"Lessons-Learned""Implement-project""Reallocate-resources""close-procurement-contract"
 }
+.form-closing-popup{grid-area: form-closing-popup;}
 #h2-closing-id{grid-area: h2-closing-id;}
 #h3-closing-id{grid-area: h3-closing-id;}
 #final-project-report{
-  grid-area: final-project-report;  
-  box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
-  background: #c0c6d0;
-  border: 0;
-  margin: 1em;
-  padding: 1em 2em;}
+grid-area: final-project-report;  
+box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+background: #c0c6d0;
+border: 0;
+margin: 1em;
+padding: 1em 2em;}
 #satisfaction-Assessment{grid-area: satisfaction-Assessment;  display: none;
-  background-color: #00e6e6;
-  box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
-  border: 0;
-  margin: 1em;
-  padding: 1em 2em;}
+background-color: #00e6e6;
+box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+border: 0;
+margin: 1em;
+padding: 1em 2em;}
 #Lessons-Learned{grid-area: Lessons-Learned;  display: none;
-  background-color: #00e6e6;
-  box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
-  border: 0;
-  margin: 1em;
-  padding: 1em 2em;}
+background-color: #00e6e6;
+box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+border: 0;
+margin: 1em;
+padding: 1em 2em;}
 
 #Implement-project{
-  grid-area: Implement-project;
-  background: #c0c6d0;
-  box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
-  border: 0;
-  margin: 1em;
-  padding: 1em 2em;}
+grid-area: Implement-project;
+background: #c0c6d0;
+box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+border: 0;
+margin: 1em;
+padding: 1em 2em;}
 #Reallocate-resources{
-  grid-area: Reallocate-resources;
-  background: #c0c6d0;
-  box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
-  border: 0;
-  margin: 1em;
-  padding: 1em 2em;}
+grid-area: Reallocate-resources;
+background: #c0c6d0;
+box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+border: 0;
+margin: 1em;
+padding: 1em 2em;}
 #close-procurement-contract{
-  grid-area: close-procurement-contract;
-  background: #c0c6d0;
-  box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
-  border: 0;
-  margin: 1em;
-  padding: 1em 2em;}
+grid-area: close-procurement-contract;
+background: #c0c6d0;
+box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+border: 0;
+margin: 1em;
+padding: 1em 2em;}
 
 .planingGrid{
 
-  text-align: center;
-  box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
-  border: 0;
-  box-sizing: border-box;
-  margin: 1em;
-  padding: 1em 2em;
-  display: grid;
-  grid-template-columns: auto auto auto auto ;
-  grid-template-rows: auto auto auto auto auto;
-  grid-template-areas:"h2-planing-id h2-planing-id h2-planing-id h2-planing-id"
-  "Project-managemnet-plan Project-managemnet-plan Project-managemnet-plan Project-managemnet-plan"
-  "Scope-managemnet-plan Cost-managemnet-plan Schdule-managemnet-plan Risk-managemnet-plan"
-  "planinngpopup planinngpopup planinngpopup planinngpopup"
-  "work-breakgown-structure pruject-budget pruject-schedule Risk-register"
+text-align: center;
+box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+border: 0;
+box-sizing: border-box;
+margin: 1em;
+padding: 1em 2em;
+display: grid;
+grid-template-columns: auto auto auto auto ;
+grid-template-rows: auto auto auto auto auto;
+grid-template-areas:"h2-planing-id h2-planing-id h2-planing-id h2-planing-id"
+"Project-managemnet-plan Project-managemnet-plan Project-managemnet-plan Project-managemnet-plan"
+"Scope-managemnet-plan Cost-managemnet-plan Schdule-managemnet-plan Risk-managemnet-plan"
+"planinngpopup planinngpopup planinngpopup planinngpopup"
+"work-breakgown-structure pruject-budget pruject-schedule Risk-register"
 "Communitcuion-managemnet-plan resource-managemnet-plan procurement-managemnet-plan procurement-managemnet-plan"
 "Communitcuion-matrix ram empty empty1"
 "Quality-managemnet-plan Test-managemnet-plan change-managemnet-plan change-managemnet-plan"
@@ -612,22 +613,22 @@ box-sizing: border-box;
 #planinngpopup{grid-area: planinngpopup;}
 
 .cssGrid{
-    display: grid;
-    
-    grid-template-columns: auto auto auto auto 20vw;
-    grid-template-rows: auto auto auto auto 1fr;
-    grid-template-areas:
-    "nav-2 logo nav-3 nav-3 nav-3"
-    " container container container container container"
-    "jumbotron jumbotron jumbotron jumbotron jumbotron"
-    "nav-4 nav-4 nav-4 nav-4 nav-4"
-    "pre-project-grid pre-project-grid pre-project-grid pre-project-grid pre-project-grid"
-    "inintion-Grid inintion-Grid inintion-Grid inintion-Grid inintion-Grid"
-     "planingGrid planingGrid planingGrid planingGrid planingGrid" 
-     "project-status-report-grid project-status-report-grid project-status-report-grid project-status-report-grid project-status-report-grid"
-      "closing-grid closing-grid closing-grid closing-grid closing-grid"
-      "footer footer footer footer footer"
-  ;
+  display: grid;
+  
+  grid-template-columns: auto auto auto auto 20vw;
+  grid-template-rows: auto auto auto auto 1fr;
+  grid-template-areas:
+  "nav-2 logo nav-3 nav-3 nav-3"
+  " container container container container container"
+  "jumbotron jumbotron jumbotron jumbotron jumbotron"
+  "nav-4 nav-4 nav-4 nav-4 nav-4"
+  "pre-project-grid pre-project-grid pre-project-grid pre-project-grid pre-project-grid"
+  "inintion-Grid inintion-Grid inintion-Grid inintion-Grid inintion-Grid"
+   "planingGrid planingGrid planingGrid planingGrid planingGrid" 
+   "project-status-report-grid project-status-report-grid project-status-report-grid project-status-report-grid project-status-report-grid"
+    "closing-grid closing-grid closing-grid closing-grid closing-grid"
+    "footer footer footer footer footer"
+;
 }
 .nav-2{grid-area: nav-2;}
 .nav-3{grid-area: nav-3;}
@@ -643,163 +644,207 @@ box-sizing: border-box;
 .footer{grid-area: footer;}
 
 .footer{
-  position: relative;
-  width: 100%;
-  padding-bottom: 0;
-  text-align: center;
+position: relative;
+width: 100%;
+margin-top: 10px;
+padding-bottom: 0;
+text-align: center;
+background: #003399;
+color: white;
+
 }
 #logIn{
-  max-width: 670px;
-	margin: 2em auto;
-	padding: 4em;
-	text-align: center 
+max-width: 670px;
+margin: 2em auto;
+padding: 4em;
+text-align: center 
 }
 #login-id {
 display: none;
 }
 
-.main{
-  cursor: default;
-  position: relative;
-  width: 320px;
-  height: 560px;
-  margin: 0 auto;
-  text-align: c;
 
-}
-.submit-login{
-  background-color: #003399;
-  color: #fcf7f8;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-  cursor: pointer;
-}
-/* Add a hover effect for buttons */
-.submit-login:hover {
-  opacity: 0.8;
-}
-
-/* Add padding to containers */
-.container {
-
-  position: relative;
-  background-image: url( '../images/img3.jpeg' );
-  background-size: cover; 
-  background-repeat: no-repeat;
-  background-position: center; 
-  background-attachment: fixed;
-  color: #FFF;
-  text-align: center;
-  overflow: hidden
-}
 .container h2{
- text-align: left;
- overflow: hidden;
- color: black;
+text-align: left;
+overflow: hidden;
+color: black;
 }
 
 
 .container  :hover{
-  opacity: 1;
-}
-/* Popup container */
-.popup {
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
+opacity: 1;
 }
 
-/* The actual popup (appears on top) */
-.popup .popuptext {
-  visibility: hidden;
-  width: 160px;
-  background-color: #555;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 8px 0;
-  position: absolute;
-  z-index: 1;
-  bottom: 125%;
-  left: 20%;
-  margin-left: -80px;
+
+
+
+
+
+.open-button {
+background-color: #555;
+color: white;
+padding: 16px 20px;
+border: none;
+opacity: 0.8;
+position: fixed;
+bottom: 23px;
+right: 28px;
+width: 280px;
 }
 
-/* Popup arrow */
-.popup .popuptext::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -50px;
-  border-width: 50px;
-  border-style: solid;
-  border-color: #555 transparent transparent transparent;
+.form-popup {
+display: none;
+position: fixed;
+bottom: 0;
+right: 15px;
+border: 3px solid #f1f1f1;
+z-index: 9;
 }
 
-/* Toggle this class when clicking on the popup container (hide and show the popup) */
-.popup .show {
-  visibility: visible;
-  -webkit-animation: fadeIn 1s;
-  animation: fadeIn 1s
+.form-container {
+max-width: 300px;
+padding: 10px;
+background-color: white;
+}
+
+.form-container input[type=text], .form-container input[type=password] {
+width: 100%;
+padding: 15px;
+margin: 5px 0 22px 0;
+border: none;
+background: #f1f1f1;
+}
+
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+background-color: #ddd;
+outline: none;
+}
+
+.form-container .btn {
+background-color: #4CAF50;
+color: white;
+padding: 16px 20px;
+border: none;
+cursor: pointer;
+width: 100%;
+margin-bottom:10px;
+opacity: 0.8;
+}
+
+.form-container .cancel {
+background-color: red;
+cursor: pointer;
+
+}.form-container .subm-sig {
+background-color: #4CAF50;
+color: white;
+padding: 16px 20px;
+border: none;
+cursor: pointer;
+width: 100%;
+margin-bottom:10px;
+opacity: 0.8;
+
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+opacity: 1;
+}
+
+.form-planing-popup{
+display: none;
+box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+border: 0;
+margin: 1em;
+padding: 1em 2em;
+background-color:#1f7bc7;
+z-index: 9;
+
+} 
+#formcontainerinintion{
+display: none;
+
+}
+.form-inintion-popup{
+box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+border: 0;
+margin: 1em;
+padding: 1em 2em;
+background-color:#1f7bc7;
+z-index: 9;
+}
+.form-inintion-popup a{
+color: white;}
+.form-planing-popup a{
+color: white;
+
+} 
+.form-closing-popup a{
+color: white;}
+.form-closing-popup{
+display: none;
+box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+border: 0;
+margin: 1em;
+padding: 1em 2em;
+background-color:#1f7bc7;
+z-index: 9;
 }
 
 
 .planingGridMobile{
-  text-align: center;
-  box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
-  border: 0;
-  box-sizing: border-box;
-  margin: 1em;
-  padding: 1em 2em;
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
-  grid-template-areas: "h2-planning-id" "h3-planning-id" "Project-managemnet-plan" "Scope-managemnet-plan" "Cost-managemnet-plan" "Schdule-managmnet-plan" "Risk-managemnet-plan" "work-breakgown-structure" "pruject-budget" "pruject-schedule" "Risk-register" "Communitcuion-managemnet-plan" "resource-managemnet-plan" "procurement-managemnet-plan" "Communitcuion-matrix" "ram" "Quality-managemnet-plan" "Test-managemnet-plan" "change-managemnet-plan" "Requirements-matrix" "change-request" "test-script" "Implementation-managemnet-plan" "Traning-managemnet-plan";
+text-align: center;
+box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+border: 0;
+box-sizing: border-box;
+margin: 1em;
+padding: 1em 2em;
+display: grid;
+grid-template-columns: auto;
+grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+grid-template-areas: "h2-planning-id" "h3-planning-id" "Project-managemnet-plan" "Scope-managemnet-plan" "Cost-managemnet-plan" "Schdule-managmnet-plan" "Risk-managemnet-plan" "work-breakgown-structure" "pruject-budget" "pruject-schedule" "Risk-register" "Communitcuion-managemnet-plan" "resource-managemnet-plan" "procurement-managemnet-plan" "Communitcuion-matrix" "ram" "Quality-managemnet-plan" "Test-managemnet-plan" "change-managemnet-plan" "Requirements-matrix" "change-request" "test-script" "Implementation-managemnet-plan" "Traning-managemnet-plan";
 }
 
 .project-status-report-grid-mobile{
-  text-align: center;
-  box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
-  border: 0;
-  box-sizing: border-box;
-  margin: 1em;
-  padding: 1em 2em;
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
-  grid-template-areas:
-  "h2-planning-id" "h3-planning-id" "project-status-report" "Execution-1" "Execution-2" "Execution-3" "Execution-4" "Execution-5" "Execution-6" "Execution-7" "Execution-8" "Execution-9" "Execution-10"
+text-align: center;
+box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+border: 0;
+box-sizing: border-box;
+margin: 1em;
+padding: 1em 2em;
+display: grid;
+grid-template-columns: auto auto auto;
+grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
+grid-template-areas:
+"h2-planning-id" "h3-planning-id" "project-status-report" "Execution-1" "Execution-2" "Execution-3" "Execution-4" "Execution-5" "Execution-6" "Execution-7" "Execution-8" "Execution-9" "Execution-10"
 }
 
 /* Change styles for span and cancel button on extra small screens */
 @media screen and (max-width: 300px) {
-  span.psw {
-    display: block;
-    float: none;
-  }
-  .cancelbtn {
-    width: 100%;
-  }
+span.psw {
+  display: block;
+  float: none;
+}
+.cancelbtn {
+  width: 100%;
+}
 }
 
 @media screen and (max-width: 500px) {
-  .cssGrid{
-    display: grid;
-    
-    grid-template-columns: auto auto auto auto auto;
-    grid-template-rows: auto auto auto auto;
-    grid-template-areas:
-    "nav-2 logo nav-3"
-    "nav-3 nav-3 nav-3"
-    " pre-project-grid inintion-Grid planingGridMobile"
-    "project-status-report-grid-mobile project-status-report-grid-mobile closing-grid"
-    "planningGridMobile planningGridMobile planningGridMobile planningGridMobile"
-  ;
+.cssGrid{
+  display: grid;
   
+  grid-template-columns: auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  grid-template-areas:
+  "nav-2 logo nav-3"
+  "nav-3 nav-3 nav-3"
+  " pre-project-grid inintion-Grid planingGridMobile"
+  "project-status-report-grid-mobile project-status-report-grid-mobile closing-grid"
+  "planningGridMobile planningGridMobile planningGridMobile planningGridMobile"
+;
+
 }
 .nav-2{grid-area: nav-2;}
 .nav-3{grid-area: nav-3;}

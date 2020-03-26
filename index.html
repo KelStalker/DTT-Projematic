@@ -23,7 +23,7 @@
   </nav>
   <nav class="nav-3">
     <ul>
-      <li><a class="link-2" href="#" onclick="ShowFunctionlogin()" id="logIn">Login</a></li>
+      <li><a class="link-2" href="#"  onclick="ShowFunctionlogin()" id="logIn">Login</a></li>
     </ul>
   </nav>
 
@@ -70,9 +70,11 @@
     <h2 id="h2-inintion-id">Initiation</h2>
     <h3 id="h3-inintion-id">Project Sponser and Project Manager define the Project</h3>
     <div id="project-charter"><a href=""> Project Charter</a></div>
-    <div class="popup" onmouseover="myPopupFunction()" id="initiationpopup"><a href="#" onclick="ShowFunctionlogin()" id="showmore">Show more</a>
-    <spam  class="popuptext" id="myPopup">Click to see more</spam>
-    </div>
+    <div class="form-inintion-popup" id="formcontainerinintion">
+      <a href="#" onclick="ShowFunctionlogin()" >Click to see more</a>
+      </div>
+        <div onmouseover="myPopupFunctioninintion()" id="planinngpopup">Show more
+          </div>
     <div id="stakeholder-managementplan"><a href="#" >Stakeholder Management Plan</a></div> 
      <div id="stakeholder-register">
        <a href="#"></a>Stakeholder Register</div> 
@@ -88,9 +90,10 @@
   <div id="Schdule-managemnet-plan"><a href="#">Schedule Management Plan</a></div>
   <div id="Risk-managemnet-plan"><a href="#">Risk management Plan</a></div>
   
-
-  <div class="popup" onmouseover="myPopupFunction()" id="planinngpopup"><a href="#" onclick="ShowFunctionlogin()" id="showmore">Show more</a>
-    <spam  class="popuptext" id="myPopup">Click to see more</spam>
+ <div class="form-planing-popup" id="formcontainerplaning">
+<a href="#" onclick="ShowFunctionlogin()" id="showmore">Click to see more</a>
+</div>
+  <div onmouseover="myPopupFunctionplaning()" id="planinngpopup">Show more
     </div>
   <div id="work-breakgown-structure"><a href="#">Work Breakdown Structure (WBS)</a></div>
   <div id="pruject-budget"><a href="#">Project Budget</a></div>
@@ -143,6 +146,11 @@
   <h2 id="h2-closing-id">Closing</h2>
   <h3 id="h3-closing-id">Finish and close the project</h3>
   <div id="final-project-report"><a href="">Final Project Report</a></div>
+  <div class="form-closing-popup" id="formcontainerclosing">
+    <a href="#" onclick="ShowFunctionlogin()" >Click to see more</a>
+    </div>
+    <div onmouseover="myPopupFunctionclosing()" id="planinngpopup">Show more
+    </div>
   <div id="satisfaction-Assessment"><a href="">Satisfaction Assessment</a></div>
   <div id="Lessons-Learned"><a href="">Lessons Learned</a></div>
   <div id="Implement-project"><a href="">Implement project deliverables to organization</a></div>
@@ -215,24 +223,24 @@
     <div id="Reallocate-resources"><a href="">Reallocate-resources</a></div>
     <div id="close-procurement-contract"><a href="">Close Procurement Contract</a></div>
   </div>
- 
 
-  <div class="container" id="login-id">
-    <div class="main">
-    <h2>Please enter your username & password</h2>
-    <div class="content">
-	</div>
-    <form id="form_id" method="post" name="myform">
-    <label>User Name :</label>
-    <input type="text" name="username" id="username"/>
-    <label>Password :</label>
-    <input type="password" name="password" id="password"/>
-    <input type="button"class="submit-login" value="Login" id="submit" onclick="validate()"/>
-    <input type="button"class="submit-login" value="Sign up" id="submit"/>
-    </form>
     </div>
+    <div class="form-popup" id="login-id">
+
+
+      <form  class="form-container"> 
+        <h1>Login</h1>
+        <label for="email"><b>username</b></label>
+        <input type="text" placeholder="Enter Email" name="email"id="username" required>
+        <label for="password"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="password" id="password" required>
+        <button type="submit" class="btn" onclick="validate()">Login</button>
+        <input type="submit"class="subm-sig" value="Sign up" id="submit"/>
+        <button type="submit" class="btn cancel" onclick="closeForm()">Close</button>
+
+      </form>
     </div>
-    
+
 <footer class = "footer">
 <p>&copy;Copyright 2020. | DTT. All rights reserved</p>
 </footer>
