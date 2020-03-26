@@ -640,6 +640,14 @@ box-sizing: border-box;
 .closing-grid{grid-area: closing-grid; display: none;}
 .container{grid-area: container;}
 .jumbotron{grid-area: jumbotron;}
+.footer{grid-area: footer;}
+
+.footer{
+  position: relative;
+  width: 100%;
+  padding-bottom: 0;
+  text-align: center;
+}
 #logIn{
   max-width: 670px;
 	margin: 2em auto;
