@@ -359,7 +359,7 @@ padding: 1em 2em;
 display: grid;
 grid-template-columns: auto auto auto;
 grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
-grid-template-areas:"h2-planing-id h2-planing-id h2-planing-id"
+grid-template-areas:"h2-ex-id h2-ex-id h2-ex-id"
 "h3-planing-id h3-planing-id h3-planing-id"
 "project-status-report project-status-report project-status-report"
 "Execution-1 empty5 Execution-2""empty6 Execution-3 empty7"
@@ -368,8 +368,8 @@ grid-template-areas:"h2-planing-id h2-planing-id h2-planing-id"
 "empty9 Execution-9 empty10"
 "empty11 empty11 Execution-10"
 }
-#h2-planing-id{
-grid-area: h2-planing-id;
+#h2-ex-id{
+grid-area: h2-ex-id;
 }
 #h3-planing-id{
 grid-area: h3-planing-id;
@@ -568,7 +568,7 @@ padding: 1em 2em;
 display: grid;
 grid-template-columns: auto auto auto auto ;
 grid-template-rows: auto auto auto auto auto;
-grid-template-areas:"h2-planing-id h2-planing-id h2-planing-id h2-planing-id"
+grid-template-areas:"h2-pl-id h2-pl-id h2-pl-id h2-pl-id"
 "Project-managemnet-plan Project-managemnet-plan Project-managemnet-plan Project-managemnet-plan"
 "Scope-managemnet-plan Cost-managemnet-plan Schdule-managemnet-plan Risk-managemnet-plan"
 "planinngpopup planinngpopup planinngpopup planinngpopup"
@@ -594,8 +594,8 @@ grid-template-areas:"h2-planing-id h2-planing-id h2-planing-id h2-planing-id"
 #change-managemnet-plan{grid-area: change-managemnet-plan;}
 #Implementation-managemnet-plan{grid-area: Implementation-managemnet-plan;}
 #Traning-managemnet-plan{grid-area: Traning-managemnet-plan;}
-#h2-planing-id{grid-area: h2-planing-id;}
-#h3-planing-id{grid-area: h3-planing-id;}
+#h2-pl-id{grid-area: h2-pl-id;}
+/* #h3-pl-id{grid-area: h3-pl-id;} */
 #work-breakgown-structure{grid-area: work-breakgown-structure;}
 #pruject-budget{grid-area: pruject-budget ;}
 #pruject-schedule{grid-area: pruject-schedule;}
