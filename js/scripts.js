@@ -159,10 +159,9 @@ var testscript=document.getElementById("test-script");
 var satisfactionAssessment=document.getElementById("satisfaction-Assessment");
 var LessonsLearned=document.getElementById("Lessons-Learned");
 var statmnetofwork=document.getElementById("statmnet-of-work");
-
-
-
-
+var formcontainerinintion=document.getElementById("formcontainerinintion");
+var formcontainerplaning=document.getElementById("formcontainerplaning");
+var formcontainerclosing=document.getElementById("formcontainerclosing");
 
 
 
@@ -174,7 +173,7 @@ var statmnetofwork=document.getElementById("statmnet-of-work");
     reloadThePage()
     
     });
-  if ( loginText.textContent=="signout"){
+  if (loginText.textContent=="signout"){
     stakeholderRegister.style.display="block";
     workbreakgownStructure.style.display="block";
     prujectbudget.style.display="block";
@@ -188,8 +187,10 @@ var statmnetofwork=document.getElementById("statmnet-of-work");
     satisfactionAssessment.style.display="block";
     LessonsLearned.style.display="block";
     statmnetofwork.style.display="block";
+    formcontainerinintion.style.display="none";
+    formcontainerplaning.style.display="none";
+    formcontainerclosing.style.display="none"
   }
-
 
 
 }
