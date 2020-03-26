@@ -998,7 +998,7 @@ span.psw {
 /* The actual popup */
 .srPopup .popuptext {
   visibility: hidden;
-  width: 160px;
+  width: 260px;
   background-color: #555;
   color: #fff;
   text-align: center;
@@ -1008,7 +1008,7 @@ span.psw {
   z-index: 1;
   bottom: 125%;
   left: 50%;
-  margin-left: -80px;
+  margin-left: -130px;
 }
 
 /* Popup arrow */
