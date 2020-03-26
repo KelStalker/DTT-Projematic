@@ -158,19 +158,85 @@ function ShowFunctionClosing(){
 
 }
 
-function ShowFunctioncompare()
-{
-  var psw1 = document.getElementById("psw");
-  var uname1 = document.getElementById("uname");
-    if(uname1=="workshop" && psw1=="workshop"){
-      // load("3planning.html");  
-      }
-    else
-
-    {
-      load("login.html");
-    }
+var attempt = 3; // Variable to count number of attempts.
+// Below function Executes on click of login button.
+function validate(){
+var username = document.getElementById("username").value;
+var password = document.getElementById("password").value;
+if ( username == "zz" && password == "zz"){
+alert ("Login successfully");
+// window.location = "success.html"; // Redirecting to other page.
+var loginText=document.getElementById("logIn");
+var loginForm=document.getElementById("login-id");
+var  stakeholderRegister=document.getElementById("stakeholder-register");
+var   prujectbudget=document.getElementById("pruject-budget");
+var   workbreakgownStructure=document.getElementById("work-breakgown-structure");
+var   prujectschedule=document.getElementById("pruject-schedule");
+var Riskregister=document.getElementById("Risk-register");
+var Communitcuionmatrix=document.getElementById("Communitcuion-matrix");
+var ram=document.getElementById("ram");
+var changerequest=document.getElementById("change-request");
+var Requirmentsmatrix=document.getElementById("Requirments-matrix");
+var testscript=document.getElementById("test-script");
+var satisfactionAssessment=document.getElementById("satisfaction-Assessment");
+var LessonsLearned=document.getElementById("Lessons-Learned");
+var statmnetofwork=document.getElementById("statmnet-of-work");
+loginForm.style.display ="none";
+loginText.textContent="signout";
+loginText.addEventListener('click',function(evnt){
+  reloadThePage()
+  });
+if ( loginText.textContent=="signout"){
+  stakeholderRegister.style.display="block";
+  workbreakgownStructure.style.display="block";
+  prujectbudget.style.display="block";
+  prujectschedule.style.display="block";
+  Riskregister.style.display="block";
+  Communitcuionmatrix.style.display="block";
+  ram.style.display="block";
+  changerequest.style.display="block";
+  Requirmentsmatrix.style.display="block";
+  testscript.style.display="block";
+  satisfactionAssessment.style.display="block";
+  LessonsLearned.style.display="block";
+  statmnetofwork.style.display="block";
 }
+return false;
+}
+else{
+attempt --;// Decrementing by one.
+alert("You have left "+attempt+" attempt;");
+// Disabling fields after 3 attempts.
+if( attempt == 0){
+document.getElementById("username").disabled = true;
+document.getElementById("password").disabled = true;
+document.getElementById("submit").disabled = true;
+return false;
+}
+}
+}
+ 
+
+
+// function ShowFunctioncompare()
+// {
+//   var psw1 = document.getElementById("psw");
+//   var uname1 = document.getElementById("uname");
+//   var userName=uname1;
+//   var passwoed=psw1;
+//   var userName="zohair";
+//   var passwoed="1234"
+//     if(userName== passwoed){
+// alert (sss);    
+
+
+// }
+//     else
+
+//     {
+//       load("login.html");
+//     }
+// }
 function reloadThePage(){
   window.location.reload();
 } 
@@ -192,7 +258,7 @@ var satisfactionAssessment=document.getElementById("satisfaction-Assessment");
 var LessonsLearned=document.getElementById("Lessons-Learned");
 var statmnetofwork=document.getElementById("statmnet-of-work");
 
-var showmore=document.getElementById("showmore"); 
+
 
 
 
@@ -220,9 +286,7 @@ var showmore=document.getElementById("showmore");
     satisfactionAssessment.style.display="block";
     LessonsLearned.style.display="block";
     statmnetofwork.style.display="block";
-    showmore.style.display="none";
   }
-
 
 
 
@@ -231,12 +295,12 @@ var showmore=document.getElementById("showmore");
 function ShowFunctionlogin(){
   var x = document.getElementById("login-id");
   
-  if (x.style.display === "grid") {
-    x.style.display = "none";
+  if (x.style.display === "none") {
+    x.style.display = "grid";
    
     
   } else {
-    x.style.display = "grid";
+    x.style.display = "none";
   }
 }
 
@@ -246,3 +310,8 @@ function myFunction() {
   popup.classList.toggle("show");
 }
 
+function myclickFunction() {
+  var popup = document.getElementById("myPopup");
+  
+alert();
+}
