@@ -227,7 +227,7 @@ function closeForm(){
 
 // on SMP mouseover, show popup
 function smpPopupFunction() {
-  var popup = document.getElementById("myPopup");
+  var popup = document.getElementById("mySmpPopup");
   popup.classList.toggle("show");
 }
 
@@ -235,3 +235,4 @@ function smpPopupFunction() {
 function srPopupFunction() {
   var popup = document.getElementById("myPopup");
   popup.classList.toggle("show");
+}
