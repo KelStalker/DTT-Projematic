@@ -5,7 +5,6 @@
 }
 
 
-@import url(https://fonts.googleapis.com/css?family=Raleway);
 body {
   margin: 0px;
   font-family: 'Jura','Tahoma';
@@ -54,13 +53,7 @@ body {
   font-family: 'Jura', 'Tahoma';
   padding: 20px;
 }
-.logo p{
-  text-align: right;
-  font-family: 'Jura', 'Tahoma';
-  font-size: large;
-  font: outline;
-  color: cornsilk;
-}
+
 
 .link-2 {
   transition: 0.6s;
@@ -80,42 +73,7 @@ body {
 display: none;
 }
  
-  /* .style_prevu_kit
- {
-     display:inline-block;
-     border:0;
-     width:196px;
-     margin: auto;
-     padding-left: 20px;
-     padding-right: 20px;
-     height:210px;
-     position: relative;
-     -webkit-transition: all 200ms ease-in;
-     -webkit-transform: scale(1); 
-     -ms-transition: all 200ms ease-in;
-     -ms-transform: scale(1); 
-     -moz-transition: all 200ms ease-in;
-     -moz-transform: scale(1);
-     transition: all 200ms ease-in;
-     transform: scale(1);   
-     margin-top: 40px;
-text-align: center;
- } 
-  .style_prevu_kit:hover
- {
-     box-shadow: 0px 0px 150px #000000;
-     z-index: 2;
-     -webkit-transition: all 200ms ease-in;
-     -webkit-transform: scale(1.5);
-     -ms-transition: all 200ms ease-in;
-     -ms-transform: scale(1.5);   
-     -moz-transition: all 200ms ease-in;
-     -moz-transform: scale(1.5);
-     transition: all 200ms ease-in;
-     transform: scale(1.1);
-     
- }  */
-
+  
 #pre-project-function{
 display: none;
 }
@@ -136,20 +94,7 @@ display: none;
   margin: 1em;
   padding: 1em 2em;
 }
- /* .section-boxs{
-background-color: rgb(79, 106, 163);
-  text-align: center;
- }
-.section-boxs  li a {
-  text-align: center;
-  color: cornsilk;
- display: inline-block;
-}
-.section-boxs ul li a :hover{
-background-color: rgb(50, 81, 150);
 
-
-} */
 
 .jumbotron{
 background: #fcf7f8;
@@ -854,7 +799,6 @@ span.psw {
   "project-status-report-grid-mobile project-status-report-grid-mobile closing-grid"
   "planningGridMobile planningGridMobile planningGridMobile planningGridMobile"
 ;
-
 }
 .nav-2{grid-area: nav-2;}
 .nav-3{grid-area: nav-3;}
