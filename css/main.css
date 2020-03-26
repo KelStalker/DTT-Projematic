@@ -790,6 +790,10 @@ color: white;}
 .form-inintion-popup a{
   color: white;
 }
+.form-planing-popup a{
+  color: white;
+
+}
 .form-closing-popup{
 display: none;
 box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
