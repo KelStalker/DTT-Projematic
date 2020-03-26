@@ -208,14 +208,22 @@ function ShowFunctionlogin(){
 }
 
 
-function myPopupFunction() {
-  var popup = document.getElementById("myPopup");
+function myPopupFunctioninintion() {
+  document.getElementById("formcontainerinintion").style.display = "block";
 
-  popup.classList.toggle("show");
+}
+function myPopupFunctionplaning() {
+  document.getElementById("formcontainerplaning").style.display = "grid";
+}
+function myPopupFunctionclosing(){
+  document.getElementById("formcontainerclosing").style.display = "grid";
+
+
+}
+function openForm() {
+  document.getElementById("login-id").style.display = "block";
 }
 
-// function myclickFunction() {
-//   var popup = document.getElementById("myPopup");
-  
-// alert();
-// }
+function closeForm() {
+  document.getElementById("login-id").style.display = "none";
+}
