@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Project Management</title>
+  <link rel="stylesheet" href = "./vendors/bootstrap-4.4.1-dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="./css/main.css">
   <script type="text/javascript" src="./js/scripts.js" defer></script>
   <link href="https://fonts.googleapis.com/css?family=Jura:400,600,700&display=swap" rel="stylesheet">
@@ -27,6 +28,13 @@
       <li><a class="link-2" href="#"  onclick="ShowFunctionlogin()" id="logIn">Login</a></li>
     </ul>
   </nav>
+  <div class="jumbotron">
+    <div class = "container"></div>
+    <h1 class="display-4">Welcome to Projematic!</h1>
+    <p class="lead">A project is complete when it starts working for you, rather than you working for it. </p>
+    <hr class="my-4">
+    <p>Click on any of the stages of project management below to access the free library. For premium files please login.</p>
+  </div>
   <nav class="nav-4">
     <ul>
       <!-- <h2>Preproject</h2> -->
@@ -53,7 +61,6 @@
     <h2>Pre Project</h2>
     <h3>Organization validates the need</h3>
     <div id="business-Case"><a href="">Business Case</a></div>
-    <button add ondblclick="AddFunctiion()">Add</button>
     <input type="text" id="add-text"></input>
   </div>
    
@@ -63,14 +70,14 @@
     <h2 id="h2-inintion-id">Initiation</h2>
     <h3 id="h3-inintion-id">Project Sponser and Project Manager define the Project</h3>
     <div id="project-charter"><a href=""> Project Charter</a></div>
-    <div class="popup" onmouseover="myFunction()">Shwo more
-    <a href="#" class="popuptext" id="myPopup" onclick="myclickFunction()">Click to see more </a>
+    <div class="popup" onmouseover="myPopupFunction()" id="initiationpopup"><a href="#" onclick="ShowFunctionlogin()" id="showmore">Shwo more</a>
+    <spam  class="popuptext" id="myPopup">Click to see more</spam>
     </div>
     <div id="stakeholder-managementplan"><a href="#" >Stakeholder Management Plan</a></div> 
      <div id="stakeholder-register">
        <a href="#"></a>Stakeholder Register</div> 
      <div id="statmnet-of-work"><a href="">Statement of Work</a></div> 
-     
+  
      </div>
 </div> 
 <div class="planingGrid" id="planingGrid-function">
@@ -80,6 +87,11 @@
   <div id="Cost-managemnet-plan"><a href="#">Cost Management Plan </a></div>
   <div id="Schdule-managemnet-plan"><a href="#">Schedule Management Plan</a></div>
   <div id="Risk-managemnet-plan"><a href="#">Risk management Plan</a></div>
+  
+
+  <div class="popup" onmouseover="myPopupFunction()" id="planinngpopup"><a href="#" onclick="ShowFunctionlogin()" id="showmore">Shwo more</a>
+    <spam  class="popuptext" id="myPopup">Click to see more</spam>
+    </div>
   <div id="work-breakgown-structure"><a href="#">Work Breakdown Structure (WBS)</a></div>
   <div id="pruject-budget"><a href="#">Project Budget</a></div>
   <div id="pruject-schedule"><a href="#">Project Schedule</a></div>
@@ -203,25 +215,22 @@
     <div id="Reallocate-resources"><a href="">Reallocate-resources</a></div>
     <div id="close-procurement-contract"><a href="">Close Procurement Contract</a></div>
   </div>
-  <!-- login -->
-  <form id="login-id" class="Login-class">
-    <div class="container">
-      <label id="uname"><b>Username</b></label>
-      <input type="text" placeholder="Enter Username" id="uname" required>
+ 
 
-      <label id="psw"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" id="psw" required>
-
-      <button type="submit" onclick="ShowFunctioncompare()">Login</button>
-      <label>
-        <input type="checkbox" checked="checked" name="remember"> Remember me
-      </label>
+  <div class="container" id="login-id">
+    <div class="main">
+    <h2>Please enter you username & password</h2>
+    <div class="content">
+Welcome 		</div>
+    <form id="form_id" method="post" name="myform">
+    <label>User Name :</label>
+    <input type="text" name="username" id="username"/>
+    <label>Password :</label>
+    <input type="password" name="password" id="password"/>
+    <input type="button"class="submit-login" value="Login" id="submit" onclick="validate()"/>
+    <input type="button"class="submit-login" value="sigup" id="submit"/>
+    </form>
     </div>
-    <div class="container" style="background-color:#f1f1f1">
-      <button type="button" class="cancelbtn">Sign Up</button>
-      <button type="button" class="cancelbtn">Cancel</button>
-      <span class="psw">Forgot <a href="#">password?</a></span>
     </div>
-  </form>
 </body>
 </html>
