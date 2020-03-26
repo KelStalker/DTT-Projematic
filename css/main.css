@@ -613,7 +613,7 @@ box-sizing: border-box;
 .cssGrid{
     display: grid;
     grid-template-columns: auto auto auto auto 20vw;
-    grid-template-rows: auto auto auto auto;
+    grid-template-rows: auto auto auto auto 1fr;
     grid-template-areas:
     "nav-2 logo nav-3 nav-3 nav-3"
     " container container container container container"
@@ -624,6 +624,7 @@ box-sizing: border-box;
      "planingGrid planingGrid planingGrid planingGrid planingGrid" 
      "project-status-report-grid project-status-report-grid project-status-report-grid project-status-report-grid project-status-report-grid"
       "closing-grid closing-grid closing-grid closing-grid closing-grid"
+      "footer footer footer footer footer"
   ;
 }
 .nav-2{grid-area: nav-2;}
@@ -637,6 +638,13 @@ box-sizing: border-box;
 .closing-grid{grid-area: closing-grid; display: none;}
 .container{grid-area: container;}
 .jumbotron{grid-area: jumbotron;}
+.footer{grid-area: footer;}
+
+.footer{
+  position: relative;
+  width: 100%;
+  padding-bottom: 0;
+}
 
 #login-id {
 display: none;
