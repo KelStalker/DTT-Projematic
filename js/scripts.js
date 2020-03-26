@@ -226,13 +226,13 @@ function closeForm(){
 }
 
 // on SMP mouseover, show popup
-function smpPopupFunction() {
-  var smpPopup = document.getElementById("mySmpPopup");
-  popup.classList.toggle("show");
-}
+// function smpPopupFunction() {
+//   var smpPopup = document.getElementById("mySmpPopup");
+//   popup.classList.toggle("show");
+// }
 
 // on SR mouseover, show popup
-function srPopupFunction() {
-  var popup = document.getElementById("mySrPopup");
-  popup.classList.toggle("show");
-}
+// function srPopupFunction() {
+//   var popup = document.getElementById("mySrPopup");
+//   popup.classList.toggle("show");
+// }

@@ -813,7 +813,7 @@ span.psw {
 }
 
 /* Stakeholder Management Plan Popup container */
-.smpPopup {
+/* .smpPopup {
   position: relative;
   display: inline-block;
   cursor: pointer;
@@ -821,10 +821,10 @@ span.psw {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-}
+} */
 
 /* The actual smpPopup */
-.smpPopup .popuptext {
+/* .smpPopup .popuptext {
   visibility: hidden;
   width: 260px;
   background-color: #555;
@@ -837,10 +837,10 @@ span.psw {
   bottom: 125%;
   left: 50%;
   margin-left: -130px;
-}
+} */
 
 /* Popup arrow */
-.smpPopup .popuptext::after {
+/* .smpPopup .popuptext::after {
   content: "";
   position: absolute;
   top: 100%;
@@ -849,17 +849,17 @@ span.psw {
   border-width: 5px;
   border-style: solid;
   border-color: #555 transparent transparent transparent;
-}
+} */
 
 /* Toggle this class - hide and show the popup */
-.smpPopup .show {
+/* .smpPopup .show {
   visibility: visible;
   -webkit-animation: fadeIn 1s;
   animation: fadeIn 1s;
-}
+} */
 
 /* Add animation (fade in the popup) */
-@-webkit-keyframes fadeIn {
+/* @-webkit-keyframes fadeIn {
   from {opacity: 0;} 
   to {opacity: 1;}
 }
@@ -867,13 +867,13 @@ span.psw {
 @keyframes fadeIn {
   from {opacity: 0;}
   to {opacity:1 ;} 
-}
+} */
 
 /* 
  * Stakehoder Register Popup Container
  */
 
-.smpPopup {
+/* .smpPopup {
   position: relative;
   display: inline-block;
   cursor: pointer;
@@ -881,10 +881,10 @@ span.psw {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-}
+} */
 
 /* The actual popup */
-.smpPopup .popuptext {
+/* .smpPopup .popuptext {
   visibility: hidden;
   width: 160px;
   background-color: #555;
@@ -897,10 +897,10 @@ span.psw {
   bottom: 125%;
   left: 50%;
   margin-left: -80px;
-}
+} */
 
 /* Popup arrow */
-.smpPopup .popuptext::after {
+/* .smpPopup .popuptext::after {
   content: "";
   position: absolute;
   top: 100%;
@@ -909,17 +909,17 @@ span.psw {
   border-width: 5px;
   border-style: solid;
   border-color: #555 transparent transparent transparent;
-}
+} */
 
 /* Toggle this class - hide and show the popup */
-.smpPopup .show {
+/* .smpPopup .show {
   visibility: visible;
   -webkit-animation: fadeIn 1s;
   animation: fadeIn 1s;
-}
+} */
 
 /* Add animation (fade in the popup) */
-@-webkit-keyframes fadeIn {
+/* @-webkit-keyframes fadeIn {
   from {opacity: 0;} 
   to {opacity: 1;}
 }
@@ -927,13 +927,13 @@ span.psw {
 @keyframes fadeIn {
   from {opacity: 0;}
   to {opacity:1 ;}
-}
+} */
 
 
 /*
  * Stakehoder Register Popup Container
  */
-.srPopup {
+/* .srPopup {
   position: relative;
   display: inline-block;
   cursor: pointer;
@@ -957,10 +957,10 @@ span.psw {
   bottom: 125%;
   left: 50%;
   margin-left: -80px;
-}
+} */
 
 /* Popup arrow */
-.srPopup .srPopupText::after {
+/* .srPopup .srPopupText::after {
   content: "";
   position: absolute;
   top: 100%;
@@ -968,18 +968,18 @@ span.psw {
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: #555 transparent transparent transparent;
+  border-color: #555 transparent transparent transparent; */
 }
 
 /* Toggle this class - hide and show the popup */
-.srPopup .show {
+/* .srPopup .show {
   visibility: visible;
   -webkit-animation: fadeIn 1s;
   animation: fadeIn 1s;
-}
+} */
 
 /* Add animation (fade in the popup) */
-@-webkit-keyframes fadeIn {
+/* @-webkit-keyframes fadeIn {
   from {opacity: 0;} 
   to {opacity: 1;}
 }
@@ -987,4 +987,4 @@ span.psw {
 @keyframes fadeIn {
   from {opacity: 0;}
   to {opacity:1 ;}
-}
+} */
