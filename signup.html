@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Project Management</title>
+    <link rel = "stylesheet" href = "./css/main.css">
+    <link rel="stylesheet" href = "./vendors/bootstrap-4.4.1-dist/css/bootstrap.min.css">
+  <link rel = "stylesheet" href = "./css/signup.css">
+
+  <script type="text/javascript" src="./js/scripts.js" defer></script>
+  <link href="https://fonts.googleapis.com/css?family=Jura:400,600,700&display=swap" rel="stylesheet">
+</head>
+
+<body class="cssGrid">
+  <nav class="nav-2">
+    <!-- Links to index about and contactus -->
+    <ul>
+      <li><a href="./index.html" class="link-2">Home</a></li>
+      <li><a href="./signup.html" class="link-2">Signup</a></li>
+    </ul>
+  </nav>
+  <nav class="logo">
+    <p></p>
+  </nav>
+  <nav class="nav-3">
+    <ul>
+      <li><a class="link-2" href="#"  onclick="ShowFunctionlogin()" id="logIn">Login</a></li>
+    </ul>
+  </nav>
+
+  <div id = "login-box">
+      <div class = "left-side">
+        <h1> Sign up </h1>
+        <input type = "text" name = "username" placeholder = "Username"/>
+        <input type = "text" name = "email" placeholder = "Email"/>
+        <input type = "text" name = "password" placeholder = "Password"/>
+        <input type = "text" name = "password2" placeholder = "Retype Password"/>
+        <input type = "submit" name = "signup-button" value = "Sign up"/>
+      </div>
+
+      <div class = "right-side">
+        <span class = "signinwith">
+          Sign in with <br/>Social Network
+        </span>
+        
+        <button class = "social facebook"> Log in with Facebook </button>
+        <button class = "social gmail"> Log in with Gmail </button>
+        <button class = "social linkedin"> Log in with LinkedIn </button>
+      </div>
+
+      <div class = "or">OR</div>
+  </div>
+  
+</body>
+</html>
