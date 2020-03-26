@@ -208,26 +208,16 @@ function ShowFunctionlogin(){
 }
 
 
-function myPopupFunction() {
-  var popup = document.getElementById("myPopup");
+function myPopupFunctioninintion() {
+  document.getElementById("formcontainerinintion").style.display = "block";
 
-  popup.classList.toggle("show");
+}
+function myPopupFunctionplaning() {
+  document.getElementById("formcontainerplaning").style.display = "grid";
+}
+function myPopupFunctionclosing(){
+  document.getElementById("formcontainerclosing").style.display = "grid";
+
 }
 
-// function myclickFunction() {
-//   var popup = document.getElementById("myPopup");
-  
-// alert();
-// }
 
-$(".card").on("click", function(e) {
-  e.preventDefault();
-  $(".card").removeClass("active");
-  $(this).addClass("active");
-  $(".form")
-    .stop()
-    .slideUp();
-  $(".form")
-    .delay(300)
-    .slideDown();
-});
