@@ -169,6 +169,7 @@ var formcontainerclosing=document.getElementById("formcontainerclosing");
 
   loginForm.style.display ="none";
   loginText.textContent="signout";
+  
   loginText.addEventListener('click',function(evnt){
     reloadThePage()
     
@@ -208,11 +209,12 @@ function ShowFunctionlogin(){
 
 }
 
-
 function myPopupFunctioninintion() {
-  document.getElementById("formcontainerinintion").style.display = "block";
+  var formcontainerinintion=document.getElementById("formcontainerinintion");
+  formcontainerinintion.style.display = "block";
 
 }
+
 function myPopupFunctionplaning() {
   document.getElementById("formcontainerplaning").style.display = "grid";
 }

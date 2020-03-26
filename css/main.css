@@ -487,9 +487,9 @@ margin: 1em;
 padding: 1em 2em;
 display: grid;
 grid-template-columns: auto;
-grid-template-rows: auto auto auto auto auto;
+grid-template-rows: auto auto auto auto auto auto;
 grid-template-areas:"h2-inintion-id""h3-inintion-id""project-charter""stakeholder-managementplan""stakeholder-inintion""initiationpopup"
-"stakeholder-register""statmnet-of-work"
+"stakeholder-register""statmnet-of-work""inintiongpopups"
 }
 #project-charter{grid-area: project-charter;}
 #stakeholder-managementplan{grid-area: stakeholder-managementplan;}
@@ -499,6 +499,7 @@ grid-template-areas:"h2-inintion-id""h3-inintion-id""project-charter""stakeholde
 #statmnet-of-work{grid-area: statmnet-of-work;}
 #initiationpopup{grid-area: initiationpopup;}
 #stakeholder-inintion{grid-area: stakeholder-inintion; display: none;}
+#inintiongpopup{grid-area: inintiongpopups;}
 .closing-grid{
 text-align: center;
 box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
@@ -510,8 +511,9 @@ display: grid;
 grid-template-columns: auto;
 grid-template-rows: auto auto auto auto auto auto;
 grid-template-areas:"h2-closing-id""h3-closing-id""final-project-report""form-closing-popup""satisfaction-Assessment"
-"Lessons-Learned""Implement-project""Reallocate-resources""close-procurement-contract"
+"Lessons-Learned""Implement-project""Reallocate-resources""close-procurement-contract""closingpopup"
 }
+#closingpopup{grid-area: closingpopup;}
 .form-closing-popup{grid-area: form-closing-popup;}
 #h2-closing-id{grid-area: h2-closing-id;}
 #h3-closing-id{grid-area: h3-closing-id;}
@@ -779,16 +781,15 @@ z-index: 9;
   border: 1px solid #888;
   width: 80%; 
   }
-  .form-stakeholder-popup:hover,
-  .form-stakeholder-popup:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-  }
+
 .form-closing-popup a{
 color: white;}
 .form-inintion-popup a{
   color: white;
+}
+.form-planing-popup a{
+  color: white;
+
 }
 .form-closing-popup{
 display: none;
