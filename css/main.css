@@ -8,13 +8,13 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 body {
   margin: 0px;
-  font-family: 'Jura';
+  font-family: 'Jura','Tahoma';
   background: #fcf7f8;
 }
 
 .nav-2 {
   background: #003399;
-  font-family: 'Jura';
+  font-family: 'Jura', 'Tahoma';
   padding: 20px;
   text-align: left;
 }
@@ -22,14 +22,14 @@ body {
  .nav-3{
   background: #003399;
   text-align: right;
-  font-family: 'Jura';
+  font-family: 'Jura', 'Tahoma';
   padding: 20px;
 }
 
 .nav-4{
   background: #003399;
   text-align: center;
-  font-family: 'Jura';
+  font-family: 'Jura', 'Tahoma';
   padding: 20px;
 }
 .nav-4 ul li {
@@ -51,12 +51,12 @@ body {
 .logo {
   background: #003399;
   text-align: right;
-  font-family: 'Jura';
+  font-family: 'Jura', 'Tahoma';
   padding: 20px;
 }
 .logo p{
   text-align: right;
-  font-family: 'Jura';
+  font-family: 'Jura', 'Tahoma';
   font-size: large;
   font: outline;
   color: cornsilk;
