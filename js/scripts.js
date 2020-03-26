@@ -28,7 +28,7 @@ function ShowFunctionPreproject(){
 function ShowFunctionInitiation(){
 
   
-  var x = document.getElementById("inintion-function");
+  var x = document.getElementById("initiation-function");
   if (x.style.display === "grid") {
     x.style.display = "none";
    
