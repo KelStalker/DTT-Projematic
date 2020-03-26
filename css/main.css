@@ -721,7 +721,7 @@ outline: none;
 }
 
 .form-container .btn {
-background-color: #4CAF50;
+background-color: #003399;
 color: white;
 padding: 16px 20px;
 border: none;
@@ -732,11 +732,11 @@ opacity: 0.8;
 }
 
 .form-container .cancel {
-background-color: red;
+background-color: #ff3300;
 cursor: pointer;
 
 }.form-container .subm-sig {
-background-color: #4CAF50;
+background-color: #003399;
 color: white;
 padding: 16px 20px;
 border: none;
