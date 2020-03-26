@@ -222,3 +222,9 @@ function myPopupFunctionclosing(){
 }
 
 
+function closeForm(){
+  document.getElementById("login-id").style.display = "none";
+
+
+
+}
