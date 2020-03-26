@@ -926,7 +926,7 @@ span.psw {
  * Stakehoder Register Popup Container
  */
 
-.srPopup {
+.smpPopup {
   position: relative;
   display: inline-block;
   cursor: pointer;
@@ -936,10 +936,10 @@ span.psw {
   user-select: none;
 }
 
-/* The actual SR popup */
-.srPopup .popuptext {
+/* The actual popup */
+.smpPopup .popuptext {
   visibility: hidden;
-  width: 260px;
+  width: 160px;
   background-color: #555;
   color: #fff;
   text-align: center;
@@ -949,11 +949,11 @@ span.psw {
   z-index: 1;
   bottom: 125%;
   left: 50%;
-  margin-left: -130px;
+  margin-left: -80px;
 }
 
 /* Popup arrow */
-.srPopup .popuptext::after {
+.smpPopup .popuptext::after {
   content: "";
   position: absolute;
   top: 100%;
@@ -965,7 +965,7 @@ span.psw {
 }
 
 /* Toggle this class - hide and show the popup */
-.srPopup .show {
+.smpPopup .show {
   visibility: visible;
   -webkit-animation: fadeIn 1s;
   animation: fadeIn 1s;
@@ -982,10 +982,11 @@ span.psw {
   to {opacity:1 ;}
 }
 
-/* 
+
+/*
  * Stakehoder Register Popup Container
  */
- .srPopup {
+.srPopup {
   position: relative;
   display: inline-block;
   cursor: pointer;
@@ -996,9 +997,9 @@ span.psw {
 }
 
 /* The actual popup */
-.srPopup .popuptext {
+.srPopup .srPopupText {
   visibility: hidden;
-  width: 260px;
+  width: 160px;
   background-color: #555;
   color: #fff;
   text-align: center;
@@ -1008,11 +1009,11 @@ span.psw {
   z-index: 1;
   bottom: 125%;
   left: 50%;
-  margin-left: -130px;
+  margin-left: -80px;
 }
 
 /* Popup arrow */
-.srPopup .popuptext::after {
+.srPopup .srPopupText::after {
   content: "";
   position: absolute;
   top: 100%;

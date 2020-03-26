@@ -227,12 +227,12 @@ function closeForm(){
 
 // on SMP mouseover, show popup
 function smpPopupFunction() {
-  var popup = document.getElementById("mySmpPopup");
+  var popup = document.getElementById("myPopup");
   popup.classList.toggle("show");
 }
 
 // on SR mouseover, show popup
-function srPopupFunction() {
-  var popup = document.getElementById("myPopup");
-  popup.classList.toggle("show");
-}
+// function srPopupFunction() {
+//   var popup = document.getElementById("myPopup");
+//   popup.classList.toggle("show");
+// }
