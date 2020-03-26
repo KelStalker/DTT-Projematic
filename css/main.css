@@ -12,13 +12,11 @@
     background: #fcf7f8;
   }
 
-
   .nav-2 {
     background: #003399;
     font-family: 'Jura';
     padding: 20px;
     text-align: left;
-
   }
  
    .nav-3{
@@ -26,8 +24,8 @@
     text-align: right;
     font-family: 'Jura';
     padding: 20px;
-
   }
+
   .nav-4{
     background: #003399;
     text-align: center;
@@ -45,19 +43,25 @@
   .nav-2 ul li{
     display: inline;
   }
+
+  .display-4{
+    text-align: center;
+  }
+
   .logo {
     background: #003399;
-    text-align: center;
+    text-align: right;
     font-family: 'Jura';
     padding: 20px;
   }
   .logo p{
-    text-align: center;
+    text-align: right;
     font-family: 'Jura';
     font-size: large;
     font: outline;
     color: cornsilk;
   }
+
   .link-2 {
     transition: 0.6s;
     color: #ffffff;
@@ -147,6 +151,9 @@ background-color: rgb(79, 106, 163);
 
 } */
 
+.jumbotron{
+  background: #fcf7f8;
+}
 #Project-managemnet-plan {
   background: #c0c6d0;
   box-shadow: inset 0 0 0 2px black;
@@ -323,7 +330,6 @@ box-sizing: border-box;
   
 }
 
-
 #stakeholder-register{
   display: none;
   position: relative;
@@ -342,7 +348,6 @@ box-sizing: border-box;
   margin: 1em;
   padding: 1em 2em;
 }
-
 
 .project-status-report-grid{
   text-align: center;
@@ -552,6 +557,7 @@ box-sizing: border-box;
   padding: 1em 2em;}
 
 .planingGrid{
+
   text-align: center;
   box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
   border: 0;
@@ -605,20 +611,22 @@ box-sizing: border-box;
 #empty4{grid-area: empty4;}
 #planinngpopup{grid-area: planinngpopup;}
 
-
 .cssGrid{
     display: grid;
+    
     grid-template-columns: auto auto auto auto 20vw;
-    grid-template-rows: auto auto auto auto;
+    grid-template-rows: auto auto auto auto 1fr;
     grid-template-areas:
     "nav-2 logo nav-3 nav-3 nav-3"
     " container container container container container"
+    "jumbotron jumbotron jumbotron jumbotron jumbotron"
     "nav-4 nav-4 nav-4 nav-4 nav-4"
     "pre-project-grid pre-project-grid pre-project-grid pre-project-grid pre-project-grid"
     "inintion-Grid inintion-Grid inintion-Grid inintion-Grid inintion-Grid"
      "planingGrid planingGrid planingGrid planingGrid planingGrid" 
      "project-status-report-grid project-status-report-grid project-status-report-grid project-status-report-grid project-status-report-grid"
       "closing-grid closing-grid closing-grid closing-grid closing-grid"
+      "footer footer footer footer footer"
   ;
 }
 .nav-2{grid-area: nav-2;}
@@ -630,26 +638,38 @@ box-sizing: border-box;
 .pre-project-grid{grid-area: pre-project-grid;display: none;}
 .project-status-report-grid{grid-area: project-status-report-grid;display: none;}
 .closing-grid{grid-area: closing-grid; display: none;}
-.container{grid-area: container;
+.container{grid-area: container;}
+.jumbotron{grid-area: jumbotron;}
+.footer{grid-area: footer;}
+
+.footer{
+  position: relative;
+  width: 100%;
+  padding-bottom: 0;
+  text-align: center;
 }
-
-
+#logIn{
+  max-width: 670px;
+	margin: 2em auto;
+	padding: 4em;
+	text-align: center 
+}
 #login-id {
 display: none;
 }
 
-
 .main{
-  background-color: #1859c2;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  width: 50%;
+  cursor: default;
+  position: relative;
+  width: 320px;
+  height: 560px;
+  margin: 0 auto;
+  text-align: c;
+
 }
 .submit-login{
-  background-color: #1859c2;
-  color: white;
+  background-color: #003399;
+  color: #fcf7f8;
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
@@ -664,10 +684,23 @@ display: none;
 
 /* Add padding to containers */
 .container {
-opacity: 0.5;
-background-image: url('../images/img3.jpeg'); 
 
+  position: relative;
+  background-image: url( '../images/img3.jpeg' );
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-attachment: fixed;
+  color: #FFF;
+  text-align: center;
+  overflow: hidden
 }
+.container h2{
+ text-align: left;
+ overflow: hidden;
+ color: black;
+}
+
 
 .container  :hover{
   opacity: 1;
@@ -756,6 +789,7 @@ background-image: url('../images/img3.jpeg');
 @media screen and (max-width: 500px) {
   .cssGrid{
     display: grid;
+    
     grid-template-columns: auto auto auto auto auto;
     grid-template-rows: auto auto auto auto;
     grid-template-areas:
@@ -765,8 +799,9 @@ background-image: url('../images/img3.jpeg');
     "project-status-report-grid-mobile project-status-report-grid-mobile closing-grid"
     "planningGridMobile planningGridMobile planningGridMobile planningGridMobile"
   ;
+  
 }
-.nav-2{grid-area: nav-2; width: 40%; background-color: yellow; }
+.nav-2{grid-area: nav-2;}
 .nav-3{grid-area: nav-3;}
 .nav-4{grid-area: nav-4;}
 .logo{grid-area:   logo;}

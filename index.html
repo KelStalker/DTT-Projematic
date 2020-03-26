@@ -7,7 +7,6 @@
   <link rel="stylesheet" href = "./vendors/bootstrap-4.4.1-dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="./css/main.css">
   <script type="text/javascript" src="./js/scripts.js" defer></script>
-  <link href="https://fonts.googleapis.com/css?family=Jura:400,600,700&display=swap" rel="stylesheet">
 </head>
 
 
@@ -16,25 +15,27 @@
     <!-- Links to index about and contactus -->
     <ul>
       <li><a href="./index.html" class="link-2">Home</a></li>
-      <li><a href="about.html" class="link-2">About</a></li>
-      <li><a href="contactus.html" class="link-2">Contact us</a></li>
+      <li><a href="./signup.html" class="link-2">Signup</a></li>
     </ul>
   </nav>
   <nav class="logo">
-    <p>Projematic</p>
+    <p></p>
   </nav>
   <nav class="nav-3">
     <ul>
       <li><a class="link-2" href="#"  onclick="ShowFunctionlogin()" id="logIn">Login</a></li>
     </ul>
   </nav>
+
   <div class="jumbotron">
-    <div class = "container"></div>
     <h1 class="display-4">Welcome to Projematic!</h1>
-    <p class="lead">A project is complete when it starts working for you, rather than you working for it. </p>
+    <p class="lead"></p>
     <hr class="my-4">
-    <p>Click on any of the stages of project management below to access the free library. For premium files please login.</p>
+    <h3>A project is complete when it starts woring for you, rather than you working for it!</h3>
+    <br>
+    <h3>Login or sign up to access the premium content. Feel free to download and enjoy the free resource library below!</h3>
   </div>
+
   <nav class="nav-4">
     <ul>
       <!-- <h2>Preproject</h2> -->
@@ -48,14 +49,13 @@
       <li>
         <!-- <h2>Execution</h2>  -->
         <a href="#" id="Execution" onclick="ShowFunctionExecution()" class="link-2">Execution</a></li>
-
       <li>
         <!-- <h2>Closing</h2> -->
         <a href="#" id="Closing" onclick="ShowFunctionClosing()" class="link-2"> Closing </a></li>
     </ul>
   </nav>
  
-  <!-- Pre Projec -->
+  <!-- Pre Project -->
  
   <div class="pre-project-grid" id="pre-project-function">
     <h2>Pre Project</h2>
@@ -70,7 +70,7 @@
     <h2 id="h2-inintion-id">Initiation</h2>
     <h3 id="h3-inintion-id">Project Sponser and Project Manager define the Project</h3>
     <div id="project-charter"><a href=""> Project Charter</a></div>
-    <div class="popup" onmouseover="myPopupFunction()" id="initiationpopup"><a href="#" onclick="ShowFunctionlogin()" id="showmore">Shwo more</a>
+    <div class="popup" onmouseover="myPopupFunction()" id="initiationpopup"><a href="#" onclick="ShowFunctionlogin()" id="showmore">Show more</a>
     <spam  class="popuptext" id="myPopup">Click to see more</spam>
     </div>
     <div id="stakeholder-managementplan"><a href="#" >Stakeholder Management Plan</a></div> 
@@ -89,7 +89,7 @@
   <div id="Risk-managemnet-plan"><a href="#">Risk management Plan</a></div>
   
 
-  <div class="popup" onmouseover="myPopupFunction()" id="planinngpopup"><a href="#" onclick="ShowFunctionlogin()" id="showmore">Shwo more</a>
+  <div class="popup" onmouseover="myPopupFunction()" id="planinngpopup"><a href="#" onclick="ShowFunctionlogin()" id="showmore">Show more</a>
     <spam  class="popuptext" id="myPopup">Click to see more</spam>
     </div>
   <div id="work-breakgown-structure"><a href="#">Work Breakdown Structure (WBS)</a></div>
@@ -132,7 +132,7 @@
   <div id="Execution-3"><a href="">Capture lessons learned</a></div>
   <div id="Execution-4"><a href="">Communicate with stakeholders</a></div>
   <div id="Execution-5"><a href="">Assign resources to Work Packages </a></div>
-  <div id="Execution-6"><a href="">Rocure goods and services </a></div>
+  <div id="Execution-6"><a href="">Procure goods and services </a></div>
   <div id="Execution-7"><a href="">Implement quality measures and validation </a></div>
   <div id="Execution-8"><a href="">Process change requests and update baseline</a></div>
   <div id="Execution-9"><a href="">Perform testing</a></div>
@@ -218,7 +218,7 @@
 
   <div class="container" id="login-id">
     <div class="main">
-    <h2>Please enter you username & password</h2>
+    <h2>Please enter your username & password</h2>
     <div class="content">
 	</div>
     <form id="form_id" method="post" name="myform">
@@ -227,9 +227,12 @@
     <label>Password :</label>
     <input type="password" name="password" id="password"/>
     <input type="button"class="submit-login" value="Login" id="submit" onclick="validate()"/>
-    <input type="button"class="submit-login" value="sigup" id="submit"/>
+    <input type="button"class="submit-login" value="Sign up" id="submit"/>
     </form>
     </div>
     </div>
+<footer class = "footer">
+<p>&copy;Copyright 2020. | DTT. All rights reserved</p>
+</footer>
 </body>
 </html>
