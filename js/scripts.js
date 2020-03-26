@@ -219,13 +219,14 @@ function myPopupFunctionplaning() {
 }
 function myPopupFunctionclosing(){
   document.getElementById("formcontainerclosing").style.display = "grid";
-
 }
-
 
 function closeForm(){
   document.getElementById("login-id").style.display = "none";
+}
 
-
-
+// When the user clicks on div, open the popup
+function smpPopupFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
 }
