@@ -557,6 +557,7 @@ box-sizing: border-box;
   padding: 1em 2em;}
 
 .planingGrid{
+
   text-align: center;
   box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
   border: 0;
@@ -612,8 +613,9 @@ box-sizing: border-box;
 
 .cssGrid{
     display: grid;
+    
     grid-template-columns: auto auto auto auto 20vw;
-    grid-template-rows: auto auto auto auto;
+    grid-template-rows: auto auto auto auto 1fr;
     grid-template-areas:
     "nav-2 logo nav-3 nav-3 nav-3"
     " container container container container container"
@@ -624,6 +626,7 @@ box-sizing: border-box;
      "planingGrid planingGrid planingGrid planingGrid planingGrid" 
      "project-status-report-grid project-status-report-grid project-status-report-grid project-status-report-grid project-status-report-grid"
       "closing-grid closing-grid closing-grid closing-grid closing-grid"
+      "footer footer footer footer footer"
   ;
 }
 .nav-2{grid-area: nav-2;}
@@ -637,22 +640,28 @@ box-sizing: border-box;
 .closing-grid{grid-area: closing-grid; display: none;}
 .container{grid-area: container;}
 .jumbotron{grid-area: jumbotron;}
-
+#logIn{
+  max-width: 670px;
+	margin: 2em auto;
+	padding: 4em;
+	text-align: center 
+}
 #login-id {
 display: none;
 }
 
 .main{
-  background-color: #1859c2;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  width: 50%;
+  cursor: default;
+  position: relative;
+  width: 320px;
+  height: 560px;
+  margin: 0 auto;
+  text-align: c;
+
 }
 .submit-login{
-  background-color: #1859c2;
-  color: white;
+  background-color: #003399;
+  color: #fcf7f8;
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
@@ -667,10 +676,23 @@ display: none;
 
 /* Add padding to containers */
 .container {
-opacity: 0.5;
-background-image: url('../images/img3.jpeg'); 
 
+  position: relative;
+  background-image: url( '../images/img3.jpeg' );
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-attachment: fixed;
+  color: #FFF;
+  text-align: center;
+  overflow: hidden
 }
+.container h2{
+ text-align: left;
+ overflow: hidden;
+ color: black;
+}
+
 
 .container  :hover{
   opacity: 1;
@@ -759,6 +781,7 @@ background-image: url('../images/img3.jpeg');
 @media screen and (max-width: 500px) {
   .cssGrid{
     display: grid;
+    
     grid-template-columns: auto auto auto auto auto;
     grid-template-rows: auto auto auto auto;
     grid-template-areas:
@@ -768,6 +791,7 @@ background-image: url('../images/img3.jpeg');
     "project-status-report-grid-mobile project-status-report-grid-mobile closing-grid"
     "planningGridMobile planningGridMobile planningGridMobile planningGridMobile"
   ;
+  
 }
 .nav-2{grid-area: nav-2;}
 .nav-3{grid-area: nav-3;}
