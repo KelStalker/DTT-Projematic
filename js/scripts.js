@@ -160,7 +160,9 @@ var satisfactionAssessment=document.getElementById("satisfaction-Assessment");
 var LessonsLearned=document.getElementById("Lessons-Learned");
 var statmnetofwork=document.getElementById("statmnet-of-work");
 var formcontainerinintion=document.getElementById("formcontainerinintion");
-var inintiongpopup=document.getElementById("inintiongpopup");
+var formcontainerplaning=document.getElementById("formcontainerplaning");
+var formcontainerclosing=document.getElementById("formcontainerclosing");
+
 
 
 
@@ -185,45 +187,17 @@ var inintiongpopup=document.getElementById("inintiongpopup");
     satisfactionAssessment.style.display="block";
     LessonsLearned.style.display="block";
     statmnetofwork.style.display="block";
-    formcontainerinintion.style.background="red";
+    formcontainerinintion.style.display="none";
     formcontainerplaning.style.display="none";
     formcontainerclosing.style.display="none"
-    inintiongpopup.style.display="none"
   }
 
 
 }
 
 function ShowFunctionlogin(){
-  var formcontainerinintion=document.getElementById("formcontainerinintion");
-  var inintiongpopup=document.getElementById("inintiongpopup");
-  var formcontainerplaning=document.getElementById("formcontainerplaning");
-  var formcontainerclosing=document.getElementById("formcontainerclosing");
-  var planinngpopup=document.getElementById("planinngpopup");
-  var closingpopup=document.getElementById("closingpopup"); 
   var x = document.getElementById("login-id");
-  if (formcontainerinintion.style.display === "block") {
-    formcontainerinintion.style.display = "none";
-    inintiongpopup.style.display = "none";
-  } else {
-    formcontainerinintion.style.display = "block";
-  }
-  if (formcontainerplaning.style.display === "grid") {
-    formcontainerplaning.style.display="none";
-    planinngpopup.style.display="none"
-  }else {
-      formcontainerplaning.style.display = "grid";
-    }
-    if (formcontainerclosing.style.display === "grid") {
-      formcontainerclosing.style.display="none";
-      closingpopup.style.display="none"
-    }else {
-      formcontainerclosing.style.display="grid";      }
-
-   
   
-  
-
   if (x.style.display === "grid") {
     x.style.display = "none";
    
@@ -236,23 +210,29 @@ function ShowFunctionlogin(){
 
 function myPopupFunctioninintion() {
   var formcontainerinintion=document.getElementById("formcontainerinintion");
-  var inintiongpopup=document.getElementById("inintiongpopup");
-  formcontainerinintion.style.display = "block"
- 
+  formcontainerinintion.style.display = "block";
+
 }
 
 function myPopupFunctionplaning() {
   document.getElementById("formcontainerplaning").style.display = "grid";
 }
 function myPopupFunctionclosing(){
-  document.getElementById("formcontainerclosing").style.display ="grid";
-
+  document.getElementById("formcontainerclosing").style.display = "grid";
 }
-
 
 function closeForm(){
   document.getElementById("login-id").style.display = "none";
+}
 
+// on SMP mouseover, show popup
+function smpPopupFunction() {
+  var smpPopup = document.getElementById("mySmpPopup");
+  popup.classList.toggle("show");
+}
 
-
+// on SR mouseover, show popup
+function srPopupFunction() {
+  var popup = document.getElementById("mySrPopup");
+  popup.classList.toggle("show");
 }
