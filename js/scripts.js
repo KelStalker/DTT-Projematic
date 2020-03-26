@@ -166,7 +166,6 @@ var formcontainerclosing=document.getElementById("formcontainerclosing");
 
 
 
-
   loginForm.style.display ="none";
   loginText.textContent="signout";
   loginText.addEventListener('click',function(evnt){
