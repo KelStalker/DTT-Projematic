@@ -225,8 +225,13 @@ function closeForm(){
   document.getElementById("login-id").style.display = "none";
 }
 
-// When the user clicks on div, open the popup
+// on SMP mouseover, show popup
 function smpPopupFunction() {
   var popup = document.getElementById("myPopup");
   popup.classList.toggle("show");
 }
+
+// on SR mouseover, show popup
+function srPopupFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
