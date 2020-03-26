@@ -53,7 +53,6 @@
     <h2>Pre Project</h2>
     <h3>Organization validates the need</h3>
     <div id="business-Case"><a href="">Business Case</a></div>
-    <button add ondblclick="AddFunctiion()">Add</button>
     <input type="text" id="add-text"></input>
   </div>
    
@@ -204,25 +203,20 @@
     <div id="Reallocate-resources"><a href="">Reallocate-resources</a></div>
     <div id="close-procurement-contract"><a href="">Close Procurement Contract</a></div>
   </div>
-  <!-- login -->
-  <form id="login-id" class="Login-class">
-    <div class="container">
-      <label id="uname"><b>Username</b></label>
-      <input type="text" placeholder="Enter Username" id="uname" required>
+ 
 
-      <label id="psw"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" id="psw" required>
-
-      <button type="submit" onclick="ShowFunctioncompare()">Login</button>
-      <label>
-        <input type="checkbox" checked="checked" name="remember"> Remember me
-      </label>
+  <div class="container" id="login-id">
+    <div class="main">
+    <h2>Please enter you username & password</h2>
+    <form id="form_id" method="post" name="myform">
+    <label>User Name :</label>
+    <input type="text" name="username" id="username"/>
+    <label>Password :</label>
+    <input type="password" name="password" id="password"/>
+    <input type="button"class="submit-login" value="Login" id="submit" onclick="validate()"/>
+    <input type="button"class="submit-login" value="sigup" id="submit"/>
+    </form>
     </div>
-    <div class="container" style="background-color:#f1f1f1">
-      <button type="button" class="cancelbtn">Sign Up</button>
-      <button type="button" class="cancelbtn">Cancel</button>
-      <span class="psw">Forgot <a href="#">password?</a></span>
     </div>
-  </form>
 </body>
 </html>
