@@ -33,6 +33,7 @@ function ShowFunctionInitiation(){
     x.style.display = "none";
    
     
+    
   } else {
     x.style.display = "grid";
   }
@@ -159,8 +160,7 @@ var testscript=document.getElementById("test-script");
 var satisfactionAssessment=document.getElementById("satisfaction-Assessment");
 var LessonsLearned=document.getElementById("Lessons-Learned");
 var statmnetofwork=document.getElementById("statmnet-of-work");
-var formcontainerinintion=document.getElementById("formcontainerinintion");
-var inintiongpopup=document.getElementById("inintiongpopup");
+
 
 
 
@@ -185,10 +185,7 @@ var inintiongpopup=document.getElementById("inintiongpopup");
     satisfactionAssessment.style.display="block";
     LessonsLearned.style.display="block";
     statmnetofwork.style.display="block";
-    formcontainerinintion.style.background="red";
-    formcontainerplaning.style.display="none";
-    formcontainerclosing.style.display="none"
-    inintiongpopup.style.display="none"
+  
   }
 
 
